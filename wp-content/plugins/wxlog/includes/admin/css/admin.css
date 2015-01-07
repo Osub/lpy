@@ -1,0 +1,81 @@
+#wxlog_log .column-reply{width: 2em;}
+#wxlog_log .column-msgtype{width: 20%;}
+#wxlog_log .column-fromusername{width: 30%;}
+#wxlog_log .column-timestamp{width: 10%;}
+#wxlog_log .column-status{width: 2em;vertical-align:middle;text-align:center}
+#wxlog_log .column-status span{color:#fff;font-weight:400;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;height:16px;line-height:16px;width:16px;display:inline-block}
+#wxlog_log .column-status .failed{background-color:#df9d1d}
+#wxlog_log .column-status .redirected{background-color:#74a721}
+#wxlog_log .column-status .completed{background-color:#1c769b}
+#wxlog_log .column-user_ip,#wxlog_log .column-user_agent{font-family:monospace;font-weight:400}
+#wxlog_log span.description{font-weight:400}
+
+.widefatzj {
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+}	
+
+@media screen and ( max-width: 680px ) {
+	.widefatzj {
+		border-spacing: 0;
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}	
+}
+
+/*wp-admin-rtl.css 11622行*/
+@media screen and ( max-width: 782px ) {
+	/* Columns to hide */
+	.fixed .column-fromusername,
+	.fixed .column-timestamp,
+	.fixed .column-content,
+	.fixed .column-msgtype {
+		display: none;
+	}
+	
+	
+	.tablenav .tablenav-pages a {
+		padding: 3px 12px 6px;
+		font-size: 14px;
+		font-weight: 400;
+	}	
+	input {
+		font-size: 14px;
+		padding: 1px 3px;
+		line-height: 15px;
+		border-radius: 0;
+	}
+}
+
+#wxlog_advanced_plugins_lists .column-pluginname{width:10em}
+#wxlog_advanced_plugins_lists .column-timestamp{width:6em}
+#wxlog_advanced_plugins_lists .column-msgtype{width:4em}
+#wxlog_advanced_plugins_lists .column-price{width:4em}
+#wxlog_advanced_plugins_lists .column-version{width:2em}
+#wxlog_advanced_plugins_lists .column-status{width:8em;vertical-align:middle;text-align:center}
+#wxlog_advanced_plugins_lists .column-status span{color:#fff;font-weight:400;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;height:16px;line-height:16px;width:16px;display:inline-block}
+#wxlog_advanced_plugins_lists .column-status .completed{background-color:#1c769b}
+#wxlog_advanced_plugins_lists .column-status .development{width: 100px;background-color:#74a721}
+#wxlog_advanced_plugins_lists .column-status .updated{width: 100px;background-color:#F90}
+
+
+
+#wxlog_plugins_lists .column-pluginname{width:10em}
+#wxlog_plugins_lists .column-timestamp{width:6em}
+#wxlog_plugins_lists .column-msgtype{width:4em}
+#wxlog_plugins_lists .column-status{width:4em;vertical-align:middle;text-align:center}
+#wxlog_plugins_lists .column-status span{color:#fff;font-weight:400;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;height:16px;line-height:16px;width:16px;display:inline-block}
+#wxlog_plugins_lists .column-status .completed{background-color:#1c769b}
+#wxlog_plugins_lists .column-status .development{width: 60px;background-color:#74a721}
+
+
+#wxlog_custom_reply .column-keyword{width:10em}
+#wxlog_custom_reply .column-operating{width:4em}
+#wxlog_custom_reply .column-msgtype{width:6em}
+#wxlog_custom_reply .column-timestamp{width:6em}
+#wxlog_custom_reply .column-status{width:4em;vertical-align:middle;text-align:center}
+#wxlog_custom_reply .column-status span{color:#fff;font-weight:400;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;height:16px;line-height:16px;width:16px;display:inline-block}
+#wxlog_custom_reply .column-status .completed{background-color:#1c769b}
+#wxlog_custom_reply .column-status .failed{background-color:#df9d1d}

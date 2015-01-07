@@ -1,0 +1,410 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '7df3324e9fc717f04b9ed983b7e4cec8fa148a87',
+  'timestamp' => '1419044241',
+  'nonce' => '1664080811',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044241</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[HTML]]></Content>
+<MsgId>6094748606878313711</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => 'e60f07459ba046d9caee8c49cc0df451e30c75b5',
+  'timestamp' => '1419044330',
+  'nonce' => '1484619070',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044330</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[\\n]]></Content>
+<MsgId>6094748989130403099</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => '90516d06fd8717e16e722db69bdf9920ca0b14f8',
+  'timestamp' => '1419044390',
+  'nonce' => '1816348025',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044390</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/:8-)]]></Content>
+<MsgId>6094749246828440904</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => '9af071660f7c016663c80a3e9e7bc29c882d04c6',
+  'timestamp' => '1419044553',
+  'nonce' => '105314307',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044553</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::B]]></Content>
+<MsgId>6094749946908110250</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'f38e67ce475071f778025ca4a66347edb97b6a8d',
+  'timestamp' => '1419044575',
+  'nonce' => '1807887995',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044575</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[欢迎关注phper\\\\n点击以下链接进入官网\\n<a href=" ">webstar</a >]]></Content>
+<MsgId>6094750041397390777</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => '6c248b7641034e9ff79889ff9fa9727d2f64e96b',
+  'timestamp' => '1419044667',
+  'nonce' => '1551305097',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419044667</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::B]]></Content>
+<MsgId>6094750436534382062</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '2ca306f3640b5357bb90cf2a09312d584fcafda1',
+  'timestamp' => '1419045497',
+  'nonce' => '289976772',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419045496</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hOt]]></Content>
+<MsgId>6094753997062271210</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '02fc615ac1803b82d4ee84411b7c151a72eeda70',
+  'timestamp' => '1419045506',
+  'nonce' => '71276781',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419045506</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hot]]></Content>
+<MsgId>6094754040011944180</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'c17377595fd4d99d088ab2e6c4f94b457ecd9514',
+  'timestamp' => '1419046281',
+  'nonce' => '1129036042',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419046281</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[new]]></Content>
+<MsgId>6094757368611599012</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '2d42223c1ea2e8729ead6b528d62ce1bff1aa5de',
+  'timestamp' => '1419052106',
+  'nonce' => '1924997565',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419052106</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[new]]></Content>
+<MsgId>6094782386796101863</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '60b0773df20f24c7efc784e30db3b3ea11f363f2',
+  'timestamp' => '1419052128',
+  'nonce' => '2130082328',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419052128</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ho七]]></Content>
+<MsgId>6094782481285382390</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '6a5bd8a1cf34733b6fcc7a0eed8e8a3069408fd8',
+  'timestamp' => '1419052138',
+  'nonce' => '1545076981',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419052138</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hot]]></Content>
+<MsgId>6094782524235055357</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'c236c9bd6e3766b632cc8fd38badcfa37fccb96f',
+  'timestamp' => '1419052148',
+  'nonce' => '203783359',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419052148</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[new]]></Content>
+<MsgId>6094782567184728327</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'ce001e8d115e234fefe498d225b2ea8c718675e3',
+  'timestamp' => '1419088817',
+  'nonce' => '1662124345',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419088817</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[身份证42032198901012134]]></Content>
+<MsgId>6094940059340524954</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '0ef0b500258a9549831c1f3e04806bf63b19dc13',
+  'timestamp' => '1419088840',
+  'nonce' => '344692123',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419088840</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[身份证420321198901012134]]></Content>
+<MsgId>6094940158124772771</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '1ce739ae6991a641a69b044f5390c5b3f23d69a2',
+  'timestamp' => '1419088893',
+  'nonce' => '979271942',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419088893</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[身份证362324199006230334]]></Content>
+<MsgId>6094940385758039488</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => 'ae56d117619c5b986f9f2fb53bf9fce7c335775e',
+  'timestamp' => '1419088925',
+  'nonce' => '1113785370',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419088925</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[身份证42032198901012134]]></Content>
+<MsgId>6094940523196992973</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'cf0fccc7117771a85a6e44154b3d5cf12cca3f48',
+  'timestamp' => '1419095368',
+  'nonce' => '1742727401',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419095368</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=2100&extra=]]></Content>
+<MsgId>6094968195671283935</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '3927b95d8db7ace8ebb7b4d9d2fd16a49ebdef55',
+  'timestamp' => '1419095864',
+  'nonce' => '1568440839',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419095863</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=10382&extra=]]></Content>
+<MsgId>6094970321680095548</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '96f64ac3ea7b0847a572f82b5799d0b9a721fcdb',
+  'timestamp' => '1419095977',
+  'nonce' => '1496188381',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419095977</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-83923-1-1.html]]></Content>
+<MsgId>6094970811306367305</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'bcbe9056dfb058fd05a1d8c2b611583ce4a68f18',
+  'timestamp' => '1419096274',
+  'nonce' => '356234499',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419096274</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://viget.com/extend/my-overused-sublime-text-keyboard-shortcuts]]></Content>
+<MsgId>6094972086911654280</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '2f362187b250f9e260b4a6ab77fee2cc6134723c',
+  'timestamp' => '1419096685',
+  'nonce' => '496797076',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419096685</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.kuqin.com/shuoit/20141216/343916.html?url_type=39&object_type=webpage&pos=1]]></Content>
+<MsgId>6094973852143213104</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '2435f777fff1e824a9b3bedc1a35d4974ae2f48e',
+  'timestamp' => '1419096935',
+  'nonce' => '449062902',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419096935</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://segmentfault.com/blog/liangyi/1190000002433791?utm_source=weibo&utm_medium=shareLink&utm_campaign=socialShare]]></Content>
+<MsgId>6094974925885037175</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '83321674c4bd359656309b2d50bd53ac396803cb',
+  'timestamp' => '1419097121',
+  'nonce' => '583206184',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419097121</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-83922-1-1.html]]></Content>
+<MsgId>6094975724748954276</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'bb54d3303559e13ce57a07e3ca225438f59821b5',
+  'timestamp' => '1419097309',
+  'nonce' => '2048454713',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419097309</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-83918-1-1.html]]></Content>
+<MsgId>6094976532202805954</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '8263e4e0e31286753572e3fade1f85bcc7276ea4',
+  'timestamp' => '1419098094',
+  'nonce' => '1759066460',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419098094</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-83915-1-1.html]]></Content>
+<MsgId>6094979903752133362</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '25ecec0a90802275be1eafc0429782bbad2b84a2',
+  'timestamp' => '1419098410',
+  'nonce' => '1768672087',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419098410</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-83916-1-1.html]]></Content>
+<MsgId>6094981260961798917</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '42c14ff9b307552632cb49c5a4ad86515af65e54',
+  'timestamp' => '1419098481',
+  'nonce' => '974400839',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419098481</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=10376&extra=]]></Content>
+<MsgId>6094981565904476945</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '90a80cb46435d929732681e115ebcc2dbffb78c9',
+  'timestamp' => '1419098810',
+  'nonce' => '380413673',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419098810</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.imooc.com/wap/wenda/id/240655]]></Content>
+<MsgId>6094982978948717376</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '377840aa1246dcd88c1150faa0ade3f3eded702a',
+  'timestamp' => '1419099033',
+  'nonce' => '82418642',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419099033</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=11288&extra=]]></Content>
+<MsgId>6094983936726424444</MsgId>
+</xml>'

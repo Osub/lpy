@@ -1,0 +1,3407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tincetion\n"
+"POT-Creation-Date: 2014-12-12 16:49+0800\n"
+"PO-Revision-Date: 2014-12-14 16:40+0800\n"
+"Last-Translator: 知言博客 <chinash2010@gmail.com>\n"
+"Language-Team: Tinection <chinash2010@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/theme-options.php:69
+msgid "通用"
+msgstr "General"
+
+#: admin/theme-options.php:73
+msgid "阅读"
+msgstr "Read"
+
+#: admin/theme-options.php:77
+msgid "头部"
+msgstr "Head"
+
+#: admin/theme-options.php:81
+msgid "底部"
+msgstr "Foot"
+
+#: admin/theme-options.php:85
+msgid "边栏"
+msgstr "Sidebar"
+
+#: admin/theme-options.php:89
+msgid "样式"
+msgstr "Style"
+
+#: admin/theme-options.php:93
+msgid "社会化登录"
+msgstr "Social login"
+
+#: admin/theme-options.php:97
+msgid "广告"
+msgstr "Advertizement"
+
+#: admin/theme-options.php:101 author.php:36 author.php:295
+#: functions/credit.php:220 functions/download.php:62
+#: functions/download.php:77 functions/user-page.php:177
+msgid "积分"
+msgstr "Credit"
+
+#: admin/theme-options.php:105 admin/theme-options.php:727 functions.php:660
+msgid "管理员"
+msgstr "Site Manager"
+
+#: admin/theme-options.php:109
+msgid "分类及文章ID对照表"
+msgstr "Categories&Posts ID"
+
+#: admin/theme-options.php:122
+msgid "感谢你使用该主题! Enjoy."
+msgstr "Thanks for using Tinection Wordprss Theme! Enjoy."
+
+#: admin/theme-options.php:122
+msgid "访问主题专页"
+msgstr "Visit Tinection Homepage"
+
+#: admin/theme-options.php:122
+msgid "获取主题最新版本"
+msgstr "Get latest Tinection theme"
+
+#: admin/theme-options.php:122
+msgid "Tinection github专页"
+msgstr "Tinection github"
+
+#: admin/theme-options.php:122
+msgid ""
+"如果你觉得主题不错，可以支付宝扫描下方二维码赞助 – 不论数量多少，我都非常感"
+"激."
+msgstr ""
+"You can donate to me through using alipay to scan the qrcode below. I would "
+"appreciate it."
+
+#: admin/theme-options.php:122
+msgid "赞助我"
+msgstr "Donate"
+
+#: admin/theme-options.php:129
+msgid "页面描述"
+msgstr "Description"
+
+#: admin/theme-options.php:130
+msgid "网站首页描述(非必须，但对SEO有影响)"
+msgstr "Description of homepage(good for SEO)"
+
+#: admin/theme-options.php:138
+msgid "页面关键词"
+msgstr "keywords"
+
+#: admin/theme-options.php:139
+msgid "网站首页、分类页关键词(非必须，但对SEO有影响，不同关键词用英文逗号隔开)"
+msgstr "Homepage,categories pages keywords"
+
+#: admin/theme-options.php:148
+msgid "上传一个16x16像素大小的 Png/Gif 图像作为网站的图标"
+msgstr "Website favicon,16*16px recommended"
+
+#: admin/theme-options.php:155
+msgid "Logo图像"
+msgstr "Logo image"
+
+#: admin/theme-options.php:156
+msgid "使用图像替代文本作为网站的Logo"
+msgstr "Using website logo image instead of text"
+
+#: admin/theme-options.php:164
+msgid "自定义Logo图像"
+msgstr "Upload logo images"
+
+#: admin/theme-options.php:165
+msgid "上传一个图像作为网站的Logo，推荐大小60x120(max)像素"
+msgstr "Upload a image as website logo,60*120(max)px recommended"
+
+#: admin/theme-options.php:181
+msgid "多说Gravatar头像"
+msgstr "Duoshuo gravatar server"
+
+#: admin/theme-options.php:182
+msgid "采用多说的Gravatar头像服务器，解决被墙问题"
+msgstr "Using duoshuo gravatar server for better experience"
+
+#: admin/theme-options.php:190
+msgid "分类默认特色图片"
+msgstr "Default thumbnail of specified categories"
+
+#: admin/theme-options.php:191
+msgid ""
+"文章无特色图及内容图片时，根据分类选择默认图片，请填入要开启该选项的分类id，"
+"以英文逗号分隔，并将名为cat-分类号.jpg的图片存入主题images目录下"
+msgstr ""
+"Chose thumbnail image  based on category if post don't have a featured image "
+"and content images, please specify categories id which would use it, and "
+"then rename a image you want like 'cat-1.jpg'(1 is category id) and place it "
+"to /images directory"
+
+#: admin/theme-options.php:198
+msgid "建站日期"
+msgstr "The date website builded"
+
+#: admin/theme-options.php:199
+msgid "格式 2014-11-05"
+msgstr "Format like 2014-11-05"
+
+#: admin/theme-options.php:206
+msgid "取消WP自动保存"
+msgstr "Cancel wordpress autosave"
+
+#: admin/theme-options.php:207
+msgid ""
+"在WP后台编辑文章过程，会不断自动保存，导致多个版本占用ID，开启此项以取消自动"
+"保存，若要同时取消修订版本，请至functions.php取消"
+"\"remove_action(pre_post_update, wp_save_post_revision );\"的注释"
+msgstr "Cancel wordpress autosave in editing post page"
+
+#: admin/theme-options.php:215
+msgid "Header中加载自定义代码"
+msgstr "Customized code loading in <head></head>"
+
+#: admin/theme-options.php:216
+msgid ""
+"在网页头部Header中加载用户自定义代码，可以是javascript或者css，包含完整代码外"
+"标签"
+msgstr "Customized code loading in <head></head>, javascript or css code is ok"
+
+#: admin/theme-options.php:225
+msgid "Footer中加载自定义代码"
+msgstr "Customized code loading in footer"
+
+#: admin/theme-options.php:226
+msgid ""
+"在网页底部Footer中加载用户自定义代码，可以是javascript或者css，包含完整代码外"
+"标签"
+msgstr "Customized code loading in footer, javascript or css code is ok"
+
+#: admin/theme-options.php:235
+msgid "Footer中显示备案号"
+msgstr "ICP No. in footer"
+
+#: admin/theme-options.php:236
+msgid "在网页底部Footer中显示备案号"
+msgstr "ICP No. displayed in footer"
+
+#: admin/theme-options.php:245
+msgid "Footer中加载统计代码"
+msgstr "Website statistic code"
+
+#: admin/theme-options.php:246
+msgid "在网页底部Footer中加载统计代码，推荐百度统计"
+msgstr "Website statistic code, such as Baidu or Google statistic method"
+
+#: admin/theme-options.php:255
+msgid "Copyright信息"
+msgstr "Copyright info"
+
+#: admin/theme-options.php:256
+msgid "网站底部版权文字描述"
+msgstr "Copyright statement in footer"
+
+#: admin/theme-options.php:265
+msgid "底部通栏Widget"
+msgstr "Horizontal and single column widget area"
+
+#: admin/theme-options.php:266
+msgid "网站底部单栏边栏工具"
+msgstr "Horizontal and single column widget area"
+
+#: admin/theme-options.php:274
+msgid "Footer边栏小工具列数"
+msgstr "Footer widgets area column number"
+
+#: admin/theme-options.php:275
+msgid "请选择合适列数开启底部边栏<br /><i>推荐数量：3</i>"
+msgstr "Please specify columns of footer widgets area<br/><i>recommend 3</i>"
+
+#: admin/theme-options.php:311
+msgid "首页排除分类"
+msgstr "Categories undisplay in homepage"
+
+#: admin/theme-options.php:312
+msgid "首页排除的分类"
+msgstr "Categories undisplay in homepage"
+
+#: admin/theme-options.php:320
+msgid "CMS首页自定义分类排序"
+msgstr "Categories order of CMS layout"
+
+#: admin/theme-options.php:321
+msgid "CMS首页自定义分类排序，请按要求的顺序填写分类ID，以英文逗号隔开"
+msgstr ""
+"Categories order of CMS layout,please fill in with categories id, separated "
+"with comma"
+
+#: admin/theme-options.php:329
+msgid "显示摘要或全文"
+msgstr "Display content or excerpt"
+
+#: admin/theme-options.php:330
+msgid "文章列表页面显示摘要或全文"
+msgstr "Posts list display post content or excerpt"
+
+#: admin/theme-options.php:336
+msgid "全文"
+msgstr "Content"
+
+#: admin/theme-options.php:340
+msgid "摘要"
+msgstr "Excerpt"
+
+#: admin/theme-options.php:347
+msgid "自动摘要截取字数"
+msgstr "Excerpt length"
+
+#: admin/theme-options.php:348
+msgid "如果开启文章列表页显示摘要，请设置自动截取的字数，默认200"
+msgstr "Excerpt length, default 200"
+
+#: admin/theme-options.php:357
+msgid "Read More样式"
+msgstr "Read More character"
+
+#: admin/theme-options.php:358
+msgid "摘要模式下read more形式"
+msgstr "read more character on excerpt mod"
+
+#: admin/theme-options.php:365
+msgid "文章页版权信息"
+msgstr "Single post page copyright statement"
+
+#: admin/theme-options.php:366
+msgid "文章页版权信息，为默认值，如果作者投稿添加了版权信息，将会覆盖此默认值"
+msgstr "Single post page copyright statement"
+
+#: admin/theme-options.php:370
+msgid ""
+"<p>本文原始地址：<a href=\"{link}\" title=\"{title}\">{link}</a></p><p>本站所"
+"有文章，除特别注明外，均为本站原创，转载请注明出处来自<a href=\"{url}\" "
+"title=\"{name}\">{url}</a></p>"
+msgstr ""
+"<p>Post original link:<a href=\"{link}\" title=\"{title}\">{link}</a></"
+"p><p>Posts without special indication of this site is original, share it "
+"with link: <a href=\"{url}\" title=\"{name}\">{url}</a></p>"
+
+#: admin/theme-options.php:375
+msgid "评论框表情"
+msgstr "comment expression images"
+
+#: admin/theme-options.php:376
+msgid "评论框添加表情支持"
+msgstr "comment support expression images"
+
+#: admin/theme-options.php:384
+msgid "评论者VIP等级显示"
+msgstr "Comment user VIP level"
+
+#: admin/theme-options.php:385
+msgid "评论列表添加用户VIP等级认证，评论越多，等级越高"
+msgstr "Comment user VIP level,More comments, Higher the level"
+
+#: admin/theme-options.php:393
+msgid "评论者浏览器信息显示"
+msgstr "Comment user browser agent"
+
+#: admin/theme-options.php:402
+msgid "评论者IP真实地址信息显示"
+msgstr "Comment user address"
+
+#: admin/theme-options.php:411
+msgid "是否采用本地IP真实地址数据库"
+msgstr "Use local IP datebase file"
+
+#: admin/theme-options.php:412
+msgid ""
+"若开启，请至http://pan.baidu.com/s/1c0pNoWC下载QQwry.dat文件放至主题includes"
+"文件夹下，其数据比在线API转换的真实地址更详细，但是会占用一定网站空间"
+msgstr ""
+"If switch on, plase visit http://pan.baidu.com/s/1c0pNoWC and download QQwrt."
+"dat file and place it to /includes diretory"
+
+#: admin/theme-options.php:420
+msgid "移动设备隐藏浮动小工具"
+msgstr "Hide float tools for mobile device"
+
+#: admin/theme-options.php:421
+msgid ""
+"在低分辨率移动设备上关闭右下角浮动小工具，仅仅保留回到顶部按钮，以减少空间占"
+"用"
+msgstr ""
+"Hide float button on right-bottom position of  a page, only ScrolltoTop "
+"button reserved"
+
+#: admin/theme-options.php:429
+msgid "建立边栏区"
+msgstr "Create sidebar area"
+
+#: admin/theme-options.php:430
+msgid ""
+"新建边栏后必须保存设置. <br /><i>注意: 保证每个边栏区有一个独一无二的ID.</i>"
+msgstr "You must save setting after creating a new sidebar area"
+
+#: admin/theme-options.php:438
+msgid "边栏ID必须是独一无二的，例如sidebar-about"
+msgstr "the sidabar area name must be unique"
+
+#: admin/theme-options.php:448
+msgid "首页"
+msgstr "Homepage"
+
+#: admin/theme-options.php:449
+msgid "[ <strong>is_home</strong> ] 网站首页的边栏."
+msgstr "[ <strong>is_home</strong> ] Sidebar area of homepage."
+
+#: admin/theme-options.php:455
+msgid "文章页"
+msgstr "Single page"
+
+#: admin/theme-options.php:456
+msgid "[ <strong>is_single</strong> ] 文章页的边栏."
+msgstr "[ <strong>is_single</strong> ] Sidebar area of single post page."
+
+#: admin/theme-options.php:462
+msgid "归档页"
+msgstr "Archive page"
+
+#: admin/theme-options.php:463
+msgid ""
+"[ <strong>is_archive</strong> ] 包括标签页和分类页等，如果该页面有一个独特的"
+"边栏，将覆盖默认边栏."
+msgstr ""
+"[ <strong>is_archive</strong> ] Sidebar area of pages such as tag and "
+"category page."
+
+#: admin/theme-options.php:469
+msgid "分类页"
+msgstr "Category page"
+
+#: admin/theme-options.php:470
+msgid "[ <strong>is_category</strong> ] 分类页的边栏，优先级高于归档页边栏."
+msgstr "[ <strong>is_category</strong> ]sidebar area of category page."
+
+#: admin/theme-options.php:476
+msgid "搜索页"
+msgstr "Search results page"
+
+#: admin/theme-options.php:477
+msgid "[ <strong>is_search</strong> ] 搜索结果页的边栏."
+msgstr "[ <strong>is_search</strong> ] Sidebar area of search results page."
+
+#: admin/theme-options.php:483
+msgid "404错误页"
+msgstr "Error 404 page"
+
+#: admin/theme-options.php:484
+msgid "[ <strong>is_404</strong> ] 404错误页的边栏."
+msgstr "[ <strong>is_404</strong> ] Sidebar area of 404 error page."
+
+#: admin/theme-options.php:490 includes/breadcrumbs.php:76
+msgid "页面"
+msgstr "Page"
+
+#: admin/theme-options.php:491
+msgid ""
+"[ <strong>is_page</strong> ] 页面边栏，如果该页面有一个独特的边栏，将覆盖默认"
+"边栏."
+msgstr "[ <strong>is_page</strong> ] Default page sidebar area."
+
+#: admin/theme-options.php:498 admin/theme-options.php:499
+msgid "网页背景颜色"
+msgstr "Background color"
+
+#: admin/theme-options.php:507
+msgid "网页背景图像"
+msgstr "Background image"
+
+#: admin/theme-options.php:508
+msgid "网页背景图像，会覆盖背景色"
+msgstr "Background image will cover background color"
+
+#: admin/theme-options.php:515
+msgid "网页背景图像效果"
+msgstr "Background image special effect"
+
+#: admin/theme-options.php:516
+msgid "是否开启网页背景图像像素化效果"
+msgstr "Background image blue effect"
+
+#: admin/theme-options.php:524
+msgid "登录页logo"
+msgstr "Customized logo image on login page"
+
+#: admin/theme-options.php:525
+msgid "留空则使用默认wordpress图标"
+msgstr "If empty, wordpress default icon will be used."
+
+#: admin/theme-options.php:532
+msgid "首页幻灯片"
+msgstr "Sliders of homepage"
+
+#: admin/theme-options.php:533
+msgid "是否开启首页幻灯轮播"
+msgstr "Using sliders on homepage"
+
+#: admin/theme-options.php:541
+msgid "首页幻灯片列表"
+msgstr "Slider posts ID, seperated with comma"
+
+#: admin/theme-options.php:542
+msgid ""
+"首页幻灯片文章及图像来源，请输入需要呈现的文章ID，以英文逗号隔开并为每篇文章"
+"设置特色图片"
+msgstr "Slider posts ID, seperated with comma"
+
+#: admin/theme-options.php:549
+msgid "首页幻灯片右侧补充文章排序法"
+msgstr "Recommend posts oder"
+
+#: admin/theme-options.php:550
+msgid ""
+"首页幻灯片右侧推荐区置顶文章不够6篇时，补充文章的排序算法，默认最多评论文章排"
+"序"
+msgstr ""
+"If sticky posts less than 6, recommend posts will snatch other post under "
+"specified rules"
+
+#: admin/theme-options.php:557
+msgid "最多浏览排序"
+msgstr "Most viewed"
+
+#: admin/theme-options.php:561
+msgid "最多评论排序"
+msgstr "Most reviewed"
+
+#: admin/theme-options.php:568
+msgid "首页布局"
+msgstr "Homepage layout"
+
+#: admin/theme-options.php:569
+msgid "首页单栏CMS布局或双栏Blog布局"
+msgstr "CMS or blog layout"
+
+#: admin/theme-options.php:588
+msgid "首页单栏布局排序"
+msgstr "Posts order in CMS layout"
+
+#: admin/theme-options.php:589
+msgid "首页单栏布局文章块乱序或分类排序(CMS),开启选项表示乱序，默认为关闭"
+msgstr "Switching it on means posts ordered by post date"
+
+#: admin/theme-options.php:597
+msgid "首页CMS布局是否开启侧边栏"
+msgstr "Using sidebar in CMS layout"
+
+#: admin/theme-options.php:598
+msgid "首页CMS布局是否开启侧边栏，开启此选项表示显示侧边栏"
+msgstr ""
+
+#: admin/theme-options.php:606
+msgid "首页CMS布局分类模板1-使用该模板的分类(应用于带边栏CMS布局)"
+msgstr ""
+
+#: admin/theme-options.php:607 admin/theme-options.php:616
+#: admin/theme-options.php:625 admin/theme-options.php:634
+#: admin/theme-options.php:643
+msgid "要使用该模板，请勾选对应分类，同一分类不要勾选多个模板，本模板样式见"
+msgstr ""
+
+#: admin/theme-options.php:615
+msgid "首页CMS布局分类模板2-使用该模板的分类(应用于带边栏CMS布局)"
+msgstr ""
+
+#: admin/theme-options.php:624
+msgid "首页CMS布局分类模板3-使用该模板的分类(应用于带边栏CMS布局)"
+msgstr ""
+
+#: admin/theme-options.php:633
+msgid "首页CMS布局分类模板4-使用该模板的分类(应用于带边栏CMS布局)"
+msgstr ""
+
+#: admin/theme-options.php:642
+msgid "首页CMS布局分类模板5-使用该模板的分类(应用于带边栏CMS布局)"
+msgstr ""
+
+#: admin/theme-options.php:651
+msgid "QQ快速登录"
+msgstr "QQ quick login"
+
+#: admin/theme-options.php:652
+msgid "在登录弹窗以及评论区域显示QQ快速登录按钮，需要自行申请APP KEY"
+msgstr ""
+
+#: admin/theme-options.php:660
+msgid "QQ开放平台ID"
+msgstr "QQ ID"
+
+#: admin/theme-options.php:669
+msgid "QQ开放平台KEY"
+msgstr "QQ KEY"
+
+#: admin/theme-options.php:678
+msgid "微博快速登录"
+msgstr "Sina weibo quick login"
+
+#: admin/theme-options.php:679
+msgid "在登录弹窗以及评论区域显示新浪微博快速登录按钮，需要自行申请APP KEY"
+msgstr ""
+
+#: admin/theme-options.php:687
+msgid "微博开放平台KEY"
+msgstr "Sina weobo KEY"
+
+#: admin/theme-options.php:696
+msgid "微博开放平台SECRET"
+msgstr "Sina weibo SECRET"
+
+#: admin/theme-options.php:705
+msgid "新登录用户角色"
+msgstr "New user default role"
+
+#: admin/theme-options.php:711 functions.php:661
+msgid "订阅者"
+msgstr "Subscriber"
+
+#: admin/theme-options.php:715 functions.php:661
+msgid "投稿者"
+msgstr "Contributor"
+
+#: admin/theme-options.php:719 functions.php:661 functions/comment.php:194
+msgid "作者"
+msgstr "Author"
+
+#: admin/theme-options.php:723 functions.php:661 functions/comment.php:64
+#: functions/comments-ajax.php:148
+msgid "编辑"
+msgstr "Editor"
+
+#: admin/theme-options.php:736
+msgid "顶部自定义广告"
+msgstr ""
+
+#: admin/theme-options.php:737
+msgid ""
+"在网页顶部加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标"
+"签，最大宽度1120px"
+msgstr ""
+
+#: admin/theme-options.php:746
+msgid "底部自定义广告"
+msgstr ""
+
+#: admin/theme-options.php:747
+msgid ""
+"在网页底部加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标"
+"签，最大宽度1120px"
+msgstr ""
+
+#: admin/theme-options.php:756
+msgid "首页文章循环内部广告"
+msgstr ""
+
+#: admin/theme-options.php:757
+msgid ""
+"带边栏首页文章循环内部加载用户自定义广告代码，可以是javascript或者css，包含完"
+"整代码外标签，最大宽度800px"
+msgstr ""
+
+#: admin/theme-options.php:766
+msgid "文章页上部广告"
+msgstr ""
+
+#: admin/theme-options.php:767
+msgid ""
+"在文章顶部加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标"
+"签，最大宽度800px"
+msgstr ""
+
+#: admin/theme-options.php:776
+msgid "文章页缩略图下方广告"
+msgstr ""
+
+#: admin/theme-options.php:777
+msgid ""
+"在文章页缩略图下方加载用户自定义广告代码，可以是javascript或者css，包含完整代"
+"码外标签，最大宽度800px，如果没有缩略图将不显示"
+msgstr ""
+
+#: admin/theme-options.php:786
+msgid "文章页下部广告"
+msgstr ""
+
+#: admin/theme-options.php:787
+msgid ""
+"在文章底部部加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标"
+"签，最大宽度800px"
+msgstr ""
+
+#: admin/theme-options.php:796
+msgid "下载页广告1"
+msgstr "Download page AD1"
+
+#: admin/theme-options.php:797 admin/theme-options.php:817
+#: admin/theme-options.php:827
+msgid ""
+"在下载页加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标签，"
+"推荐尺寸336*300以内"
+msgstr ""
+
+#: admin/theme-options.php:806
+msgid "下载页广告2"
+msgstr "Download page AD2"
+
+#: admin/theme-options.php:807
+msgid ""
+"在下载页加载用户自定义广告代码，可以是javascript或者css，包含完整代码外标签，"
+"推荐尺寸760*90以内"
+msgstr ""
+
+#: admin/theme-options.php:816
+msgid "下载页广告3"
+msgstr "Download page AD3"
+
+#: admin/theme-options.php:826
+msgid "下载页广告4"
+msgstr "Download page AD4"
+
+#: admin/theme-options.php:836
+msgid "新用户注册奖励"
+msgstr ""
+
+#: admin/theme-options.php:837
+msgid "新用户首次注册奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:845
+msgid "投稿一次奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:846
+msgid "投稿者投稿通过后奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:854
+msgid "每日投稿获得积分次数"
+msgstr ""
+
+#: admin/theme-options.php:855 admin/theme-options.php:873
+msgid "每天通过投稿获得积分的最大次数，超出后将不再获得积分"
+msgstr ""
+
+#: admin/theme-options.php:863 admin/theme-options.php:864
+msgid "评论一次奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:872
+msgid "每日评论获得积分次数"
+msgstr ""
+
+#: admin/theme-options.php:881
+msgid "注册推广一次奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:882
+msgid "通过专属推广链接推广新用户注册一次所奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:890
+msgid "每日注册推广奖励积分次数"
+msgstr ""
+
+#: admin/theme-options.php:891
+msgid "每天通过注册推广获得积分的最大次数，超出后将不再获得积分"
+msgstr ""
+
+#: admin/theme-options.php:899
+msgid "访问推广一次奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:900
+msgid "通过专属推广链接推广用户访问一次奖励积分"
+msgstr ""
+
+#: admin/theme-options.php:908
+msgid "每日访问推广奖励积分次数"
+msgstr ""
+
+#: admin/theme-options.php:909
+msgid "每天通过访问推广获得积分的最大次数，超出后将不再获得积分"
+msgstr ""
+
+#: admin/theme-options.php:917
+msgid "作者发布的资源被下载一次可得积分"
+msgstr ""
+
+#: admin/theme-options.php:918
+msgid "作者发布的资源被用户下载后获得积分奖励，不限次数"
+msgstr ""
+
+#: admin/theme-options.php:926
+msgid "站点消息"
+msgstr "Site bulletin"
+
+#: admin/theme-options.php:927
+msgid "网站顶部显示站点自定义消息，多条消息请以 | 分隔"
+msgstr ""
+
+#: admin/theme-options.php:936
+msgid "主题英文语言"
+msgstr "English language support"
+
+#: admin/theme-options.php:937
+msgid "是否开启主题英文语言"
+msgstr "Change to English language"
+
+#: admin/theme-options.php:945
+msgid "邮件周刊"
+msgstr "Newsletter"
+
+#: admin/theme-options.php:946
+msgid "每周向订阅用户发送上周内发布的新文章"
+msgstr ""
+
+#: admin/theme-options.php:954
+msgid "登陆错误提醒"
+msgstr ""
+
+#: admin/theme-options.php:955
+msgid "登陆错误时邮件提醒"
+msgstr ""
+
+#: admin/theme-options.php:963
+msgid "登录成功提醒"
+msgstr ""
+
+#: admin/theme-options.php:964
+msgid "登录成功时邮件提醒"
+msgstr ""
+
+#: admin/theme-options.php:972
+msgid "允许投稿分类"
+msgstr ""
+
+#: admin/theme-options.php:973
+msgid "允许投稿的分类，不勾选则不开放投稿"
+msgstr ""
+
+#: admin/theme-options.php:981 author.php:697 functions.php:250
+msgid "新浪微博"
+msgstr "Sina weibo"
+
+#: admin/theme-options.php:982
+msgid ""
+"新浪微博，例如我的新浪微博主页http://weibo.com/touchumind/，则填写touchumind"
+"即可s"
+msgstr ""
+
+#: admin/theme-options.php:990 author.php:705 functions.php:249
+#: includes/author-info.php:48
+msgid "腾讯微博"
+msgstr "Tecent weibo"
+
+#: admin/theme-options.php:991
+msgid ""
+"腾讯微博，例如我的腾讯微博主页http://t.qq.com/touchumind，则填写touchumind即"
+"可"
+msgstr ""
+
+#: admin/theme-options.php:999
+msgid "QQ空间"
+msgstr "Qzone"
+
+#: admin/theme-options.php:1000
+msgid ""
+"QQ空间，例如我的QQ空间主页http://user.qzone.qq.com/813920477/，则填写"
+"813920477即可"
+msgstr ""
+
+#: admin/theme-options.php:1008 functions.php:251 includes/author-info.php:57
+msgid "微信"
+msgstr "Wechat"
+
+#: admin/theme-options.php:1009
+msgid "微信二维码图片"
+msgstr "Wechat qrcode"
+
+#: admin/theme-options.php:1018
+msgid "QQ号码，用于QQ在线交谈，请至http://wp.qq.com设置你的QQ在线交谈状态"
+msgstr ""
+
+#: admin/theme-options.php:1026
+msgid "QQ邮件列表"
+msgstr ""
+
+#: admin/theme-options.php:1027
+msgid "QQ邮件列表订阅链接，详见http://list.qq.com"
+msgstr ""
+
+#: admin/theme-options.php:1035
+msgid "分类ID对照表"
+msgstr "Categories id"
+
+#: admin/theme-options.php:1045
+msgid "文章ID对照表"
+msgstr "Posts id"
+
+#: archive.php:44 tag.php:44
+msgid "这里好像什么文章都没有!~"
+msgstr "There is nothing here~"
+
+#: author.php:33 functions/user-page.php:162
+msgid "文章"
+msgstr "Post"
+
+#: author.php:34 functions/user-page.php:167
+msgid "评论"
+msgstr "Comment"
+
+#: author.php:35 functions/user-page.php:172
+msgid "收藏"
+msgstr "Collect"
+
+#: author.php:37
+msgid "消息"
+msgstr "Message"
+
+#: author.php:38
+msgid "资料"
+msgstr "Profile"
+
+#: author.php:50
+#, php-format
+msgid "你正在查看的是%s的资料，修改请慎重！"
+msgstr ""
+
+#: author.php:56 author.php:84
+msgid "安全认证失败，请重试！"
+msgstr ""
+
+#: author.php:61
+msgid "增加"
+msgstr "Add"
+
+#: author.php:64
+msgid "减少"
+msgstr "Cut"
+
+#: author.php:70 author.php:301
+msgid "备注"
+msgstr "remarks"
+
+#: author.php:72
+#, php-format
+msgid "%1$s将你的积分%2$s %3$s 分。%4$s"
+msgstr ""
+
+#: author.php:74
+#, php-format
+msgid "操作成功！已将%1$s的积分%2$s %3$s 分。"
+msgstr ""
+
+#: author.php:90
+msgid "发送成功！"
+msgstr "Send success!"
+
+#: author.php:102
+msgid "没有找到记录"
+msgstr ""
+
+#: author.php:111
+msgid "没有发生变化"
+msgstr ""
+
+#: author.php:122
+msgid "基本信息已更新"
+msgstr ""
+
+#: author.php:134
+msgid "扩展资料已更新"
+msgstr ""
+
+#: author.php:142
+msgid "安全信息已更新"
+msgstr ""
+
+#: author.php:145
+msgid "点击刷新"
+msgstr "Refresh"
+
+#: author.php:182
+msgid "提交失败，文章内容至少140字。"
+msgstr ""
+
+#: author.php:212
+msgid "操作失败，请重试或联系管理员。"
+msgstr ""
+
+#: author.php:222
+msgid "投稿失败，标题和内容不能为空！"
+msgstr ""
+
+#: author.php:253
+msgid "私信TA"
+msgstr "Chat with him"
+
+#: author.php:256
+msgid "注册"
+msgstr "Registered"
+
+#: author.php:257
+msgid "上次登录"
+msgstr "Last login"
+
+#: author.php:258
+msgid "最后登录"
+msgstr "Latest login"
+
+#: author.php:262
+msgid "没有个人说明"
+msgstr ""
+
+#: author.php:284
+msgid "积分变更（仅管理员可见）"
+msgstr ""
+
+#: author.php:289
+msgid "增加积分"
+msgstr "Add credits"
+
+#: author.php:290
+msgid "减少积分"
+msgstr "Cut credits"
+
+#: author.php:305
+msgid "提交"
+msgstr "Submit"
+
+#: author.php:307
+msgid "请谨慎操作！积分数只能填写数字，备注将显示在用户的积分记录中。"
+msgstr ""
+
+#: author.php:315
+#, php-format
+msgid "共有 %1$s 个积分，其中 %2$s 个已消费， %3$s 个可用。"
+msgstr ""
+
+#: author.php:327 author.php:495 author.php:550 author.php:573
+#, php-format
+msgid "第 %1$s 页，共 %2$s 页，每页显示 %3$s 条。"
+msgstr ""
+
+#: author.php:339
+msgid "积分方法"
+msgstr ""
+
+#: author.php:340
+msgid "一次得分"
+msgstr ""
+
+#: author.php:341
+msgid "可用次数"
+msgstr ""
+
+#: author.php:346
+msgid "注册奖励"
+msgstr ""
+
+#: author.php:347 author.php:352 author.php:357 author.php:362 author.php:367
+#, php-format
+msgid "%1$s 分"
+msgstr ""
+
+#: author.php:348
+msgid "只有 1 次"
+msgstr "Only once"
+
+#: author.php:351 functions/user-page.php:145
+msgid "文章投稿"
+msgstr ""
+
+#: author.php:353 author.php:358 author.php:363 author.php:368
+#, php-format
+msgid "每天 %1$s 次"
+msgstr ""
+
+#: author.php:356
+msgid "评论回复"
+msgstr ""
+
+#: author.php:361
+msgid "访问推广"
+msgstr ""
+
+#: author.php:366
+msgid "注册推广"
+msgstr ""
+
+#: author.php:382
+msgid "请发表你自己的文章"
+msgstr ""
+
+#: author.php:386
+msgid "投稿"
+msgstr "Contribute"
+
+#: author.php:386
+msgid "POST NEW"
+msgstr "POST NEW"
+
+#: author.php:389 page-postspecial.php:51
+msgid "在此输入标题"
+msgstr ""
+
+#: author.php:398
+msgid "选择文章分类"
+msgstr ""
+
+#: author.php:411
+msgid ""
+"文章来源或版权信息，{link}代表文章链接，{title}代表文章标题，{url}代表本站首"
+"页地址，{name}代表本站名称"
+msgstr ""
+
+#: author.php:415
+#, php-format
+msgid "<p>原文链接：%s，转发请注明来源！</p>"
+msgstr ""
+
+#: author.php:421
+msgid "提交审核"
+msgstr ""
+
+#: author.php:422
+msgid "保存草稿"
+msgstr ""
+
+#: author.php:426
+msgid "确认操作"
+msgstr "Confirm"
+
+#: author.php:437
+#, php-format
+msgid "现有%s个分类接受投稿。"
+msgstr ""
+
+#: author.php:441
+msgid "遗憾的是，你现在登录的账号没有投稿权限！"
+msgstr ""
+
+#: author.php:445
+msgid "点击投稿"
+msgstr "Contribute"
+
+#: author.php:449
+#, php-format
+msgid "发表了 %s 篇文章"
+msgstr ""
+
+#: author.php:487
+#, php-format
+msgid "共有 %1$s 条评论，其中 %2$s 条已获准， %3$s 条正等待审核。"
+msgstr ""
+
+#: author.php:490
+msgid "这条评论正在等待审核"
+msgstr ""
+
+#: author.php:492
+#, php-format
+msgid "%1$s  发表在  %2$s"
+msgstr ""
+
+#: author.php:505
+msgid "共收藏了"
+msgstr ""
+
+#: author.php:534
+#, php-format
+msgid "共有 %1$s 条消息，其中 %2$s 条是新消息（绿色标注）。"
+msgstr ""
+
+#: author.php:538
+msgid "新！"
+msgstr "New!"
+
+#: author.php:546
+#, php-format
+msgid "%s发来的私信"
+msgstr "Message from %s"
+
+#: author.php:546
+msgid "查看对话"
+msgstr "Check out chat"
+
+#: author.php:557
+#, php-format
+msgid "与 %s 对话"
+msgstr "Chat with %s"
+
+#: author.php:557
+msgid "查看我的消息"
+msgstr "Check out my message"
+
+#: author.php:557
+msgid "确定发送"
+msgstr "Confirm to Send"
+
+#: author.php:576
+#, php-format
+msgid "私信功能需要<a href=\"%s\">登录</a>才可使用！"
+msgstr ""
+
+#: author.php:589 author.php:629
+msgid "默认头像"
+msgstr "Default avatar"
+
+#: author.php:590
+msgid "腾讯QQ头像"
+msgstr "Tencent QQ avatar"
+
+#: author.php:591
+msgid "新浪微博头像"
+msgstr "Sina weibo avatar"
+
+#: author.php:595
+msgid "头像来源"
+msgstr "Avatar"
+
+#: author.php:596 author.php:655
+msgid "用户名"
+msgstr "Username"
+
+#: author.php:597 author.php:662 comments.php:102
+msgid "昵称"
+msgstr "Nicky name"
+
+#: author.php:598 author.php:669
+msgid "站点"
+msgstr "Home"
+
+#: author.php:599 author.php:676
+msgid "个人说明"
+msgstr ""
+
+#: author.php:609
+#, php-format
+msgid "%s来%s已经%s天了"
+msgstr ""
+
+#: author.php:619
+msgid "基本信息"
+msgstr ""
+
+#: author.php:619
+msgid "公开资料"
+msgstr ""
+
+#: author.php:623
+msgid "头像"
+msgstr ""
+
+#: author.php:637
+msgid "QQ头像"
+msgstr ""
+
+#: author.php:646
+msgid "微博头像"
+msgstr ""
+
+#: author.php:684 author.php:829
+msgid "保存更改"
+msgstr ""
+
+#: author.php:694
+msgid "扩展资料"
+msgstr ""
+
+#: author.php:694
+msgid "社会化信息等"
+msgstr ""
+
+#: author.php:700
+msgid "请填写新浪微博账号"
+msgstr ""
+
+#: author.php:708
+msgid "请填写腾讯微博账号"
+msgstr ""
+
+#: author.php:713 functions.php:252
+msgid "Twitter"
+msgstr "Twitter"
+
+#: author.php:716
+msgid "请填写Twitter账号"
+msgstr "Twitter account"
+
+#: author.php:721
+msgid "Goolge +"
+msgstr "Goolge +"
+
+#: author.php:724
+msgid "请填写Google+主页的完整Url"
+msgstr "Goolge + homepage url"
+
+#: author.php:729
+msgid "微信二维码"
+msgstr "Wechat qrcode"
+
+#: author.php:732
+msgid "请填写微信账号二维码图片的Url地址"
+msgstr ""
+
+#: author.php:737
+msgid "支付宝收款二维码"
+msgstr "Alipay qrcode"
+
+#: author.php:740
+msgid "请填写支付宝收款二维码图片的Url地址"
+msgstr ""
+
+#: author.php:746
+msgid "提交资料"
+msgstr "Submit profile"
+
+#: author.php:756 author.php:759
+msgid "推广链接"
+msgstr "Affiliate link"
+
+#: author.php:756
+msgid "可赚取积分"
+msgstr ""
+
+#: author.php:769
+msgid "绑定账号"
+msgstr ""
+
+#: author.php:769
+msgid "可用于直接登录"
+msgstr ""
+
+#: author.php:774
+msgid "QQ账号"
+msgstr ""
+
+#: author.php:777 author.php:791 functions/open-social.php:128
+#: functions/open-social.php:141
+msgid "已绑定"
+msgstr ""
+
+#: author.php:777 author.php:791 functions/open-social.php:128
+#: functions/open-social.php:141
+msgid "点击解绑"
+msgstr ""
+
+#: author.php:780
+msgid "绑定QQ账号"
+msgstr ""
+
+#: author.php:788
+msgid "微博账号"
+msgstr ""
+
+#: author.php:794
+msgid "绑定微博账号"
+msgstr ""
+
+#: author.php:805
+msgid "账号安全"
+msgstr ""
+
+#: author.php:805
+msgid "仅自己可见"
+msgstr ""
+
+#: author.php:808
+msgid "电子邮件 (必填)"
+msgstr "Email( * )"
+
+#: author.php:814
+msgid "新密码"
+msgstr "New password"
+
+#: author.php:817
+msgid "如果您想修改您的密码，请在此输入新密码。不然请留空。"
+msgstr ""
+
+#: author.php:821
+msgid "重复新密码"
+msgstr "Repeat new password"
+
+#: author.php:824
+msgid ""
+"再输入一遍新密码。 提示：您的密码最好至少包含7个字符。为了保证密码强度，使用"
+"大小写字母、数字和符号（例如! \" ? $ % ^ & )）。"
+msgstr ""
+
+#: comments.php:22
+msgid "必须输入密码，才能查看评论！"
+msgstr ""
+
+#: comments.php:26
+msgid " 评论"
+msgstr " Comment"
+
+#: comments.php:26
+msgid " 引用"
+msgstr " Quote"
+
+#: comments.php:34
+msgid "复制引用"
+msgstr "Quote"
+
+#: comments.php:41
+msgid "暂无评论"
+msgstr "No Comment"
+
+#: comments.php:43
+msgid "评论已关闭"
+msgstr "Comment Closed"
+
+#: comments.php:48
+msgid "发表评论"
+msgstr "Post comment"
+
+#: comments.php:61
+msgid "登录并评论"
+msgstr ""
+
+#: comments.php:61
+msgid "[ 登录 ]"
+msgstr ""
+
+#: comments.php:61
+msgid "才能发表留言！"
+msgstr ""
+
+#: comments.php:77
+msgid "登录者："
+msgstr "User: "
+
+#: comments.php:77 includes/loginbox.php:67
+msgid "退出"
+msgstr "Login out"
+
+#: comments.php:79
+#, php-format
+msgid "欢迎回来 <strong style=\"color: #f00;\">%s</strong>"
+msgstr ""
+
+#: comments.php:80 comments.php:82
+msgid "更改"
+msgstr "Modify"
+
+#: comments.php:83
+msgid "隐藏"
+msgstr "Hide"
+
+#: comments.php:102
+msgid "（必须）"
+msgstr "( * )"
+
+#: comments.php:106
+msgid "邮箱"
+msgstr "Email"
+
+#: comments.php:106
+msgid "（必须、保密）"
+msgstr "( * )"
+
+#: comments.php:106
+msgid "去申请一个自己的Gravatar全球通用头像"
+msgstr "Apply for a worldwide Gvatar"
+
+#: comments.php:106
+msgid "留言无头像?"
+msgstr ""
+
+#: comments.php:110
+msgid "网址"
+msgstr "Website"
+
+#: comments.php:122
+msgid "提交留言"
+msgstr "Submit"
+
+#: comments.php:123
+msgid "重　　写"
+msgstr "Rewrite"
+
+#: content.php:45 includes/content-archive.php:18
+msgid "[置顶]"
+msgstr "[STICKY]"
+
+#: functions.php:254
+msgid "赞助链接"
+msgstr "Donate link"
+
+#: functions.php:356
+msgid "默认边栏区，请在后台设置选择各页面的边栏"
+msgstr "Default sidebar"
+
+#: functions.php:357
+msgid "浮动边栏，容纳一定小工具，随鼠标滚动超出可视区域后将浮动重新显示"
+msgstr ""
+
+#: functions.php:358
+msgid "底部多列边栏1"
+msgstr "Footer widget column 1"
+
+#: functions.php:359
+msgid "底部多列边栏2"
+msgstr "Footer widget column 2"
+
+#: functions.php:360
+msgid "底部多列边栏3"
+msgstr "Footer widget column 3"
+
+#: functions.php:361
+msgid "底部多列边栏4"
+msgstr "Footer widget column 4"
+
+#: functions.php:362
+msgid "底部通栏"
+msgstr ""
+
+#: functions.php:428
+msgid "末页"
+msgstr "Latest Page"
+
+#: functions.php:429 functions.php:470 page-gallery.php:103
+msgid "下一页"
+msgstr "NEXT"
+
+#: functions.php:469 page-gallery.php:97
+msgid "上一页"
+msgstr "PREV"
+
+#: functions.php:475
+#, php-format
+msgid "第 %s 页"
+msgstr " %s Page"
+
+#: functions.php:511 includes/related.php:38
+msgid "相关文章"
+msgstr "Related Posts"
+
+#: functions.php:527
+msgid "密码提示："
+msgstr "Password notice:"
+
+#: functions.php:529
+msgid "请输入您的密码"
+msgstr "Please input password"
+
+#: functions.php:531
+msgid "欢迎进入，您的密码是："
+msgstr "Welcome, your password is:"
+
+#: functions.php:557 functions.php:581
+msgid " 编辑 "
+msgstr " Edit"
+
+#: functions.php:558
+msgid "抢沙发"
+msgstr "First to comment"
+
+#: functions.php:558 functions.php:567 functions.php:582
+msgid "1 条评论"
+msgstr "1 comment"
+
+#: functions.php:558 functions.php:567 functions.php:582
+msgid "% 条评论"
+msgstr "% comments"
+
+#: functions.php:558 functions.php:582
+msgid " 评论关闭"
+msgstr " Comment closed"
+
+#: functions.php:567 functions.php:582
+msgid "0 条评论"
+msgstr "0 comment"
+
+#: functions.php:603 includes/download.php:24
+msgid "演示与下载"
+msgstr "Demo&Download"
+
+#: functions.php:606 includes/download.php:27
+msgid "相关下载"
+msgstr "Download"
+
+#: functions.php:609 includes/download.php:30
+msgid "相关演示"
+msgstr "Demo"
+
+#: functions.php:613
+msgid "收起"
+msgstr "Slideup"
+
+#: functions.php:805
+msgid "全部展开/收缩"
+msgstr "All Slide Up/Down"
+
+#: functions.php:805
+msgid "注: 点击月份可以展开"
+msgstr ""
+
+#: functions.php:816
+msgid " 年"
+msgstr " Year"
+
+#: functions.php:820
+msgid " 月"
+msgstr " Month"
+
+#: functions.php:822
+msgid "d日: "
+msgstr "d"
+
+#: functions.php:822 includes/estroslider.php:105 includes/estroslider.php:142
+msgid "条评论"
+msgstr " comments"
+
+#: functions.php:844
+#, php-format
+msgid "第 %s 期"
+msgstr "Issue %s"
+
+#: functions.php:846
+msgid "选择期刊"
+msgstr "Choose issue"
+
+#: functions.php:886
+msgid "安装必要的插件"
+msgstr "Install necessary plugins"
+
+#: functions.php:887
+msgid "安装插件"
+msgstr "Install plugins"
+
+#: functions.php:888
+#, php-format
+msgid "正在安装插件: %s"
+msgstr "Installing: %s"
+
+#: functions.php:889
+msgid "插件API出现了一些问题"
+msgstr ""
+
+#: functions.php:890
+#, php-format
+msgid "本主题需要以下插件: %1$s."
+msgid_plural "本主题需要以下插件: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+#: functions.php:891
+#, php-format
+msgid "本主题推荐以下插件: %1$s."
+msgid_plural "本主题推荐以下插件: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+#: functions.php:892
+#, php-format
+msgid "抱歉，你没有正确的许可去安装 %s 插件. "
+msgid_plural "抱歉，你没有正确的许可去安装 %s 插件."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+
+#: functions.php:893
+#, php-format
+msgid "下列必须插件当前未激活: %1$s."
+msgid_plural "下列必须插件当前未激活: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins is currently inactive: %1$s."
+
+#: functions.php:894
+#, php-format
+msgid "下列推荐插件当前未激活: %1$s."
+msgid_plural "下列推荐插件当前未激活: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins is currently inactive: %1$s."
+
+#: functions.php:895
+#, php-format
+msgid "抱歉，你没有正确的许可去激活 %s 插件."
+msgid_plural "抱歉，你没有正确的许可去激活 %s 插件."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugin activated."
+
+#: functions.php:896
+#, php-format
+msgid "下列插件需要更新至最新版本以提高兼容性: %1$s."
+msgid_plural "下列插件需要更新至最新版本以提高兼容性: %1$s."
+msgstr[0] ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[1] ""
+"The following plugins needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+
+#: functions.php:897
+#, php-format
+msgid "抱歉，你没有正确的许可去更新 %s 插件."
+msgid_plural "抱歉，你没有正确的许可去更新 %s 插件."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+
+#: functions.php:898
+msgid "开始安装插件"
+msgid_plural "开始安装插件"
+msgstr[0] "Begin install plugin"
+msgstr[1] "Begin install plugins"
+
+#: functions.php:899
+msgid "激活已安装插件"
+msgid_plural "激活已安装插件"
+msgstr[0] "Activate installed plugin"
+msgstr[1] "Activate installed plugins"
+
+#: functions.php:900
+msgid "返回必须插件安装器"
+msgstr "Back to plugin installer"
+
+#: functions.php:901
+msgid "插件成功激活"
+msgstr "Plugin activated"
+
+#: functions.php:902
+#, php-format
+msgid "所有插件已安装并激活成功 %s"
+msgstr "All plugins have been installed and activated %s"
+
+#: functions.php:914
+msgid "自定义头像"
+msgstr "Customize avatar"
+
+#: functions.php:1164
+#, php-format
+msgid ""
+"Tinection主题已更新至<a color=\"red\">%1$s</a>(当前%2$s)，请访问<a href="
+"\"http://www.zhiyanblog.com/tinection-theme-download.html\" target=\"_blank"
+"\">知言博客Tinection专页</a>查看！"
+msgstr ""
+"Tinection has been updated to version <a color=\"red\">%1$s</a>(current "
+"version %2$s)，please visit <a href=\"http://www.zhiyanblog.com/tinection-"
+"theme-download.html\" target=\"_blank\"> Tinection Home</a> to download the "
+"latest theme."
+
+#: functions.php:1200
+msgid "每周一次"
+msgstr "Once weekly"
+
+#: functions/IP.php:140 functions/IP.php:157
+msgid "火星"
+msgstr "Mars"
+
+#: functions/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: functions/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: functions/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: functions/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+#: functions/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+#: functions/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+#: functions/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+
+#: functions/class-tgm-plugin-activation.php:171
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins are currently inactive: %1$s."
+
+#: functions/class-tgm-plugin-activation.php:172
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins are currently inactive: %1$s."
+
+#: functions/class-tgm-plugin-activation.php:173
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+
+#: functions/class-tgm-plugin-activation.php:174
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[1] ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+
+#: functions/class-tgm-plugin-activation.php:175
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+
+#: functions/class-tgm-plugin-activation.php:176
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+#: functions/class-tgm-plugin-activation.php:177
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activate installed plugin"
+msgstr[1] "Activate installed plugins"
+
+#: functions/class-tgm-plugin-activation.php:178
+#: functions/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: functions/class-tgm-plugin-activation.php:179
+#: functions/class-tgm-plugin-activation.php:1855
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: functions/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: functions/class-tgm-plugin-activation.php:517
+#: functions/class-tgm-plugin-activation.php:2067
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: functions/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "The following plugin was activated successfully: %s."
+
+#: functions/class-tgm-plugin-activation.php:704
+msgid "忽略提醒"
+msgstr "Dismiss notice"
+
+#: functions/class-tgm-plugin-activation.php:1091
+msgid "外部链接"
+msgstr "External link"
+
+#: functions/class-tgm-plugin-activation.php:1096
+msgid "私有版本"
+msgstr "Private"
+
+#: functions/class-tgm-plugin-activation.php:1099
+msgid "预打包的"
+msgstr "Packaged"
+
+#: functions/class-tgm-plugin-activation.php:1103
+msgid "WordPress版本"
+msgstr "WordPress version"
+
+#: functions/class-tgm-plugin-activation.php:1106
+msgid "必需"
+msgstr "Required"
+
+#: functions/class-tgm-plugin-activation.php:1106 includes/estroslider.php:58
+msgid "推荐"
+msgstr "Recommend"
+
+#: functions/class-tgm-plugin-activation.php:1109
+msgid "未安装"
+msgstr "Not installed"
+
+#: functions/class-tgm-plugin-activation.php:1111
+msgid "已安装但未激活"
+msgstr "Installed but not activated"
+
+#: functions/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+#: functions/class-tgm-plugin-activation.php:1297
+msgid "插件"
+msgstr "Plugin"
+
+#: functions/class-tgm-plugin-activation.php:1298
+msgid "来源"
+msgstr "Source"
+
+#: functions/class-tgm-plugin-activation.php:1299
+msgid "类型"
+msgstr "Type"
+
+#: functions/class-tgm-plugin-activation.php:1300
+msgid "状态"
+msgstr "Status"
+
+#: functions/class-tgm-plugin-activation.php:1318
+msgid "安装"
+msgstr "Install"
+
+#: functions/class-tgm-plugin-activation.php:1319
+msgid "激活"
+msgstr "Activate"
+
+#: functions/class-tgm-plugin-activation.php:1553
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] "The following plugins were activated successfully:"
+
+#: functions/class-tgm-plugin-activation.php:1838
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: functions/class-tgm-plugin-activation.php:1839
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#: functions/class-tgm-plugin-activation.php:1840
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+#: functions/class-tgm-plugin-activation.php:1841
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+#: functions/class-tgm-plugin-activation.php:1842
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+#: functions/class-tgm-plugin-activation.php:1843
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+#: functions/class-tgm-plugin-activation.php:1854
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: functions/class-tgm-plugin-activation.php:1964
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: functions/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: functions/class-tgm-plugin-activation.php:1965
+#: functions/class-tgm-plugin-activation.php:1974
+msgid "Show Details"
+msgstr "Show Details"
+
+#: functions/class-tgm-plugin-activation.php:1965
+#: functions/class-tgm-plugin-activation.php:1974
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: functions/class-tgm-plugin-activation.php:1966
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: functions/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: functions/class-tgm-plugin-activation.php:1971
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: functions/class-tgm-plugin-activation.php:1972
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: functions/class-tgm-plugin-activation.php:1973
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: functions/class-tgm-plugin-activation.php:1974
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: functions/class-tgm-plugin-activation.php:1975
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: functions/class-tgm-plugin-activation.php:1976
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: functions/comment.php:52
+msgid "沙发"
+msgstr "Sofa"
+
+#: functions/comment.php:53
+msgid "板凳"
+msgstr "Stool"
+
+#: functions/comment.php:54
+msgid "地板"
+msgstr "Floor"
+
+#: functions/comment.php:55
+msgid "楼"
+msgstr "#"
+
+#: functions/comment.php:62
+msgid "回复"
+msgstr "Reply"
+
+#: functions/comment.php:69 functions/comment.php:111
+msgid "[ 来自 "
+msgstr "[ From "
+
+#: functions/comment.php:72 functions/comment.php:115
+msgid "您的评论正在等待审核中..."
+msgstr ""
+
+#: functions/comment.php:138
+msgid "粗体"
+msgstr "Bold"
+
+#: functions/comment.php:139
+msgid "斜体"
+msgstr "Italic"
+
+#: functions/comment.php:140
+msgid "下划线"
+msgstr "Underline"
+
+#: functions/comment.php:141
+msgid "删除线"
+msgstr "Strikethrough"
+
+#: functions/comment.php:142
+msgid "链接"
+msgstr "Link"
+
+#: functions/comment.php:143
+msgid "图片"
+msgstr "Image"
+
+#: functions/comment.php:144
+msgid "代码"
+msgstr "Code"
+
+#: functions/comment.php:145
+msgid "引用"
+msgstr "Quote"
+
+#: functions/comment.php:146
+msgid "PHP代码"
+msgstr "PHP"
+
+#: functions/comment.php:147
+msgid "JavaScript代码"
+msgstr "JavaScript"
+
+#: functions/comment.php:148
+msgid "CSS代码"
+msgstr "CSS"
+
+#: functions/comment.php:149
+msgid "私密"
+msgstr "Private"
+
+#: functions/comment.php:162
+msgid "***隐藏内容仅管理员和父级评论者可见***"
+msgstr ""
+
+#: functions/comment.php:179
+msgid "验证码"
+msgstr "Captcha"
+
+#: functions/comment.php:190 functions/comment.php:196
+msgid "评论达人 LV.1"
+msgstr "VIP LV.1"
+
+#: functions/comment.php:192
+msgid "博主"
+msgstr "Master"
+
+#: functions/comment.php:192
+msgid "博 主"
+msgstr "MASTER"
+
+#: functions/comment.php:194
+msgid "作 者"
+msgstr "AUTHOR"
+
+#: functions/comment.php:198
+msgid "评论达人 LV.2"
+msgstr "VIP LV.2"
+
+#: functions/comment.php:200
+msgid "评论达人 LV.3"
+msgstr "VIP LV.3"
+
+#: functions/comment.php:202
+msgid "评论达人 LV.4"
+msgstr "VIP LV.4"
+
+#: functions/comment.php:204
+msgid "评论达人 LV.5"
+msgstr "VIP LV.5"
+
+#: functions/comment.php:206
+msgid "评论达人 LV.6"
+msgstr "VIP LV.6"
+
+#: functions/comment.php:208
+msgid "评论达人 LV.7"
+msgstr "VIP LV.7"
+
+#: functions/comments-ajax.php:34 functions/comments-ajax.php:40
+#: functions/comments-ajax.php:43
+msgid "Invalid comment status."
+msgstr "Invalid comment status."
+
+#: functions/comments-ajax.php:37
+msgid "Sorry, comments are closed for this item."
+msgstr "Sorry, comments are closed for this item."
+
+#: functions/comments-ajax.php:46
+msgid "Password Protected"
+msgstr "Password Protected"
+
+#: functions/comments-ajax.php:75
+msgid "你必须登录才能发表评论"
+msgstr ""
+
+#: functions/comments-ajax.php:77
+msgid "错误：请输入验证码"
+msgstr ""
+
+#: functions/comments-ajax.php:79
+msgid "错误：请输入正确验证码"
+msgstr ""
+
+#: functions/comments-ajax.php:86
+msgid "错误: 请填写必要的字段 (name, email)"
+msgstr ""
+
+#: functions/comments-ajax.php:88
+msgid "错误: 请输入一个有效的Email地址"
+msgstr ""
+
+#: functions/comments-ajax.php:92
+msgid "错误: 请输入评论内容"
+msgstr ""
+
+#: functions/comments-ajax.php:104
+msgid "检测到重复评论，你已经发表过该言论了!"
+msgstr ""
+
+#: functions/comments-ajax.php:112
+msgid "发表评论太快！"
+msgstr ""
+
+#: functions/comments-ajax.php:148
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: functions/credit.php:58
+#, php-format
+msgid "获得%s积分"
+msgstr ""
+
+#: functions/credit.php:67
+#, php-format
+msgid "消费%s积分"
+msgstr ""
+
+#: functions/credit.php:74
+#, php-format
+msgid "更新积分为%s"
+msgstr ""
+
+#: functions/credit.php:90
+#, php-format
+msgid "消费了%s积分"
+msgstr ""
+
+#: functions/credit.php:122
+#, php-format
+msgid "获得注册推广（来自%1$s的注册）奖励%2$s积分"
+msgstr ""
+
+#: functions/credit.php:127
+#, php-format
+msgid "获得注册奖励%s积分"
+msgstr ""
+
+#: functions/credit.php:156
+#, php-format
+msgid "获得访问推广奖励%1$s积分"
+msgstr ""
+
+#: functions/credit.php:178
+#, php-format
+msgid "你发布的文章《%1$s》中资源被其他用户下载，奖励%2$s积分"
+msgstr ""
+
+#: functions/credit.php:195
+#, php-format
+msgid "获得评论回复奖励%1$s积分"
+msgstr ""
+
+#: functions/credit.php:230
+#, php-format
+msgid "总积分 %1$s 已消费 %2$s"
+msgstr ""
+
+#: functions/download.php:34
+msgid "下载密码:"
+msgstr "Download password: "
+
+#: functions/download.php:40
+msgid "积分下载资源"
+msgstr "Resources for sale"
+
+#: functions/download.php:54 functions/download.php:58
+#: functions/download.php:62
+msgid "人已购买"
+msgstr "Sales"
+
+#: functions/download.php:54
+msgid "你已购买，"
+msgstr "You have bought it, "
+
+#: functions/download.php:54
+msgid "点击下载"
+msgstr "Click to download"
+
+#: functions/download.php:55 functions/download.php:59
+msgid "下载密码："
+msgstr "Password:"
+
+#: functions/download.php:58
+msgid "你是资源发布者，"
+msgstr "You are the resource publisher, "
+
+#: functions/download.php:62
+msgid "点击购买"
+msgstr "Click to buy"
+
+#: functions/download.php:62
+msgid "花费"
+msgstr "cost"
+
+#: functions/download.php:68
+msgid ""
+"<h4>以下收费资源需要<span class=\"dl-page-login-pop\">登录</span>才能下载</"
+"h4>"
+msgstr ""
+
+#: functions/download.php:77
+msgid " 人已购买. ( 需要<span style=\"color:red;\">"
+msgstr ""
+
+#: functions/download.php:82
+msgid "未找到相关的下载内容，请确认您的链接无误或搜索重试"
+msgstr ""
+
+#: functions/download.php:151
+#, php-format
+msgid "你发布的文章《%1$s》中收费资源被其他用户下载，获得售价%2$s积分"
+msgstr ""
+
+#: functions/mail.php:81 functions/mail.php:93
+#, php-format
+msgid "%1$s在%2$s中回复你"
+msgstr ""
+
+#: functions/mail.php:82
+msgid "评论提醒"
+msgstr "Comment Notify"
+
+#: functions/mail.php:83
+#, php-format
+msgid ""
+"<p>%1$s，您好!</p><p>您于%2$s在文章《%3$s》上发表评论: </p><p style=\"border-"
+"bottom:#ddd 1px solid;border-left:#ddd 1px solid;padding-bottom:20px;"
+"background-color:#eee;margin:15px 0px;padding-left:20px;padding-right:20px;"
+"border-top:#ddd 1px solid;border-right:#ddd 1px solid;padding-top:20px\">"
+"%4$s</p>\n"
+"<p>%5$s 于%6$s 给您的回复如下: </p><p style=\"border-bottom:#ddd 1px solid;"
+"border-left:#ddd 1px solid;padding-bottom:20px;background-color:#eee;"
+"margin:15px 0px;padding-left:20px;padding-right:20px;border-top:#ddd 1px "
+"solid;border-right:#ddd 1px solid;padding-top:20px\">%7$s</p>\n"
+"<p>您可以点击 <a style=\"color:#00bbff;text-decoration:none\" href=\"%8$s\" "
+"target=\"_blank\">查看回复的完整內容</a></p>"
+msgstr ""
+
+#: functions/mail.php:94
+msgid "文章评论"
+msgstr "Article Comment"
+
+#: functions/mail.php:95
+#, php-format
+msgid ""
+"%1$s在文章<a href=\"%2$s\" target=\"_blank\">%3$s</a>中发表了回复，快去看看"
+"吧：<br><p style=\"padding:10px 0;background-color:#eee;margin-top:10px;\"> "
+"%4$s </p>"
+msgstr ""
+
+#: functions/mail.php:103
+#, php-format
+msgid "%1$s上的文章有了新的回复"
+msgstr ""
+
+#: functions/mail.php:104
+msgid "站点管理"
+msgstr "Site manage"
+
+#: functions/mail.php:105
+#, php-format
+msgid ""
+"%1$s回复了文章<a href=\"%2$s\" target=\"_blank\">%3$s</a>，快去看看吧：<br> "
+"%4$s"
+msgstr ""
+
+#: functions/mail.php:132
+msgid "有人回复时邮件通知我"
+msgstr ""
+
+#: functions/mail.php:144
+#, php-format
+msgid "获得文章投稿奖励%1$s积分"
+msgstr ""
+
+#: functions/mail.php:148
+#, php-format
+msgid "你在%1$s上有新的文章发表"
+msgstr ""
+
+#: functions/mail.php:149
+#, php-format
+msgid "<h3>%1$s，你好！</h3><p>你的文章%2$s已经发表，快去看看吧！</p>"
+msgstr ""
+
+#: functions/meta-box.php:26
+msgid "演示,普通与收费下载"
+msgstr ""
+
+#: functions/meta-box.php:60
+msgid "普通下载资源下载方式"
+msgstr ""
+
+#: functions/meta-box.php:63
+msgid "直接下载"
+msgstr "Download"
+
+#: functions/meta-box.php:64
+msgid "邮件下载"
+msgstr "Mail download"
+
+#: functions/meta-box.php:67
+msgid ""
+"普通下载资源，格式为 资源1名称|资源1url|下载密码,资源2名称|资源2url|下载密码 "
+"资源名称与url用|隔开，不同资源用英文逗号隔开，url请添加http://头，如提供百度"
+"网盘加密下载可以填写密码，也可以留空。如果开启邮件下载，将不显示直接下载按"
+"钮，而显示邮件输入框，用户提供邮箱，系统发送下载链接至该邮箱"
+msgstr ""
+
+#: functions/meta-box.php:69
+msgid ""
+"演示资源链接，格式为 演示1名称|演示1url,演示2名称|演示2url 演示名称与url用|隔"
+"开，不同演示用英文逗号隔开,url请添加http://头"
+msgstr ""
+
+#: functions/meta-box.php:71
+msgid ""
+"积分下载资源，格式为 资源1名称|资源1url|资源1价格|下载密码,资源2名称|资源"
+"2url|资源2价格|下载密码 资源名称与url以及价格、下载密码用|隔开，不同资源用英"
+"文逗号隔开"
+msgstr ""
+
+#: functions/open-social.php:81 includes/author-info.php:45
+#: includes/quicklogin.php:17
+msgid "微博"
+msgstr "Weibo"
+
+#: functions/open-social.php:97
+#, php-format
+msgid "使用%s账号登录"
+msgstr ""
+
+#: functions/open-social.php:201
+msgid "请完善账号信息"
+msgstr ""
+
+#: functions/open-social.php:201
+#, php-format
+msgid ""
+"欢迎来到%1$s，请<a href=\"%2$s\">完善资料</a>，其中电子邮件尤为重要，许多信息"
+"都将通过电子邮件通知您！"
+msgstr ""
+
+#: functions/open-social.php:234
+#, php-format
+msgid ""
+"你正在试图解除%1$s绑定，确定这样做吗？<a href=\"%2$s\">点击继续</a> <p>不知道"
+"这是哪里？<a href=\"%3$s\">点击返回</a></p>"
+msgstr ""
+
+#: functions/open-social.php:235
+msgid "解除账号绑定"
+msgstr ""
+
+#: functions/recent-user.php:35
+msgid "没有记录"
+msgstr "No record"
+
+#: functions/shortcode.php:53
+msgid " 此处内容需要 <span class=\"login-pop-click\">登录</span> 才可见"
+msgstr ""
+
+#: functions/shortcode.php:62
+msgid ""
+"此处内容需要登录并 <span class=\"login-pop-click\">发表评论</span> 才可见"
+msgstr ""
+
+#: functions/shortcode.php:69
+msgid "此处内容需要登录并 <a href=\"#comments\">发表评论</a> 才可见"
+msgstr ""
+
+#: functions/user-page.php:119
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Logged in as <a href=\"%1$s\">%2$s</a>."
+
+#: functions/user-page.php:120
+msgid "Log out of this account"
+msgstr "Log out of this account"
+
+#: functions/user-page.php:121
+msgid "Log out &raquo;"
+msgstr "Log out &raquo;"
+
+#: functions/user-page.php:126
+msgid "【重要】请添加正确的邮箱以保证账户安全"
+msgstr ""
+
+#: functions/user-page.php:131
+msgid "个人主页"
+msgstr "Home"
+
+#: functions/user-page.php:137
+msgid "管理后台"
+msgstr "Dashboard"
+
+#: functions/user-page.php:186
+msgid "未读"
+msgstr "Unread"
+
+#: functions/user-page.php:203
+msgid "本页推广链接"
+msgstr "Affiliate link"
+
+#: functions/widgets/tin-aboutsite.php:37
+#: functions/widgets/tin-bookmark.php:63 functions/widgets/tin-joinus.php:39
+#: functions/widgets/tin-mailcontact.php:61
+#: functions/widgets/tin-posts-h.php:125 functions/widgets/tin-posts.php:133
+#: functions/widgets/tin-readerwall.php:71 functions/widgets/tin-site.php:50
+#: functions/widgets/tin-subscribe.php:39
+#: functions/widgets/tin-tagcloud.php:38
+msgid "标题："
+msgstr "Title:"
+
+#: functions/widgets/tin-bookmark.php:64
+#: functions/widgets/tin-readerwall.php:72
+#: functions/widgets/tin-tagcloud.php:39
+msgid "数量："
+msgstr "Num:"
+
+#: functions/widgets/tin-bookmark.php:66 functions/widgets/tin-posts-h.php:144
+#: functions/widgets/tin-posts.php:152
+msgid "排序："
+msgstr "Order:"
+
+#: functions/widgets/tin-bookmark.php:69
+msgid "名称"
+msgstr "Name"
+
+#: functions/widgets/tin-bookmark.php:70
+msgid "评分"
+msgstr "Rates"
+
+#: functions/widgets/tin-bookmark.php:71
+msgid "随机"
+msgstr "Rand"
+
+#: functions/widgets/tin-enhanced-text.php:36
+msgid "Text, HTML, CSS, PHP, Flash, JavaScript, Shortcodes"
+msgstr "Text, HTML, CSS, PHP, Flash, JavaScript, Shortcodes"
+
+#: functions/widgets/tin-enhanced-text.php:38
+msgid "Tin-加强文本框"
+msgstr "Tin-enhanced textarea"
+
+#: functions/widgets/tin-enhanced-text.php:145
+msgid "标题"
+msgstr "Title"
+
+#: functions/widgets/tin-enhanced-text.php:150
+msgid "URL"
+msgstr "URL"
+
+#: functions/widgets/tin-enhanced-text.php:155
+msgid "CSS类"
+msgstr "CSS class"
+
+#: functions/widgets/tin-enhanced-text.php:160
+msgid "内容"
+msgstr "content"
+
+#: functions/widgets/tin-enhanced-text.php:165
+msgid "不显示标题"
+msgstr "Without title"
+
+#: functions/widgets/tin-enhanced-text.php:170
+msgid "新窗口打开链接"
+msgstr "Open in new window"
+
+#: functions/widgets/tin-enhanced-text.php:174
+msgid "内容自动添加P标签"
+msgstr "Auto <p></p> label for content"
+
+#: functions/widgets/tin-enhanced-text.php:178
+msgid "不输出before/after_widget/标题"
+msgstr "Do not output 'before/after_widget/' title"
+
+#: functions/widgets/tin-mailcontact.php:29
+msgid "你的称呼"
+msgstr "Your name"
+
+#: functions/widgets/tin-mailcontact.php:33 includes/download.php:51
+#: page-download.php:72
+msgid "你的邮件地址"
+msgstr "Your email address"
+
+#: functions/widgets/tin-mailcontact.php:43
+msgid "消息内容..."
+msgstr "Message content..."
+
+#: functions/widgets/tin-mailcontact.php:46
+msgid "发   送"
+msgstr "Send"
+
+#: functions/widgets/tin-posts-h.php:129 functions/widgets/tin-posts.php:137
+msgid "文章列表"
+msgstr "Posts list"
+
+#: functions/widgets/tin-posts-h.php:133 functions/widgets/tin-posts.php:141
+#: functions/widgets/tin-tabs.php:282 functions/widgets/tin-tabs.php:302
+msgid "显示缩略图"
+msgstr "Display thumbnail"
+
+#: functions/widgets/tin-posts-h.php:136 functions/widgets/tin-posts.php:144
+#: functions/widgets/tin-tabs.php:335
+msgid "显示的条目数量"
+msgstr "Item num to list"
+
+#: functions/widgets/tin-posts-h.php:140 functions/widgets/tin-posts.php:148
+msgid "分类："
+msgstr "Category:"
+
+#: functions/widgets/tin-posts-h.php:146 functions/widgets/tin-posts.php:154
+msgid "日期最新"
+msgstr "Latest"
+
+#: functions/widgets/tin-posts-h.php:147 functions/widgets/tin-posts.php:155
+msgid "最多评论"
+msgstr "Most reviewed"
+
+#: functions/widgets/tin-posts-h.php:148 functions/widgets/tin-posts.php:156
+msgid "随机排序"
+msgstr "Rand"
+
+#: functions/widgets/tin-posts-h.php:152 functions/widgets/tin-posts.php:160
+msgid "文章来自："
+msgstr "Posts from:"
+
+#: functions/widgets/tin-posts-h.php:154 functions/widgets/tin-posts.php:162
+msgid "所有时间"
+msgstr "Anytime"
+
+#: functions/widgets/tin-posts-h.php:155 functions/widgets/tin-posts.php:163
+#: functions/widgets/tin-tabs.php:316
+msgid "今年"
+msgstr "This year"
+
+#: functions/widgets/tin-posts-h.php:156 functions/widgets/tin-posts.php:164
+#: functions/widgets/tin-tabs.php:317
+msgid "本月"
+msgstr "This month"
+
+#: functions/widgets/tin-posts-h.php:157 functions/widgets/tin-posts.php:165
+#: functions/widgets/tin-tabs.php:318
+msgid "本周"
+msgstr "This week"
+
+#: functions/widgets/tin-posts-h.php:158 functions/widgets/tin-posts.php:166
+#: functions/widgets/tin-tabs.php:319
+msgid "过去24小时"
+msgstr "Last 24 hours"
+
+#: functions/widgets/tin-posts.php:171
+msgid "文章信息"
+msgstr "post info"
+
+#: functions/widgets/tin-posts.php:175 functions/widgets/tin-tabs.php:360
+msgid "显示分类"
+msgstr "Display category"
+
+#: functions/widgets/tin-posts.php:179 functions/widgets/tin-tabs.php:364
+msgid "显示日期"
+msgstr "Display date"
+
+#: functions/widgets/tin-site.php:27
+msgid "日志总数："
+msgstr "Posts Number:"
+
+#: functions/widgets/tin-site.php:27
+msgid " 篇"
+msgstr " "
+
+#: functions/widgets/tin-site.php:28
+msgid " 评论总数："
+msgstr " Comments:"
+
+#: functions/widgets/tin-site.php:28
+msgid " 条"
+msgstr " "
+
+#: functions/widgets/tin-site.php:29
+msgid "标签数量："
+msgstr "Tages:"
+
+#: functions/widgets/tin-site.php:29 functions/widgets/tin-site.php:30
+msgid " 个"
+msgstr " "
+
+#: functions/widgets/tin-site.php:30
+msgid "链接总数："
+msgstr "Links:"
+
+#: functions/widgets/tin-site.php:31
+msgid "建站日期："
+msgstr "Establish date:"
+
+#: functions/widgets/tin-site.php:32
+msgid "运行天数："
+msgstr "Maintain: "
+
+#: functions/widgets/tin-site.php:32
+msgid " 天"
+msgstr " days"
+
+#: functions/widgets/tin-site.php:33
+msgid "最后更新："
+msgstr "Lasted update:"
+
+#: functions/widgets/tin-subscribe.php:26 page-download.php:86
+msgid "订阅"
+msgstr "Subscribe"
+
+#: functions/widgets/tin-tabs.php:27 functions/widgets/tin-tabs.php:274
+#: functions/widgets/tin-tabs.php:344
+msgid "近期文章"
+msgstr "Latest posts"
+
+#: functions/widgets/tin-tabs.php:28 functions/widgets/tin-tabs.php:294
+#: functions/widgets/tin-tabs.php:348
+msgid "热门文章"
+msgstr "Hot posts"
+
+#: functions/widgets/tin-tabs.php:29 functions/widgets/tin-tabs.php:324
+#: functions/widgets/tin-tabs.php:352
+msgid "最新评论"
+msgstr "Latest comments"
+
+#: functions/widgets/tin-tabs.php:270
+msgid "标题:"
+msgstr "Title:"
+
+#: functions/widgets/tin-tabs.php:278
+msgid "启用近期文章"
+msgstr "Latest posts"
+
+#: functions/widgets/tin-tabs.php:285 functions/widgets/tin-tabs.php:305
+msgid "要显示的条目"
+msgstr "Items to display"
+
+#: functions/widgets/tin-tabs.php:289 functions/widgets/tin-tabs.php:309
+msgid "分类:"
+msgstr "Categories:"
+
+#: functions/widgets/tin-tabs.php:298
+msgid "开启热门文章"
+msgstr "Hot posts"
+
+#: functions/widgets/tin-tabs.php:313
+msgid "最热评论文章来自："
+msgstr "Most reviewed posts from:"
+
+#: functions/widgets/tin-tabs.php:315
+msgid "任何时间"
+msgstr "Anytime"
+
+#: functions/widgets/tin-tabs.php:328
+msgid "开启最新评论"
+msgstr "Latest comments"
+
+#: functions/widgets/tin-tabs.php:332
+msgid "显示头像"
+msgstr "Display gravatar"
+
+#: functions/widgets/tin-tabs.php:341
+msgid "Tab顺序"
+msgstr "Tab order"
+
+#: functions/widgets/tin-tabs.php:356
+msgid "Tab信息"
+msgstr "Tab info"
+
+#: includes/author-info.php:39
+msgid "作者主页"
+msgstr "My Homepage"
+
+#: includes/author-info.php:42
+msgid "赞助作者"
+msgstr "Donate me"
+
+#: includes/author-info.php:58
+msgid "微信扫描二维码加我为好友并交谈"
+msgstr "Add me in wechat"
+
+#: includes/author-info.php:63
+msgid "QQ交谈"
+msgstr "QQ chat"
+
+#: includes/author-info.php:65
+msgid "给我写信"
+msgstr "Mail to me"
+
+#: includes/bdshare.php:18
+msgid "分享到微博"
+msgstr "Share to Sina weibo"
+
+#: includes/bdshare.php:21
+msgid "分享到朋友圈"
+msgstr "Share with wechat"
+
+#: includes/bdshare.php:24
+msgid "打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈。"
+msgstr "Using wechat to scan the qrcode below and share with your friends"
+
+#: includes/bdshare.php:27
+msgid "更多"
+msgstr "More"
+
+#: includes/bdshare.php:27
+msgid "分享"
+msgstr "Share"
+
+#: includes/breadcrumbs.php:27
+msgid "博客"
+msgstr "Blog"
+
+#: includes/breadcrumbs.php:31 includes/breadcrumbs.php:32
+msgid " 网站搜索"
+msgstr "Search"
+
+#: includes/breadcrumbs.php:35
+msgid " 个搜索结果..."
+msgstr " search results"
+
+#: includes/breadcrumbs.php:38
+msgid "404错误"
+msgstr "Error 404"
+
+#: includes/breadcrumbs.php:39
+msgid "糟糕，页面未找到"
+msgstr "Error, page not found"
+
+#: includes/breadcrumbs.php:42
+msgid " 个人资料"
+msgstr " Profile"
+
+#: includes/breadcrumbs.php:45
+msgid " 分类文章"
+msgstr " Category"
+
+#: includes/breadcrumbs.php:46 includes/breadcrumbs.php:61
+#: includes/breadcrumbs.php:73 includes/breadcrumbs.php:76
+msgid "主页"
+msgstr "Home"
+
+#: includes/breadcrumbs.php:48
+msgid " 标签"
+msgstr " Tags"
+
+#: includes/breadcrumbs.php:51
+msgid " 日归档"
+msgstr " Daily Archives"
+
+#: includes/breadcrumbs.php:52 includes/content-archive.php:23
+msgid "Y年m月j日"
+msgstr "Y-m-j"
+
+#: includes/breadcrumbs.php:52 includes/breadcrumbs.php:55
+#: includes/breadcrumbs.php:58
+msgid " 的文章归档"
+msgstr " Archives"
+
+#: includes/breadcrumbs.php:54
+msgid " 月归档"
+msgstr " Month Archives"
+
+#: includes/breadcrumbs.php:55
+msgid "Y年m月"
+msgstr "Y-m"
+
+#: includes/breadcrumbs.php:57
+msgid " 年归档"
+msgstr " Year Archives"
+
+#: includes/breadcrumbs.php:58 includes/seo.php:21 includes/seo.php:85
+msgid "Y年"
+msgstr "Y"
+
+#: includes/breadcrumbs.php:60 includes/breadcrumbs.php:61
+msgid "附件"
+msgstr "Attachment"
+
+#: includes/content-archive.php:35
+#, php-format
+msgid ""
+"正在等待审核，你可以 <a href=\"%1$s\">预览</a> 或 <a href=\"%2$s\">重新编辑</"
+"a> 。"
+msgstr ""
+
+#: includes/content-archive.php:36
+#, php-format
+msgid ""
+"这是一篇草稿，你可以 <a href=\"%1$s\">预览</a> 或 <a href=\"%2$s\">继续编辑</"
+"a> 。"
+msgstr ""
+
+#: includes/download.php:45
+msgid "演示"
+msgstr "Demo"
+
+#: includes/download.php:52 page-download.php:73
+msgid "下 载"
+msgstr "Download"
+
+#: includes/download.php:58
+msgid "文件下载"
+msgstr "File download"
+
+#: includes/download.php:58
+msgid "下载"
+msgstr "Download"
+
+#: includes/download.php:65
+msgid " 我同意"
+msgstr " I agree"
+
+#: includes/download.php:65 page-download.php:77
+msgid "本站条款"
+msgstr " the site terms"
+
+#: includes/download.php:65 page-download.php:77
+msgid "并愿意接收包含最新文章的订阅邮件。"
+msgstr "and willing to subscribe latest posts of this site."
+
+#: includes/estroslider.php:33
+msgid "焦点"
+msgstr "FOCUS"
+
+#: includes/estroslider.php:55
+msgid "请在后台设置中添加要显示幻灯的文章ID"
+msgstr ""
+
+#: includes/floatbutton.php:32 page-newsletter.php:110
+msgid "扫一扫二维码分享"
+msgstr "Scan qrcode to share"
+
+#: includes/floatbutton.php:38 page-newsletter.php:115
+msgid "繁"
+msgstr "TW"
+
+#: includes/head-login-mobile.php:21 includes/loginbox.php:43
+msgid "请输入用户名"
+msgstr "Username"
+
+#: includes/head-login-mobile.php:24 includes/loginbox.php:47
+msgid "密码"
+msgstr "Password"
+
+#: includes/head-login-mobile.php:35 includes/loginbox.php:50
+msgid "登录"
+msgstr "Login In"
+
+#: includes/head-login-mobile.php:40 includes/loginbox.php:53
+msgid "忘记密码 ?"
+msgstr "Forget password?"
+
+#: includes/head-login-mobile.php:40
+msgid "  现在注册"
+msgstr "  Register now"
+
+#: includes/head-login-mobile.php:54 includes/head-login.php:24
+msgid "新消息"
+msgstr "New message"
+
+#: includes/head-login.php:17
+msgid " 登录"
+msgstr " Login In"
+
+#: includes/head-login.php:23
+msgid "用户管理"
+msgstr "User Manage"
+
+#: includes/head-login.php:27
+msgid "我的文章"
+msgstr "My Posts"
+
+#: includes/head-login.php:28
+msgid "发布文章"
+msgstr "Post New"
+
+#: includes/head-login.php:29
+msgid "我的收藏"
+msgstr "Collects"
+
+#: includes/head-login.php:30
+msgid "站内消息"
+msgstr "Message"
+
+#: includes/head-login.php:31
+msgid "我的积分"
+msgstr "My Credits"
+
+#: includes/head-login.php:31
+msgid "积分查询"
+msgstr "Credits"
+
+#: includes/head-login.php:32
+msgid "编辑资料"
+msgstr "Edit Profile"
+
+#: includes/head-login.php:33
+msgid "注销登录"
+msgstr "Login Out"
+
+#: includes/like_collect.php:18 includes/like_collect_meta.php:17
+msgid "点击喜欢"
+msgstr "click to like"
+
+#: includes/like_collect.php:20
+msgid "人喜欢"
+msgstr " likes"
+
+#: includes/like_collect.php:33 includes/like_collect_meta.php:24
+msgid "点击收藏"
+msgstr "click to collect"
+
+#: includes/like_collect.php:35 includes/like_collect.php:46
+msgid "人收藏"
+msgstr " collects"
+
+#: includes/like_collect.php:38 includes/like_collect.php:40
+#: includes/like_collect_meta.php:28
+msgid "你已收藏"
+msgstr "Collected"
+
+#: includes/like_collect.php:44
+msgid "你必须注册并登录才能收藏"
+msgstr "Login in to collect"
+
+#: includes/like_collect_meta.php:26
+msgid "取消收藏"
+msgstr "Cancel collect"
+
+#: includes/like_collect_meta.php:28
+msgid "已收藏"
+msgstr "Collected already"
+
+#: includes/like_collect_meta.php:31
+msgid "必须登录才能收藏"
+msgstr "Login in to collect"
+
+#: includes/loginbox.php:21
+msgid "直接使用社交账号登录"
+msgstr "Using social login"
+
+#: includes/loginbox.php:26
+msgid "Q Q 登 录"
+msgstr "Q Q"
+
+#: includes/loginbox.php:32
+msgid "微 博 登 录"
+msgstr "Sina Weibo"
+
+#: includes/loginbox.php:56
+msgid "还不是会员 ?"
+msgstr "Without membership?"
+
+#: includes/loginbox.php:56
+msgid "现在注册"
+msgstr "Register now"
+
+#: includes/loginbox.php:65
+msgid "后台"
+msgstr "Dashboard"
+
+#: includes/loginbox.php:66
+msgid "发布"
+msgstr "post"
+
+#: includes/quicklogin.php:17
+msgid "使用 "
+msgstr "use"
+
+#: includes/quicklogin.php:17
+msgid " 或 "
+msgstr " or "
+
+#: includes/quicklogin.php:17
+msgid "快速登录"
+msgstr "quick login"
+
+#: includes/rating.php:36
+msgid "文章评分"
+msgstr "post score"
+
+#: includes/rating.php:37
+msgid " 次，平均分"
+msgstr " times, average "
+
+#: includes/rating.php:39
+msgid "1星"
+msgstr "1 star"
+
+#: includes/rating.php:40
+msgid "2星"
+msgstr "2 star"
+
+#: includes/rating.php:41
+msgid "3星"
+msgstr "3 star"
+
+#: includes/rating.php:42
+msgid "4星"
+msgstr "4 star"
+
+#: includes/rating.php:43
+msgid "5星"
+msgstr "5 star"
+
+#: includes/related.php:73 includes/related.php:111
+msgid "推荐文章"
+msgstr "recommend posts"
+
+#: includes/seo.php:16 includes/seo.php:20 includes/seo.php:24
+#, php-format
+msgid " - 第 %s 页 "
+msgstr " - %s page"
+
+#: includes/seo.php:17
+msgid "搜索结果"
+msgstr "search results"
+
+#: includes/seo.php:19
+msgid "资源下载"
+msgstr "files download"
+
+#: includes/seo.php:21 includes/seo.php:22 includes/seo.php:23
+msgid "日志归档"
+msgstr "Archives"
+
+#: includes/seo.php:22 includes/seo.php:88
+msgid "Y年n月"
+msgstr "Y-n"
+
+#: includes/seo.php:23 includes/seo.php:91
+msgid "Y年n月j日"
+msgstr "Y-n-j"
+
+#: includes/seo.php:25
+msgid "的个人资料"
+msgstr "profile"
+
+#: includes/seo.php:82
+#, php-format
+msgid "%1$s上关于%2$s的所有日志聚合"
+msgstr "posts published of %1$s about %2$s"
+
+#: includes/seo.php:85 includes/seo.php:91
+#, php-format
+msgid "%1$s上%2$s发布的所有日志聚合"
+msgstr "posts published of %1$s on %2$s"
+
+#: includes/seo.php:88
+#, php-format
+msgid "%1$s上%2$s份发布的所有日志聚合"
+msgstr "posts published of %1$s on %2$s"
+
+#: page-archives.php:40
+msgid "下目前共有文章："
+msgstr "have"
+
+#: page-archives.php:40
+msgid "篇"
+msgstr "posts"
+
+#: page-download.php:46
+#, php-format
+msgid "去%1$s看看关于『 %2$s 』的详细介绍文章>>"
+msgstr "Visit %1$s for more details of 『 %2$s 』>>"
+
+#: page-download.php:49 page-download.php:105
+msgid ""
+"本站所刊载内容均为网络上收集整理，包括但不限于代码、应用程序、影音资源、电子"
+"书籍资料等，并且以研究交流为目的，所有仅供大家参考、学习，不存在任何商业目的"
+"与商业用途。若您使用开源的软件代码，请遵守相应的开源许可规范和精神，若您需要"
+"使用非免费的软件或服务，您应当购买正版授权并合法使用。如果你下载此文件，表示"
+"您同意只将此文件用于参考、学习使用而非任何其他用途。"
+msgstr ""
+
+#: page-download.php:61
+msgid "文件列表  "
+msgstr "File list"
+
+#: page-download.php:62
+msgid "|  热度： "
+msgstr "|  HOT: "
+
+#: page-download.php:63
+msgid "  生产日期： "
+msgstr "  Date:"
+
+#: page-download.php:69
+msgid "如果您暂时不需或无法下载，您也可以邮件发送下载链接(收费资源除外)："
+msgstr ""
+
+#: page-download.php:77
+msgid "我同意"
+msgstr "I agree"
+
+#: page-download.php:85
+msgid "联系站长"
+msgstr "Contact me"
+
+#: page-download.php:86
+msgid "最新文章"
+msgstr "Latest posts"
+
+#: page-download.php:86
+msgid "订阅本站"
+msgstr "Subscribe"
+
+#: page-download.php:87
+msgid "快速、稳定阿里云主机推荐"
+msgstr "Aliyun Host"
+
+#: page-download.php:87
+msgid "使用阿里云主机"
+msgstr "Aliyun Host"
+
+#: page-download.php:88
+msgid "七牛云存储加速网站"
+msgstr "Qiniu Cloud Storage"
+
+#: page-download.php:88
+msgid "用七牛加速网站"
+msgstr "Qiniu Cloud Storage"
+
+#: page-download.php:101
+msgid "未找到相关下载资源，您访问的链接可能有误！"
+msgstr "No resources found, your link may be wrong."
+
+#: page-download.php:102
+#, php-format
+msgid "去%1$s看看最新文章或者尝试搜索功能"
+msgstr "Visit %1$s latest posts or try searching"
+
+#: page-download.php:120
+msgid "如果您发现本文件已经失效不能下载，请联系站长修正！"
+msgstr "If you cannnot download the files, please contant me."
+
+#: page-download.php:121
+msgid ""
+"本站提供的资源多数为百度网盘下载，对于大文件，你需要安装百度云客户端才能下"
+"载！"
+msgstr ""
+
+#: page-download.php:122
+msgid ""
+"部分文件引用的官方或者非网盘类他站下载链接，你可能需要使用迅雷、BT等下载工具"
+"下载！"
+msgstr ""
+
+#: page-download.php:123
+msgid ""
+"本站推荐的资源均经由站长检测或者个人发布，不包含恶意软件病毒代码等，如果你发"
+"现此类问题，请向站长举报！"
+msgstr ""
+
+#: page-download.php:124
+msgid ""
+"本站仅提供文件的免费下载服务，如果你对代码程序软件的使用有任何疑惑，请留意相"
+"关网站论坛。对于本站个人发布的资源，站长会提供有限的帮助！"
+msgstr ""
+
+#: page-download.php:172
+msgid "资源购买"
+msgstr "Buy"
+
+#: page-download.php:174
+msgid "确定要购买该资源吗？"
+msgstr "Confirm to buy?"
+
+#: page-download.php:175
+msgid "这将花费你"
+msgstr "This will cost you"
+
+#: page-download.php:175
+msgid "积分，你当前的积分为: "
+msgstr "credits,you current credits is:"
+
+#: page-download.php:178
+msgid "取消"
+msgstr "Cancel"
+
+#: page-gallery.php:29
+msgid "文章缩略图相册"
+msgstr "Post thumbnails gallery"
+
+#: page-gallery.php:30
+msgid "Gallery,相册,缩略图,"
+msgstr "Gallery,Thumbnail"
+
+#: page-gallery.php:96
+msgid "最前"
+msgstr "PREV"
+
+#: page-gallery.php:104
+msgid "最后"
+msgstr "NEXT"
+
+#: page-gallery.php:137
+msgid "返回 "
+msgstr "Back"
+
+#: page-gallery.php:138
+msgid "文章归档"
+msgstr "Archives"
+
+#: page-links.php:49
+msgid "友情链接"
+msgstr "Links"
+
+#: page-newsletter.php:28
+msgid "专刊速递(No."
+msgstr "Special (No."
+
+#: page-newsletter.php:32 page-newsletter.php:58
+msgid "邮件周刊(No."
+msgstr "Issue (No."
+
+#: page-newsletter.php:36
+msgid "退订"
+msgstr "Unsubscribe"
+
+#: page-newsletter.php:39 page-newsletter.php:54
+msgid "邮件订阅"
+msgstr "Subscribe"
+
+#: page-newsletter.php:51
+msgid "退订成功!"
+msgstr "unsubscribe success"
+
+#: page-newsletter.php:52
+msgid "退订失败，你可能已经退订，或请重新再试!"
+msgstr "Unsubscribe failed, maybe you have unsubscribed, or retry"
+
+#: page-postspecial.php:45
+msgid "操作成功！已推送新专刊邮件。"
+msgstr "Done, you have post a new special."
+
+#: page-postspecial.php:45
+msgid "点击查看"
+msgstr "Go"
+
+#: page-postspecial.php:48
+msgid "新专刊"
+msgstr "NEW SPECIAL"
+
+#: page-postspecial.php:48
+msgid "NEW SPECIAL"
+msgstr "NEW SPECIAL"
+
+#: page-postspecial.php:58
+msgid "发表专刊"
+msgstr "Post Special"
+
+#: page-postspecial.php:62
+msgid "你尚未登录或没有权限发表专刊！"
+msgstr "You have not logged in or don't have the permission to post it"
+
+#: search.php:46
+msgid "暂无相关搜索结果"
+msgstr "There is no result to display!"
+
+#: searchform.php:18
+msgid "Search.."
+msgstr "Search.."
+
+#: single.php:80
+msgid "上一篇"
+msgstr "PREV"
+
+#: single.php:84
+msgid "下一篇"
+msgstr "NEXT"
+
+#~ msgid "Tinection主题已更新至<a color=\"red\">"
+#~ msgstr "Tinection has updated to <a color=\"red\">"
+
+#~ msgid ""
+#~ "[ <strong>is_home</strong> ] 如果该页面有一个独特的边栏，将覆盖默认边栏."
+#~ msgstr ""
+#~ "[ <strong>is_home</strong> ] A specified sidebar area will be instead of "
+#~ "default sidebar area."
+
+#~ msgid "访问主题专页 "
+#~ msgstr "Visit Tinection Homepage"
+
+#~ msgid "获取主题最新版本 "
+#~ msgstr "Get latest Tinection theme"

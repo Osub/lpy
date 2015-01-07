@@ -1,0 +1,112 @@
+GET:array (
+  'webstar' => '',
+  'signature' => 'd4a5e84804b0d59849cf8a68278bd516f61d0e0d',
+  'timestamp' => '1419223272',
+  'nonce' => '1252984437',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419223272</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://192.168.2.250/GJWP/]]></Content>
+<MsgId>6095517539168351092</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'ff63e5fe8560f9ba75eb7b708c51cb7c165f477e',
+  'timestamp' => '1419223274',
+  'nonce' => '1440223398',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419223274</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://192.168.2.250/GJWP/]]></Content>
+<MsgId>6095517547758285687</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '6c3ce6d63a5622640796064c0699503df4a1be1e',
+  'timestamp' => '1419259664',
+  'nonce' => '1891432867',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419259664</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=14408&extra=]]></Content>
+<MsgId>6095673841618204905</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '2d67997b5ec3c73ad9b2f4c217f209af8515c83d',
+  'timestamp' => '1419259998',
+  'nonce' => '1518447756',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419259998</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-12244-1-1.html]]></Content>
+<MsgId>6095675276137281901</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => '9e5da6afdb8ca1c82ccfa6cda6fccecaef3a6cdf',
+  'timestamp' => '1419260281',
+  'nonce' => '1424976861',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419260281</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=12238&extra=]]></Content>
+<MsgId>6095676491613026745</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '4f3b5cfbf377c1c446f737a1bd4458aa48566a9f',
+  'timestamp' => '1419260440',
+  'nonce' => '738949870',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419260440</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://linux.cn/article-4503-1.html]]></Content>
+<MsgId>6095677174512826860</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => '9e75e967381240c5878d6a4d9b35846183dc5705',
+  'timestamp' => '1419291290',
+  'nonce' => '987048010',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419291290</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.kuqin.com/shuoit/20140920/342237.html?url_type=39&object_type=webpage&pos=1]]></Content>
+<MsgId>6095809674253917096</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '9231daf1c38ceed211925763e14603241b289f33',
+  'timestamp' => '1419291415',
+  'nonce' => '2043946210',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419291414</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.html5cn.org/article-5459-1.html]]></Content>
+<MsgId>6095810206829861812</MsgId>
+</xml>'

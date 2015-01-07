@@ -1,0 +1,26 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '4bd88ec7390a78557264ab782c488d9330367837',
+  'timestamp' => '1419601429',
+  'nonce' => '163208315',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419601429</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://app.bittyos.com/]]></Content>
+<MsgId>6097141711116257925</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '4bd88ec7390a78557264ab782c488d9330367837',
+  'timestamp' => '1419601429',
+  'nonce' => '163208315',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419601429</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://app.bittyos.com/]]></Content>
+<MsgId>6097141711116257925</MsgId>
+</xml>'

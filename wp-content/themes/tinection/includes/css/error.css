@@ -1,0 +1,14 @@
+/**
+ * 404 Page Stylesheet of Tinection WordPress Theme
+ *
+ * @package   Tinection
+ * @version   1.1.1
+ * @date      2014.12.23
+ * @author    Zhiyan <chinash2010@gmail.com>
+ * @site      Zhiyanblog <www.zhiyanblog.com>
+ * @copyright Copyright (c) 2014, Zhiyan
+ * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
+ * @link      http://www.zhiyanblog.com/tinection.html
+**/
+
+html,body,div,ul,li,form{margin:0;padding:0;border:0;font-size:100%;font:inherit;}.main{margin:0 auto;width:440px;height:350px;position:relative;margin-top:70px;font-size:14px;}.holmes-bear-wrap{position:absolute;background:url('../../images/404.png') no-repeat 0 0 transparent;width:137px;height:234px;left:0;top:0;}.error-wrap{position:absolute;right:0;top:45px;}.error-text-title-wrap{font-weight:bold;font-size:14px;}.clearfix{display:block;}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.error-number{font-weight:normal;font-size:60px;color:#00aeef;font-style:normal;float:left;display:inline;font-family:Arial;}.error-text-title{float:left;margin-top:22px;width:122px;display:inline;line-height:16px;}.error-text-content{color:#333;padding:10px 0;width:280px;line-height:14px;}.handle-way-list{color:#666;margin-top:20px;margin-left:5px;list-style:none;}.handle-way-list li{line-height:2;}.handle-way-list a{color:#06C;text-decoration:none;}.error-search{position:absolute;bottom:0;width:100%;text-align:center;}.error-search input{width:250px;height:35px;padding:0 10px;line-height:35px;border:1px solid #ddd;box-sizing:border-box;}.error-search input:focus{outline:none;border-color:#ddd;border-color:rgba(82,168,236,.8);-webkit-box-shadow:0 0 8px rgba(82,168,236,.6);box-shadow:0 0 8px rgba(82,168,236,.6);}.error-search button{height:35px;width:60px;background:#00aeef;color:#fff;border:0;cursor:pointer;}.footer{margin:0 auto;font-size:14px;font-family:'Microsoft Yahei';arial;text-align:center;color:Gray;margin:50px 0;}.footer a{font-size:14px;}

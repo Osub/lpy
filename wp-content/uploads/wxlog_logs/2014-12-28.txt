@@ -1,0 +1,73 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '8863208f0cc8add24092cddbd9061602819e18fc',
+  'timestamp' => '1419731158',
+  'nonce' => '501682753',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419731158</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.html5cn.org/article-5805-1.html]]></Content>
+<MsgId>6097698892928658908</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '3e23a1464a592e474df34134892ca6af5b065bfa',
+  'timestamp' => '1419731348',
+  'nonce' => '1585806953',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419731348</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://blog.cabbit.me/web-image-optimization/]]></Content>
+<MsgId>6097699708972445193</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '48403ca2f3769230229fc903cada02d9098f7e2c',
+  'timestamp' => '1419738436',
+  'nonce' => '540763148',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419738436</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.daqianduan.com]]></Content>
+<MsgId>6097730151700642300</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+)
+HTTP_RAW_POST_DATA:NULL
+GET:array (
+  'webstar' => '',
+  'signature' => 'abf710c74d3bfc095603e5923c9cbbaaf381a5ba',
+  'timestamp' => '1419764090',
+  'nonce' => '829858940',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419764090</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=3428&extra=]]></Content>
+<MsgId>6097840334791677753</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'd1657ad97c67f71b9660d1c85097247b5adfae83',
+  'timestamp' => '1419764559',
+  'nonce' => '864000916',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419764559</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-84006-1-1.html]]></Content>
+<MsgId>6097842349131342082</MsgId>
+</xml>'

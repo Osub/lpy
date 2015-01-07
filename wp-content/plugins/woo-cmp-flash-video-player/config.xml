@@ -1,0 +1,34 @@
+﻿<!--
+CMP4 configuration file
+
+http://bbs.cenfun.com/thread-10891-1-1.html
+
+-->
+<cmp 
+	name = "Woo CMP" 
+	link = "http://woocmp.softrial.info" 
+	description = ""
+	logo = ""
+	
+	skins = "skins/vimeo.zip,skins/black.zip,skins/blueplayer.zip,skins/default.zip,skins/juicyblack.zip,skins/jwplayer.zip,kins/qqplayer.zip,skins/tencent.zip,skins/tudou.zip,skins/tvlive.zip,skins/vplayer.zip,skins/wmp11.zip,skins/youtube.zip,skins/exobud.zip,skins/jma.zip,skins/mini.zip,skins/moko.zip,skins/ocean.zip,skins/scplayer.zip,skins/xdj.zip"
+	plugins = ""
+	backgrounds = ""
+	lists = ""
+	
+	src_handler = "" 
+	lrc_handler = ""
+
+	skin_id = ""
+
+	play_id = ""
+	auto_play = ""
+	list_delete = ""
+	
+	sound_sample = ""
+	mixer_displace = ""
+	mixer_filter = ""
+	share_cmp = ""
+	share_url = ""
+	context_menu = "0"
+	counter = "http://img.users.51.la/15909645.asp"
+/>

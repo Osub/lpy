@@ -1,0 +1,13 @@
+GET:array (
+  'webstar' => '',
+  'signature' => 'd79b4e176fd0122692cd18a89ad37dbeb8abb646',
+  'timestamp' => '1420607655',
+  'nonce' => '1876377517',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1420607655</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://segmentfault.com/blog/jslite/1190000002465212?utm_source=weibo&utm_medium=shareLink&utm_campaign=socialShare]]></Content>
+<MsgId>6101463418879179905</MsgId>
+</xml>'

@@ -1,0 +1,65 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '976273d46b22392e7badd39b20e0337c9b3bde27',
+  'timestamp' => '1419408030',
+  'nonce' => '1922548292',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419408025</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[192.168.2.250/GJWP]]></Content>
+<MsgId>6096311047261259004</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '976273d46b22392e7badd39b20e0337c9b3bde27',
+  'timestamp' => '1419408030',
+  'nonce' => '1922548292',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419408025</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[192.168.2.250/GJWP]]></Content>
+<MsgId>6096311047261259004</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'd48eaea4473c8ecc33a04fd4dc53bc6377ab5c25',
+  'timestamp' => '1419465205',
+  'nonce' => '1359219988',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419465204</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-3308-1-9.html]]></Content>
+<MsgId>6096556629196293752</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'd48eaea4473c8ecc33a04fd4dc53bc6377ab5c25',
+  'timestamp' => '1419465205',
+  'nonce' => '1359219988',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419465204</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-3308-1-9.html]]></Content>
+<MsgId>6096556629196293752</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => 'd48eaea4473c8ecc33a04fd4dc53bc6377ab5c25',
+  'timestamp' => '1419465205',
+  'nonce' => '1359219988',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419465204</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-3308-1-9.html]]></Content>
+<MsgId>6096556629196293752</MsgId>
+</xml>'

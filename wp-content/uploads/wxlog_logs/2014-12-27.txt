@@ -1,0 +1,26 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '4d2df1ecc3cd9985c1d16737d4ac6c5bf5f26ad3',
+  'timestamp' => '1419689957',
+  'nonce' => '110027566',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419689957</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=203195428&idx=3&sn=7fdfa0c4125a144f474cb15a44d057c1#rd]]></Content>
+<MsgId>6097521935981090524</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '4d2df1ecc3cd9985c1d16737d4ac6c5bf5f26ad3',
+  'timestamp' => '1419689957',
+  'nonce' => '110027566',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419689957</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=203195428&idx=3&sn=7fdfa0c4125a144f474cb15a44d057c1#rd]]></Content>
+<MsgId>6097521935981090524</MsgId>
+</xml>'

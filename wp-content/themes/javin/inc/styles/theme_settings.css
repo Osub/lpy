@@ -1,0 +1,22 @@
+a,input,button,select,textarea{outline:none}
+.javin_box{display:none;}
+.nav-tab {cursor:pointer;}
+.javin_nav_title{color:#666;line-height:35px;}
+.javin_nav_footer {border-bottom:1px solid #ccc; height:36px; margin-top:8px;}
+.button-primary{float:right;}
+.javin_text {height:35px; padding:2px 8px;}
+.javin_textarea {padding:4px 8px;}
+.javin_checkbox input {margin:0 5px 0 2px;}
+.javin_ads_view{max-height:60px; height:60px; overflow-x:hidden;}
+#javin_about { width:100%; margin-bottom:20px;}
+#javin_box_1 .javin_ads_view {display:none;}
+/* port */
+.javin_port_btn a{margin-left:12px;cursor:pointer; font-size:12px;}
+.javin_popup_mask{width:100%;height:100%;background:#000;opacity:.3;position:fixed;top:0;left:0;z-index:99998}
+.javin_popup{position:fixed;top:50%;left:50%;margin:-200px 0 0 -300px;width:600px;height:auto;background:#fff;padding:8px;display:none;z-index:99999;box-shadow:0 0 10px #666}
+.javin_popup h3{border-bottom:#D1E5EE 1px solid;box-shadow:inset 1px 1px 1px #298CBA;background:#23769D;height:32px;font:bold 14px/32px microsoft yahei;margin:0;color:#fff;position:relative;padding-left:12px;text-shadow:0 0 2px #195571}
+.javin_popup h4{margin:10px 0;font-weight:normal;font-size:12px}
+.javin_popup textarea{width:99%;min-height:330px;border:#D1E5EE 1px solid;border-left-color:#BED1DD;border-top-color:#BED1DD;background:#fff;padding:8px 10px;border-radius:2px;line-height:18px;color:#444}
+.javin_popup textarea:focus{border:#EDC97F 2px solid;background:#fff;padding:7px 9px}
+.javin_btn_this{text-align:center;}
+.javin_the_desc{background:#EFF8FF;border:#BED1DD 1px solid;border-bottom-color:#D1E5EE;border-top-left-radius:3px;border-bottom-left-radius:3px;padding:5px 8px;color:#21759B;margin-right:-3px;position:relative;z-index:10;vertical-align:middle;top:-2px;}

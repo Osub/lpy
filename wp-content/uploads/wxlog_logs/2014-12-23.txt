@@ -1,0 +1,26 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '29f72fd0b7555bf992d7fe7054237957b2f78557',
+  'timestamp' => '1419339532',
+  'nonce' => '1657854695',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419339532</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-1499-1-20.html]]></Content>
+<MsgId>6096016872066233130</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '29f72fd0b7555bf992d7fe7054237957b2f78557',
+  'timestamp' => '1419339532',
+  'nonce' => '1657854695',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419339532</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-1499-1-20.html]]></Content>
+<MsgId>6096016872066233130</MsgId>
+</xml>'

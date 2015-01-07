@@ -1,0 +1,39 @@
+GET:array (
+  'webstar' => '',
+  'signature' => '9156c59e02a76e9d8c6dfb9f2cffb4bb715ea296',
+  'timestamp' => '1419171657',
+  'nonce' => '1110684377',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419171657</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-8716-1-1.html]]></Content>
+<MsgId>6095295854431352889</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '59d5af58e80c7a4d1dae28c15bee5fece7a27519',
+  'timestamp' => '1419171766',
+  'nonce' => '1860613162',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419171766</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/forum.php?mod=viewthread&tid=8717&extra=]]></Content>
+<MsgId>6095296322582788238</MsgId>
+</xml>'
+GET:array (
+  'webstar' => '',
+  'signature' => '33c98e878e993290c8cfb7012f5292e24b46d495',
+  'timestamp' => '1419172028',
+  'nonce' => '616097163',
+)
+HTTP_RAW_POST_DATA:'<xml><ToUserName><![CDATA[gh_3b0241a84019]]></ToUserName>
+<FromUserName><![CDATA[ocPr_tsptKptesAtK-nJoh4SX984]]></FromUserName>
+<CreateTime>1419172028</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://bbs.html5cn.org/thread-6621-1-1.html]]></Content>
+<MsgId>6095297447864219921</MsgId>
+</xml>'
