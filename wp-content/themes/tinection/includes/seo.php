@@ -7,7 +7,7 @@
  * @date      2014.12.11
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -15,7 +15,7 @@
 ?>
 <?php if ( is_home() ) { ?><title><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?><?php $paged = get_query_var('paged'); if ( $paged > 1 ) printf(__(' - 第 %s 页 ','tinection'),$paged); ?></title><?php } ?>
 <?php if ( is_search() ) { ?><title><?php _e('搜索结果','tinection'); ?> - <?php bloginfo('name'); ?></title><?php } ?>
-<?php if ( is_single() ) { ?><title><?php echo trim(wp_title('',0)); ?> - <?php bloginfo('name'); ?></title><?php } ?>
+<?php if ( is_single() ) { ?><title><?php echo trim(wp_title('',0)); ?><?php $page = get_query_var('page'); if ( $page > 1 ) printf(__('_第 %s 页 ','tinection'),$page); ?> - <?php bloginfo('name'); ?></title><?php } ?>
 <?php if ( is_page() ) { ?><title><?php if(isset($_GET['pid'])):echo '《'.get_the_title($_GET['pid']).'》- '.__('资源下载','tinection'); else:echo trim(wp_title('',0)); endif; ?> - <?php bloginfo('name'); ?></title><?php } ?>
 <?php if ( is_category() ) { ?><title><?php single_cat_title(); ?> - <?php bloginfo('name'); ?><?php $paged = get_query_var('paged'); if ( $paged > 1 ) printf(__(' - 第 %s 页 ','tinection'),$paged); ?></title><?php } ?>
 <?php if ( is_year() ) { ?><title><?php the_time(__('Y年','tinection')); ?><?php _e('日志归档','tinection'); ?> - <?php bloginfo('name'); ?></title><?php } ?>

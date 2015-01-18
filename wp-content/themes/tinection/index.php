@@ -7,14 +7,14 @@
  * @date      2014.12.08
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
 
 ?>
 <?php get_header(); ?>
-<?php get_template_part( 'includes/breadcrumbs');?>
+<?php //get_template_part( 'includes/breadcrumbs');?>
 <?php $thelayout = the_layout(); ?>
 <!-- Main Wrap -->
 <div id="main-wrap">

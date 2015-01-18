@@ -3,11 +3,11 @@
  * Main Template of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.0.9
- * @date      2014.12.09
+ * @version   1.1.3
+ * @date      2015.1.4
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -15,6 +15,7 @@
 ?>
 <div class="container two-col-container cms-with-sidebar">
 <div id="main-wrap-left">
+<?php get_template_part('includes/stickys'); ?>
 <?php 
 	$args=array(  
 		'orderby' => 'id',  
@@ -34,7 +35,7 @@
 	foreach ($categories as $cat) {
 		$catid = $cat->cat_ID;
 		$catname = $cat->cat_name;
-		query_posts(array('cat'=>$catid,'post_in'=>get_option('sticky_posts'),'posts_per_page'=>-1));
+		query_posts(array('cat'=>$catid,'post__not_in'=>get_option('sticky_posts'),'posts_per_page'=>-1));
 		$catlink = get_category_link($catid);
 		$i++;
 		$tp = tin_get_cms_cat_template($catid,1);
@@ -68,8 +69,6 @@
 	<section class="catlist clr">
 <?php } ?>
 	<section class="catlist-<?php echo $catid;?> catlist_1_of_2">
-	<?php $r =fmod($m,2);if($r==1) $cls = 'catlist_1_of_2_left'; else $cls = 'catlist_1_of_2_right'; ?>
-	<div class="<?php echo $cls; ?>">
 		<div class="catlist-container clr">
 			<h2 class="home-heading clr">
 				<span class="heading-text">
@@ -79,7 +78,6 @@
 			</h2>
 		<?php get_template_part('includes/catlist_bar_0',esc_attr( $catid ));?>	
 		</div>
-	</div>
 	</section>
 <?php }?>
 <?php }?>
@@ -92,6 +90,7 @@
 </div>
 <!-- /.pagination -->
 </div>
+<?php wp_reset_query(); ?>
 <?php get_sidebar();?>
 </div>
 <div class="clear">

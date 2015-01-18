@@ -7,7 +7,7 @@
  * @date      2014.11.27
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -158,6 +158,8 @@ function tin_newsletter_weekly_event(){
 		}
 		$str = implode('|',$arr);
 		$issue_meta = get_tin_meta('issue');
+		$issue_meta_arr = explode(',', $issue_meta);
+		if(in_array($str, $issue_meta_arr)) return;
 		if(!empty($issue_meta)){
 			$issue_meta .= ','.$str;
 		}else{

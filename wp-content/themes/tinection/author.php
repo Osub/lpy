@@ -3,11 +3,11 @@
  * Main Template of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.2
- * @date      2014.12.28
+ * @version   1.1.3
+ * @date      2015.1.8
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com> & Dmeng <http://www.dmeng.net/>
- * @copyright Copyright (c) 2014, Zhiyan & Dmeng
+ * @copyright Copyright (c) 2014-2015, Zhiyan & Dmeng
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -128,7 +128,7 @@ if( $oneself ){
     			if( !is_dir($targetPath) ){
         			mkdir($targetPath,0755,true);
     			}
-    			$new_file_name = 'avatar-'.randomname(10).'.'.$ext;
+    			$new_file_name = 'avatar-'.$user_id.'.'.$ext;
     			$targetFile = $targetPath . $new_file_name;
     			if(!in_array($ext, $filetype)){
     				$message = __('仅允许上传JPG、GIF、BMP、PNG图片','tinection');
@@ -284,7 +284,7 @@ get_header();
 		<div class="pagecontent">
 		<!-- Content -->
 		<div class="content">
-			<div class="user-basic-info">
+			<div class="user-basic-info clr">
 				<a class="user-avatar" href="<?php echo esc_url( get_author_posts_url( $curauth->ID ) ) ;?>">
 					<?php echo tin_get_avatar( $curauth->ID , '80' , tin_get_avatar_type($curauth->ID) ); ?>
 				</a>
@@ -626,11 +626,11 @@ if( $get_tab=='profile' ) {
 		);
 		
 		$author_profile = array(
-			__('头像来源','tinection') => $avatar_type[tin_get_avatar_type($user_info->ID)],
-			__('用户名','tinection') => $user_info->user_login,
-			__('昵称','tinection') => $user_info->display_name,
-			__('站点','tinection') => $user_info->user_url,
-			__('个人说明','tinection') => $user_info->description
+			__('头像来源:','tinection') => $avatar_type[tin_get_avatar_type($user_info->ID)],
+			__('用户名:','tinection') => $user_info->user_login,
+			__('昵称:','tinection') => $user_info->display_name,
+			__('站点:','tinection') => $user_info->user_url,
+			__('个人说明:','tinection') => $user_info->description
 		);
 		
 		$profile_output = '';

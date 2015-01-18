@@ -12,7 +12,7 @@ Template Name: Download Page
  * @date      2014.12.11
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -145,7 +145,21 @@ Template Name: Download Page
 		<!-- /.Content -->
 		</div>
 		<!-- Sidebar -->
-			<?php get_sidebar(); ?>
+		<script type="text/javascript">
+			$('.site_loading').animate({'width':'55%'},50);  //第二个节点
+		</script>
+		<?php if(ot_get_option('mobile_hide_sidebar')=='on'&&tin_is_mobile()) { ?>
+		<div id="sidebar" class="clr"></div>
+		<?php } else { ?>
+		<div id="sidebar" class="clr">
+		<?php dynamic_sidebar(ot_get_option('s1-download','primary')); ?>
+			<div class="floatwidget-container">
+			</div>
+		</div>
+		<?php } ?>
+		<script type="text/javascript">
+			$('.site_loading').animate({'width':'78%'},50);  //第三个节点
+		</script>		
 		<!-- /.Sidebar -->
 	</div>
 </div>

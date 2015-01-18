@@ -1,0 +1,350 @@
+========================================
+2015.1.3 v1.1.2
+========================================
+1.后台添加选项-是否开启Timthumb裁剪缩略图
+2.添加自定义头像上传功能
+3.添加自定义配色
+4.添加移除分类链接中category字符选项
+5.后台编辑器添加文章版权meta-box，方便自定义每篇文章的版权
+6.后台编辑器添加页面关键词与描述meta-box，优化页面SEO
+7.修改了评论浏览器图标以及IP显示方式(Tooltip)
+8.添加了一个全宽音乐模板，基于网易云音乐插件
+9.替换了随机缩略图图片
+10.替换修改幻灯
+11.必要的样式修改
+
+修改文件列表
+- @content.php
+- @function.php
+- @author.php
+- @header.php
+- @footer.php
+- @style.css
+- @admin/theme-options.php
+- @includes/thumbnail.php
+- @includes/slider.php
+- @includes/related.php
+- @includes/css/slider.css
+- @includes/js/themem.css
+- @functions/meta-box.php
+- @functions/widgets/tin-tabs.php
+- @functions/widgets/tin-posts.php
+- @functions/widgets/tin-posts-h.php
+
+添加文件列表
+- @includes/css/customcss.php
+- @functions/no_category_base.php
+- @page-music.php
+
+========================================
+2014.12.24 v1.1.1
+========================================
+1.文章标题设置新窗口中打开
+2.后台编辑器文本模式添加短代码快捷按钮
+3.添加移动终端检测，方便显示移动广告
+4.添加了标签云集页面模板
+5.评论等多处头像支持QQ和微博头像
+6.设置空搜索不返回任何结果
+7.搜索页面关键词高亮
+8.幻灯改用eislider
+9.文章内容标签文字自动添加标签链接，并附加鼠标提示效果
+10.小工具样式的修改
+11.404页面模板修改
+12.评论框样式修改
+13.添加移动设备侧边栏不显示选项
+14.添加文章页是否显示缩略图选项
+15.添加过滤纯英文和日文评论选项
+16.首页文章输出优先手动摘要,文章页将会输出手动摘要作为文章前导语
+17.摘要过滤短代码标签
+18.后台编辑器添加预览样式，与前台一致
+19.修正Widgets中评论内容过滤隐私评论
+20.上版本遗留的模板错位等问题修复以及必要的样式修改
+
+修改文件列表
+- @author.php
+- @header.php
+- @index.php
+- @category.php
+- @functions.php
+- @footer.php
+- @sidebar.php
+- @page-archives.php
+- @page-links.php
+- @page-tags.php
+- @style.css
+- @admin/theme-options.php
+- @includes/breadcrumbs.php
+- @includes/index-cms.php
+- @includes/slider.php
+- @includes/smiley.php
+- @includes/css/responsive.css
+- @includes/css/slider.css
+- @includes/js/theme.js
+- @functions/comment.php
+- @functions/widgets/tin-tabs.php
+- @functions/widgets/tin-posts.php
+
+添加文件列表
+- @page-sort.php
+- @includes/slider.php
+- @includes/js/jquery.eislideshow.js
+- @includes/js/my_quicktags.js
+- @includes/css/error.css
+- @includes/css/sgallery.css
+- @inlcudes/css/editor-style.css
+- @functions/mobile_detect.php
+
+
+删除文件列表
+- @includes/estroslider.php
+- @includes/js/jquery.pixelentity.kenburnsSlider.min.js
+
+
+========================================
+2014.12.17 v1.1.0
+========================================
+1.布局的重要调整，CMS、Blocks、Blog三种布局同等切换，CMS、Blog布局包含边栏，块状布局不包含边栏
+2.添加了两个新的CMS布局分类列表模板，其中一个作为分类超过6个时的强制使用模板，以优化页面响应
+3.后台设置的调整：
+  主题添加英文语言包(不完全，请自行优化/languages内语言包文件)，并在后台添加切换设置
+  添加了下载演示及邮件周刊页面的链接设置选项，免去修改代码
+  主题设置数据现可以导入导出以便还原和备份
+4.多个页面模板的重要调整，现添加页面链接整合菜单，新添加了sort page模板，需要显示页面整合菜单的页面需要采用该模板，友情链接、文章归档页面自带菜单整合，要设置菜单中链接，请至后台-外观-菜单中设置 页面整合菜单项的条目
+5.前台用户中心页面、友情链接页面的样式优化
+6.评论样式的调整优化
+7.后台字体的优化，现为英文consolas字体，中文微软雅黑字体
+8.幻灯右侧置顶推荐文章列表将根据自动补齐文章类型设置来选择显示热度或评论数
+9.JS下拉菜单效果循环执行错误修正
+
+修改文件列表
+- 涉及文件较多，不再列出
+
+========================================
+2014.12.09 v1.0.9
+========================================
+1.CMS布局添加可选边栏设置选项
+2.CMS布局分类模板丰富，目前提供5中模板可选，并可在后台为任意分类自定义模板(暂时只对带边栏布局有效)
+3.CMS布局的分类排序可以自定义
+4.添加分类及文章ID对照表，方便设置主题相关选项
+5.修复上一版本改动过程遗留样式问题
+6.下载页面的SEO优化
+7.Tabs小工具点击切换改为鼠标悬停切换
+8.修复块状时间排序布局的功能样式错误
+9.一些必要的样式修改及优化
+
+修改文件列表
+- @header.php
+- @index.php
+- @category.php
+- @functions.php
+- @style.css
+- @admin/theme-options.php
+- @includes/seo.php
+- @includes/css/responsive.css
+- @includes/js/theme.js
+
+增加文件列表
+- @includes/index-blocks.php
+- @includes/index-cms.php
+- @includes/index-cmssidebar.php
+- @includes/catlist_bar_1.php
+- @includes/catlist_bar_2.php
+- @includes/catlist_bar_3.php
+- @includes/catlist_bar_4.php
+- @includes/catlist_bar_5.php
+
+========================================
+2014.12.07 v1.0.8
+========================================
+1.修复幻灯右侧推荐区标题过长重叠问题
+2.修复幻灯右侧推荐区候补文章数量在一定条件错误问题
+3.用户登录后若有未读消息将在登录区添加新消息提醒
+4.清除底部链接中备案以及统计未设置时的多余字符
+5.添加在移动设备浏览时隐藏右下角浮动小工具选项
+6.导航菜单随鼠标滚轮滚动而相应地显示与隐藏
+7.博客布局模板也可以排除指定分类文章
+8.一些必要的样式修改及优化
+
+修改文件列表
+- @header.php
+- @functions.php
+- @footer.php
+- @style.css
+- @admin/theme-options.php
+- @includes/head-login.php
+- @includes/index-blog.php
+- @includes/breadcrumbs.php
+- @includes/floatbutton.php
+- @includes/head-login-mobile.php
+- @includes/estroslider.php
+- @includes/css/responsive.css
+- @includes/js/theme.js
+
+
+========================================
+2014.12.05 v1.0.7
+========================================
+1.修改响应式菜单弹出方式为左侧滑（原为下拉）
+2.响应式顶部通栏添加搜索按钮，点击弹出搜索框
+3.一些必要的样式修改
+
+修改文件列表
+- @header.php
+- @footer.php
+- @function.php
+- @style.css
+- @admin/theme-options.php
+- @includes/sitenews.php
+- @includes/css/responsive.css
+- @includes/js/theme.js
+
+增加文件列表
+- @includes/head-login-mobile.php
+
+========================================
+2014.12.04 v1.0.6
+========================================
+1.响应式布局针对多种不同分辨率进行优化
+2.重新调整首页一些部件以优化响应式体验
+
+修改文件列表
+- @admin/theme-options.php
+- @includes/catlist.php
+- @includes/catlist-1.php
+- @includes/contentsmall.php
+- @includes/css/responsive.css
+- @category.php
+- @category-1.php
+- @header.php
+- @index.php
+- @style.css
+
+========================================
+2014.12.02 v1.0.5
+========================================
+1.采用jQuery重写了菜单的下拉效果
+2.缩略图添加悬停放大动画效果
+3.修复了用户非首次评论仍需填写未显示的验证码的问题
+4.修复页首右侧推荐文章候补文章与置顶文章重复问题
+5.一些必要的样式修改
+
+修改文件列表
+- @admin/theme-options.php
+- @includes/js/theme.js
+- @includes/css/responsive.css
+- @functions/comment.php
+- @functions/comments-ajax.php
+- @functions.php
+- @header.php
+- @style.css
+
+========================================
+2014.12.01 v1.0.4
+========================================
+1.修改后台文章编辑区下载资源meta-box输入框行数，优化显示
+2.增加若干选项，评论输出现在可以选择是否输出评论者VIP等级，浏览器信息以及IP真实地址
+3.评论IP数据来源增加在线API调用方法，默认为该方法，可以后台开启使用更详细的本地数据文件QQwry.dat，该文件已移除，请自行下载
+4.文章输出页标签位置移动到文章内容尾部
+5.文章内容图片未添加超链接标签a时也能被抓取并添加a标签以及pirobox类，从而实现暗箱效果
+6.修复pirobox添加类与sgallery重复问题
+7.现在默认不移除文章内容自动p标签，以免已发布的内容布局错误，需要开启的请至functions.php取消“去除正文P标签包裹”一项下的注释
+8.添加取消收藏功能，用户现在可以在用户资料页查看自己的收藏并选择取消收藏
+9.修改若干样式
+
+修改文件列表
+- @admin/theme-options.php
+- @functions/meta-box.php
+- @functions/comment.php
+- @includes/like_collect_meta.php
+- @includes/js/pirobox.js
+- @includes/css/responsive.css
+- @single.php
+- @functions.php
+- @header.php
+- @style.css
+
+删除文件列表
+- @includes/QQwry.dat
+
+========================================
+2014.11.30 v1.0.3
+========================================
+1.优化页首幻灯样式
+2.取消图片幻灯显示置顶文章，置顶文章默认显示在右侧文字推荐列表中
+3.修复了页首幻灯右侧推荐列表在一定设置条件下不能自动补充文章问题
+4.修复了查询消息数在多个类型条件下错误的问题
+5.修改了CMS布局各分类排序为乱序
+6.修复邮件订阅页面的流量统计无法更新问题
+7.邮件订阅边栏小工具添加空或不正确邮箱判断并提醒
+8.优化评论显示，普通评论与ping类型评论区分显示
+9.修复ping评论无邮箱时用户VIP等级错误显示问题
+10.优化了浮动小工具显示，浮动小工具底部将不会超出文章内容主体
+
+修改文件列表
+- @includes/estroslider.php
+- @includes/js/theme.js
+- @functions/message.php
+- @functions/comment.php
+- @functions/widgets/tin-subscribe.php
+- @comments.php
+- @index.php
+- @page-newsletter.php
+
+========================================
+2014.11.28 v1.0.2
+========================================
+1.修改了几处样式错误
+2.修改了响应式导航菜单，支持二级菜单折叠显示
+3.修复了评论ua显示功能文件的图像链接错误
+4.压缩了主题Screenshot图片大小
+5.优化新订阅用户邮件通知
+6.修复了作者页面未读消息统计错误问题
+7.修复了tin-posts widget显示错误问题
+8.修复了资源购买错误消息未及时清除问题
+9.增加下载积分奖励以及资源出售返回售价积分给发布者
+10.优化精简下载模板页面，广告代码移至后台设置选项中，集合下载相关函数至专用文件functions/download.php
+
+修改文件列表
+- @author.php
+- @header.php
+- @function.php
+- @style.css
+- @admin/theme-options.php
+- @includes/css/responsive.css
+- @includes/js/theme.js
+- @functions/ua.php
+- @functions/newsletter.php
+- @functions/widgets/tin-posts.php
+- @screenshot.png
+- @page-download.php
+
+增加文件列表
+- @functions/download.php
+
+========================================
+2014.11.26 v1.0.1
+========================================
+1.添加和修正了几处样式问题
+2.精简整理了主题文件
+3.AJAX评论js文件移到js专用文件夹，并修复评论丢失输入文件错误
+4.Gravatar头像采用多说服务器来源，解决被墙问题
+
+修改文件列表
+- @style.css
+- @index.php
+- @function.php
+- @single.php
+- @heaader.php
+- @footer.php
+- @admin/theme-options.php
+- @includes/css/slider.css
+- @includes/js/comments-ajax.js
+- @includes/download.php
+- @includes/js/theme.js
+- @functions/comments-ajax.php
+- @functions/newsletter.php
+
+========================================
+2014.11.25 v1.0.0
+========================================
+1.Tinection主题首次发布，详细介绍见http://www.zhiyanblog.com/tinection.html

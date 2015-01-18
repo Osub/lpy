@@ -3,11 +3,11 @@
  * Main Function of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.0
- * @date      2014.12.12
+ * @version   1.1.3
+ * @date      2015.1.5
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -30,7 +30,7 @@ function tin_dl_page_res_inner($pid,$uid){
 			$d3 = isset($dlinkarraysingle[2]) ? $dlinkarraysingle[2] : '';
 			$metakey = 'post_ndl_'.$n.'';
 			$dltimes = get_tin_meta($metakey,$pid) ? (int)get_tin_meta($metakey,$pid) : 0;
-			$content .= $n.'.'.$d1.': <a href="'.$d2.'" target="_blank" style="color:#1cbdc5;" class="downldlink" id="'.$metakey.'">'.$d2.'</a>&nbsp;( '.$dltimes.'次下载 )';
+			$content .= $n.'.'.$d1.': <a href="'.$d2.'" target="_blank" class="downldlink" id="'.$metakey.'">'.$d2.'</a>&nbsp;( '.$dltimes.'次下载 )';
 			if(!empty($d3)){$content .= '<p>'.__('下载密码:','tinection').$d3.'</p>';}
 			$content .= '</p>';
 			$n++;};
@@ -65,7 +65,7 @@ function tin_dl_page_res_inner($pid,$uid){
 		}
 	}else{
 		if(!empty($saledls)){
-			$content .= __('<h4>以下收费资源需要<span class="dl-page-login-pop">登录</span>才能下载</h4>','tinection');
+			$content .= __('<h4>以下收费资源需要<span class="dl-page-login-pop user-login">登录</span>才能下载</h4>','tinection');
 			$m=1;
 			foreach($saledlsarray as $saledlarray){
 				$saledlsingle = explode('|', $saledlarray);

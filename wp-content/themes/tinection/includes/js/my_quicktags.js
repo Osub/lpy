@@ -18,10 +18,10 @@ QTags.addButton( 'p', '段落', '\n<p>\n\n</p>', "" );//添加段落
 QTags.addButton( 'php', 'PHP', '\n<pre class="lang:php decode:true ">\n\n</pre>', "" );//添加php代码
 QTags.addButton( 'js', 'JS', '\n<pre class="lang:js decode:true ">\n\n</pre>', "" );//添加js代码
 QTags.addButton( 'css', 'CSS', '\n<pre class="lang:css decode:true ">\n\n</pre>', "" );//添加css代码
-QTags.addButton( 'toggle', '折叠板', '\n[toggle hide="no",title="",color=""]\n\n[/toggle]', "" );//添加Toggle内容块
+QTags.addButton( 'toggle', '折叠板', '\n[toggle hide="no" title="" color=""]\n\n[/toggle]', "" );//添加Toggle内容块
 QTags.addButton( 'button', '按钮', '\n[button class="default或primary或success或info或warning或danger" size="lg或sm或xs" href="" title=""]\n\n[/button]', "" );//添加按钮短代码
 QTags.addButton( 'callout', '信息条', '\n[callout class="info或warning或danger" title=""]\n\n[/callout]', "" );//添加提示信息短代码
-QTags.addButton( 'infobg', '背景块', '\n[infobg class="primary或notice或success或info或waring或danger" closebtn="" color="" bgcolor=""]\n\n[/infobg]', "" );//添加可关闭背景块短代码
+QTags.addButton( 'infobg', '背景块', '\n[infobg class="primary或notice或success或info或warning或danger" closebtn="" color="" bgcolor=""]\n\n[/infobg]', "" );//添加可关闭背景块短代码
 QTags.addButton( 'l2v', '登录可见', '\n[tinl2v]\n\n[/tinl2v]', "" );//添加登录可见短代码
 QTags.addButton( 'r2v', '回复可见', '\n[tinr2v]\n\n[/tinr2v]', "" );//添加回复可见短代码
 QTags.addButton( 'download', '下载', '\n[button class="download" size="lg或sm或xs" href="" title=""]此下载为直接跳转下载地址页，若要跳转站内专用下载页，请使用编辑器下方下载资源meta-box\n[/button]', "" );//添加下载按钮短代码

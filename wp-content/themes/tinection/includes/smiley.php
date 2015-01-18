@@ -7,7 +7,7 @@
  * @date      2014.12.24
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan&Unkonwn
+ * @copyright Copyright (c) 2014-2015, Zhiyan&Unkonwn
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/

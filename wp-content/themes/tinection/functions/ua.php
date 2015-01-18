@@ -7,7 +7,7 @@
  * @date      2014.11.27
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -104,7 +104,7 @@ function outputbrowser($Agent){
 				$br_img = '';
 				break;
 		}
-		$br_img_output = $br_img !== '' ? '<img class="ua_img" title="'.$ua_info.'" src="'.get_bloginfo('template_directory').'/images/ua/'.$br_img.'" />' : '';
+		$br_img_output = $br_img !== '' ? '<span class="comment_author_ua tooltip-trigger" title="'.$ua_info.'"><img class="ua_img" src="'.get_bloginfo('template_directory').'/images/ua/'.$br_img.'" /></span>' : '';
 		return $br_img_output;
 	}
 	return '';

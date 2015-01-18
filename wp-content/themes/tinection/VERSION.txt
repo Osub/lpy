@@ -1,4 +1,59 @@
 ========================================
+2015.1.9 v1.1.3
+========================================
+1.增加下载页边栏自定义选项
+2.增加文章置顶区
+3.优化前台登录，添加前台注册功能
+4.添加文章分页功能
+5.导航条添加关注按钮和弹窗
+6.重新调整导航栏配色，请务必至后台主题设置的配色选项卡还原各颜色默认值
+7.重新调整了Blog模板的样式
+8.添加了一个新的分类模板,category-num.php,欲使用该模板，请用对应分类ID替换num以获得可使用分类模板
+9.头像上传以用户ID区分，防止用户多次上传占用网站空间
+10.网站未开启注册时导航栏不显示注册按钮，同时登录弹窗无法切换注册
+11.折叠板短代码支持嵌套短代码
+12.低版本IE兼容优化
+13.必要的样式修正
+
+修改文件列表
+- @style.css
+- @author.php
+- @archive.php
+- @content.php
+- @category.php
+- @tag.php
+- @header.php
+- @function.php
+- @single.php
+- @footer.php
+- @admin/theme-options.php
+- @functions/shortcode.php
+- @includes/breadcrumbs.php
+- @includes/css/customcss.php
+- @includes/css/responsive.css
+- @includes/js/theme.js
+- @includes/seo.php
+- @includes/index-cms.php
+- @includes/index-blog.php
+- @includes/head-login.php
+- @includes/loginbox.php
+- @includes/page-download.php
+
+添加文件列表
+- @category-num.php
+- @includes/stickys.php
+- @includes/focus.php
+- @includes/css/iefix.css
+- @includes/css/kill-ie6.css
+- @includes/js/ajax-sign-script.min.js
+- @includes/js/css3-mediaqueries.js
+- @includes/js/kill-IE6.js
+- @includes/js/PIE.js
+
+删除文件列表
+- @includes/css/error.css
+
+========================================
 2015.1.3 v1.1.2
 ========================================
 1.后台添加选项-是否开启Timthumb裁剪缩略图
@@ -8,7 +63,7 @@
 5.后台编辑器添加文章版权meta-box，方便自定义每篇文章的版权
 6.后台编辑器添加页面关键词与描述meta-box，优化页面SEO
 7.修改了评论浏览器图标以及IP显示方式(Tooltip)
-8.添加了一个全宽音乐模板，基于网易云音乐插件
+8.添加了一个全宽音乐模板，基于网易云音乐插件(已打包在主题includes/plugins目录下，可以通过后台主题设置按钮下方插件安装按钮进行安装)
 9.替换了随机缩略图图片
 10.替换修改幻灯
 11.必要的样式修改

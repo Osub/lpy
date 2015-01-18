@@ -12,7 +12,7 @@ template name: Gallery
  * @date      2014.12.11
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -148,58 +148,9 @@ $(function(){
 	});
 });
 </script>
-<!-- Footer Nav Wrap -->
-<div id="footer-nav-wrap">
-	<div id="footer-nav" class="layout-wrap">
-		<div id="footer-nav-left">
-			<!-- Footer Nav -->
-			<?php wp_nav_menu(array('theme_location'=>'footbar','container_id'=>'footermenu','menu_class'=>'footermenu','menu_id' => 'footer-nav-links', 'depth'=> '1','fallback_cb'=> '')); ?>
-
-			<!-- /.Footer Nav -->
-
-			<!-- Copyright -->
-			<div id="footer-copyright">&copy;<?php echo date(' Y '); ?>
-				<?php if(ot_get_option('copyright')) echo ot_get_option('copyright'); ?>&nbsp;|&nbsp;Theme by&nbsp;
-				<a href="http://www.zhiyanblog.com/tinection.html"  target="_blank">Tinection</a>.&nbsp;|&nbsp;
-				<?php if(ot_get_option('statisticcode')) echo ot_get_option('statisticcode'); ?>&nbsp;|&nbsp;
-			<?php if(ot_get_option('beian')) echo '<a href="http://www.miitbeian.gov.cn/" target="_blank">'.ot_get_option('beian').'</a>'; ?>
-			
-			</div>
-			<!-- /.Copyright -->
-		</div>
-		<div id="footer-nav-right">
-			<?php get_template_part('includes/footer-user'); ?>
-		</div>
-	</div>
-	
-</div>
-<?php get_template_part('includes/loginbox'); ?>
-<?php get_template_part('includes/floatbutton'); ?>
-
-<!-- /.Footer Nav Wrap -->
-<!-- 引入主题js -->
 <script type="text/javascript">
 /* <![CDATA[ */
 var tin = {"ajax_url":"<?php echo admin_url( '/admin-ajax.php' ); ?>","tin_url":"<?php echo get_bloginfo('template_directory'); ?>","Tracker":<?php echo json_encode(tin_tracker_param()); ?>,"home":"<?php echo get_bloginfo('home'); ?>"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/theme.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/lazyload.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/zh-cn-tw.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/includes/js/pirobox.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/lazyload.js"></script>
-<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = "<?php echo get_settings('home'); ?>";</script>
-<!-- 百度分享 -->
-<script type="text/javascript" id="bdshare_js" data="type=tools&mini=2"></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-		//在这里定义bds_config
-		var bds_config = {'snsKey':{'tsina':'2884429244','tqq':'101166664'}};
-		document.getElementById('bdshell_js').src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
-</script>
-<!-- 引入用户自定义代码 -->
-<?php if(ot_get_option('footercode')) echo ot_get_option('footercode'); ?>
-<?php wp_footer(); ?>
-<!-- /.Footer -->
-</body>
-</html>
+<?php get_footer(); ?>

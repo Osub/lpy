@@ -3,11 +3,11 @@
  * Main Function of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.2
- * @date      2014.12.28
+ * @version   1.1.3
+ * @date      2015.1.5
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -330,7 +330,7 @@ add_filter('user_contactmethods', 'tin_add_contact_fields');
   ob_start();
   ob_end_clean();
   $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
-  $first_img = $matches [1] [0];
+  $first_img = $matches [1] [0] ? $matches [1] [0] : '';
   if(empty($first_img)){
 		$categories = get_the_category();
 		foreach ($categories as $cat){
@@ -597,7 +597,7 @@ function tin_mail_relatedpost($postid){
 			);
 	$my_query = new WP_Query($args);
 		if( $my_query->have_posts() ) {$related = '<h3 style="padding-left:10px;margin:10px 0 5px;font-size:16px;font-weight:bold;border-left:3px solid #1cbdc5;line-height:25px;height:25px;">'.__('相关文章','tinection').'</h3><ul>'; 
-		while ($my_query->have_posts()) : $my_query->the_post(); $related .= '<li style="list-style:circle;font-size:13px;"><a style="color:#1cbdc5;font-size:13px;font-family:微软雅黑;" href="'; $related .= get_permalink(); $related .= '" rel="bookmark" title="'; $related .= get_the_title($post->ID);$related .= '">'; $related .= get_the_title($post->ID); $related .= ' ( '; $related .= get_comments_number($post->ID); $related .= ' ) '; $related .= '</a></li>';endwhile; $related .= '</ul>';}}
+		while ($my_query->have_posts()) : $my_query->the_post(); $related .= '<li style="list-style:circle;font-size:13px;"><a style="color:#1cbdc5;font-size:13px;font-family:微软雅黑,Microsoft Yahei;" href="'; $related .= get_permalink(); $related .= '" rel="bookmark" title="'; $related .= get_the_title($post->ID);$related .= '">'; $related .= get_the_title($post->ID); $related .= ' ( '; $related .= get_comments_number($post->ID); $related .= ' ) '; $related .= '</a></li>';endwhile; $related .= '</ul>';}}
 	return $related;
 }
 
@@ -641,21 +641,18 @@ function tin_post_meta($special=0){
 	if(is_singular()){ ?>
 	<div id="single-meta">
 		<span class="single-meta-author"><i class="fa fa-user">&nbsp;</i><?php the_author_posts_link();?></span>
-		<span class="single-meta-edit"><?php edit_post_link(__(' 编辑 ','tinection')); ?></span>
 		<span class="single-meta-time"><i class="fa fa-calendar">&nbsp;</i><?php echo timeago( get_gmt_from_date(get_the_time('Y-m-d G:i:s')) ) ?></span>
-		<span class="single-meta-category"><i class="fa fa-folder">&nbsp;</i><?php the_category(' ',''); ?></span>
+		<?php if(is_single()){ ?><span class="single-meta-category"><i class="fa fa-folder-open">&nbsp;</i><?php the_category(' ',''); ?></span><?php } ?>
+		<?php  if ( current_user_can('level_7') ){ ?><span class="single-meta-edit"><i class="fa fa-edit">&nbsp;</i><?php edit_post_link(__(' 编辑 ','tinection')); ?></span><?php } ?>
 		<span class="single-meta-comments"><?php if ( comments_open() ): ?>|&nbsp;<i class="fa fa-comments"></i>&nbsp;<a href="#" class="commentbtn"><?php comments_number( __('抢沙发','tinection'), __('1 条评论','tinection'), __('% 条评论','tinection') ); ?></a><?php else:?>|&nbsp;<i class="fa fa-comments"></i><?php _e(' 评论关闭','tinection'); ?><?php endif; ?></span>
 		<span class="single-meta-views"><i class="fa fa-eye"></i>&nbsp;<?php echo get_tin_traffic( 'single' , get_the_ID() ); ?>&nbsp;</span>
 	</div>
 	<?php }elseif(is_search() || (is_home() && $thelayout == 'blog') || (is_category() && $special==0) || is_tag() || is_date() ){ ?>
-	<div class="home-blog-entry-meta">
-		<div class="postlist-meta">
-			<div class="postlist-meta-time" style="font-style:italic;color:#b5b5b5;">&nbsp;<?php echo timeago( get_gmt_from_date(get_the_time('Y-m-d G:i:s')) ) ?></div>
-			<div class="postlist-meta-tags"><?php the_tags('',', ',''); ?></div>
-			<div class="postlist-meta-views">/&nbsp;&nbsp;<?php echo get_tin_traffic( 'single' , get_the_ID() ); ?>&nbsp;℃&nbsp;/&nbsp;</div>
-			<div class="postlist-meta-comments"><?php if ( comments_open() ): ?><i class="fa fa-comments"></i>&nbsp;<a href="<?php comments_link(); ?>"><?php comments_number( __('0<span> 条评论</span>','tinection'), __('1<span> 条评论</span>','tinection'), __('%<span> 条评论</span>','tinection') ); ?></a><?php  endif; ?></div>
-			<?php get_template_part('includes/like_collect_meta'); ?>
-		</div>
+	<div class="meta">
+		<?php if(!is_category()){ ?><span class="postlist-meta-cat"><i class="fa fa-bookmark"></i><?php the_category(' ', false); ?></span><?php } ?>
+		<span class="postlist-meta-time"><i class="fa fa-calendar"></i><?php echo timeago( get_gmt_from_date(get_the_time('Y-m-d G:i:s')) ); ?></span>
+		<span class="postlist-meta-views"><i class="fa fa-eye"></i><?php echo '浏览: '.get_tin_traffic( 'single' , get_the_ID() ); ?></span>
+		<span class="postlist-meta-comments"><?php if ( comments_open() ): ?><i class="fa fa-comments"></i><a href="<?php comments_link(); ?>"><?php comments_number( __('<span>评论: </span>0','tinection'), __('<span>评论: </span>1','tinection'), __('<span>评论: </span>%','tinection') ); ?></a><?php  endif; ?></span>
 	</div>
 	<?php }elseif((is_home()) || (is_category() && $special==1)){ ?>
 	<div class="postlist-meta">
@@ -685,6 +682,7 @@ function time_ago( $type = 'commennt', $day = 7 ) {
 function timeago( $ptime ) {
     $ptime = strtotime($ptime);
     $etime = time() - $ptime;
+	//若出现8小时时差错误请改time()为strtotime(date('Y-m-d'))
     if($etime < 1) return '刚刚';
     $interval = array (
         12 * 30 * 24 * 60 * 60  =>  '年前 ('.date('Y-m-d', $ptime).')',
@@ -702,6 +700,20 @@ function timeago( $ptime ) {
             return $r . $str;
         }
     };
+}
+
+/* 输出页脚版权年份
+/* ----------------- */
+function tin_copyright_year(){
+	$u = ot_get_option('sitebuild_date'); 
+	$ny = date('Y');
+	$year=((int)substr($u,0,4));
+	if(empty($u)){
+		$sy=$ny;
+	}else{
+		$sy=$year;
+	}
+	return ' '.$sy.' - '.$ny.' ';
 }
 
 /* 文章目录
@@ -766,6 +778,8 @@ function tag_link($content){
 		$posttags = get_the_tags();
 		if ($posttags) {
 			usort($posttags, "tag_sort");
+			$ex_word = '';
+			$case = '';
 			foreach($posttags as $tag) {
 				$link = get_tag_link($tag->term_id);
 				$keyword = $tag->name;
@@ -784,7 +798,7 @@ function tag_link($content){
 		}
 	return $content;
 }
-add_filter('the_content','tag_link',1);
+add_filter('the_content','tag_link',12);
 
 /* 高亮显示搜索关键词
 /* ------------------- */
@@ -1153,7 +1167,7 @@ function tin_get_avatar( $id , $size='40' , $type=''){
 			$avatar_url = 'http://tp3.sinaimg.cn/'.$U['ID'].'/180/1.jpg';
 		}
 	}else if($type==='customize'){
-		$avatar_url = get_bloginfo('home').'/wp-content/uploads/avatars/'.get_user_meta($id,'tin_customize_avatar',true);
+		$avatar_url = get_bloginfo('url').'/wp-content/uploads/avatars/'.get_user_meta($id,'tin_customize_avatar',true);
 	}else{
 		preg_match("/src='(.*?)'/i", get_avatar( $id, $size ), $matches);
 		$avatar_url = $matches[1];
@@ -1174,60 +1188,6 @@ function tin_get_avatar_type($user_id){
 	return 'default';
 }
 
-/* 头像上传裁剪
-/* -------------- */
-function resize( $ori ){
-    if( preg_match('/^http:\/\/[a-zA-Z0-9]+/', $ori ) ){
-        return $ori;
-    }
-    $info = getImageInfo( AVATARS_PATH . $ori );
-    if( $info ){
-        //上传图片后切割的最大宽度和高度
-        $dst_width = 100;
-        $dst_height = 100;
-        $scrimg = AVATARS_PATH . $ori;
-        if( $info['type']=='jpg' || $info['type']=='jpeg' ){
-            $im = imagecreatefromjpeg( $scrimg );
-        }
-        if( $info['type']=='gif' ){
-            $im = imagecreatefromgif( $scrimg );
-        }
-        if( $info['type']=='png' ){
-            $im = imagecreatefrompng( $scrimg );
-        }
-        if( $info['type']=='bmp' ){
-            $im = imagecreatefromwbmp( $scrimg );
-        }
-        if( $info['width']<=$dst_width && $info['height']<=$height ){
-            return;
-        } else {
-            if( $info['width'] > $info['height'] ){
-                $height = intval($info['height']);
-                $width = $height;
-                $x = ($info['width']-$width)/2;
-                $y = 0;
-            } else {
-                $width = intval($info['width']);
-                $height = $width;
-                $x = 0;
-                $y = ($info['height']-$height)/2;
-            }
-
-        }
-        $newimg = imagecreatetruecolor( $width, $height );
-        imagecopy($newimg,$im,0,0,$x,$y,$info['width'],$info['height']);
-        $scale = $dst_width/$width;
-        $target = imagecreatetruecolor($dst_width, $dst_height);
-        $final_w = intval($width*$scale);
-        $final_h = intval($height*$scale);
-        imagecopyresampled( $target, $newimg, 0, 0, 0, 0, $final_w, $final_h, $width, $height );
-        imagejpeg( $target, AVATARS_PATH . $ori );
-        imagedestroy( $im );
-        imagedestroy( $newimg );
-        imagedestroy( $target );
-    }
-    return;
-}
 
 function getImageInfo( $img ){
     $imageInfo = getimagesize($img);
@@ -1297,7 +1257,95 @@ function tin_get_current_page_url(){
     return $protocol . '://' . $host . $port . $_SERVER['REQUEST_URI'];
 }
 
-//判断移动终端
+/* AJAX登录变量
+/* -------------- */
+function ajax_sign_object(){
+	$object = array();
+	$object[redirecturl] = tin_get_current_page_url();
+	$object[ajaxurl] = admin_url( '/admin-ajax.php' );
+	$object[loadingmessage] = '正在请求中，请稍等...';
+	$object_json = json_encode($object);
+	return $object_json;
+}
+
+/* AJAX登录验证
+/* ------------- */
+function tin_ajax_login(){
+	$result	= array();
+	if(isset($_POST['security']) && wp_verify_nonce( $_POST['security'], 'security_nonce' ) ){
+		$creds = array();
+		$creds['user_login'] = $_POST['username'];
+		$creds['user_password'] = $_POST['password'];
+		$creds['remember'] = ( isset( $_POST['remember'] ) ) ? $_POST['remember'] : false;
+		$login = wp_signon($creds, false);
+		if ( ! is_wp_error( $login ) ){
+			$result['loggedin']	= 1;
+		}else{
+			$result['message']	= ( $login->errors ) ? strip_tags( $login->get_error_message() ) : '<strong>ERROR</strong>: ' . esc_html__( '请输入正确用户名和密码以登录', 'tinection' );
+		}
+	}else{
+		$result['message'] = __('安全认证失败，请重试！','tinection');
+	}
+	header( 'content-type: application/json; charset=utf-8' );
+	echo json_encode( $result );
+	exit;
+	
+}
+add_action( 'wp_ajax_ajaxlogin', 'tin_ajax_login' );
+add_action( 'wp_ajax_nopriv_ajaxlogin', 'tin_ajax_login' );
+
+/* AJAX注册验证
+/* ------------- */
+function tin_ajax_register(){
+	$result	= array();
+	if(isset($_POST['security']) && wp_verify_nonce( $_POST['security'], 'user_security_nonce' ) ){
+		$user_login = sanitize_user($_POST['username']);
+		$user_pass = $_POST['password'];
+		$user_email	= apply_filters( 'user_registration_email', $_POST['email'] );
+		$errors	= new WP_Error();
+		if( ! validate_username( $user_login ) ){
+			$errors->add( 'invalid_username', __( '请输入一个有效用户名','tinection' ) );
+		}elseif(username_exists( $user_login )){
+			$errors->add( 'username_exists', __( '此用户名已被注册','tinection' ) );
+		}elseif(email_exists( $user_email )){
+			$errors->add( 'email_exists', __( '此邮箱已被注册','tinection' ) );
+		}
+		do_action( 'register_post', $user_login, $user_email, $errors );
+		$errors = apply_filters( 'registration_errors', $errors, $user_login, $user_email );
+		if ( $errors->get_error_code() ){
+			$result['success']	= 0;
+			$result['message'] 	= $errors->get_error_message();
+			
+		} else {
+			$user_id = wp_create_user( $user_login, $user_pass, $user_email );
+			if ( ! $user_id ) {
+				$errors->add( 'registerfail', sprintf( __( '无法注册，请联系管理员','tinection' ), get_option( 'admin_email' ) ) );
+				$result['success']	= 0;
+				$result['message'] 	= $errors->get_error_message();		
+			} else{
+				update_user_option( $user_id, 'default_password_nag', true, true ); //Set up the Password change nag.
+				wp_new_user_notification( $user_id, $user_pass );	
+				$result['success']	= 1;
+				$result['message']	= esc_html__( '注册成功','tinection' );
+				//自动登录
+				wp_set_current_user($user_id);
+  				wp_set_auth_cookie($user_id);
+  				$result['loggedin']	= 1;
+			}
+			
+		}	
+	}else{
+		$result['message'] = __('安全认证失败，请重试！','tinection');
+	}
+	header( 'content-type: application/json; charset=utf-8' );
+	echo json_encode( $result );
+	exit;	
+}
+add_action( 'wp_ajax_ajaxregister', 'tin_ajax_register' );
+add_action( 'wp_ajax_nopriv_ajaxregister', 'tin_ajax_register' );
+
+/* 判断移动终端
+/* -------------- */
 function tin_is_mobile() {
     $detect = new Mobile_Detect;
 	return $detect->isMobile();
@@ -1506,6 +1554,5 @@ function tin_get_cms_cat_template($cat_ID,$sidebar=1){
 	$tp_name = $tp_pre.$tp_id;
 	return $tp_name;
 }
-
 
 ?>

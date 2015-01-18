@@ -2,11 +2,11 @@
  * Main Javascript of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.0.5
- * @date      2014.12.02
+ * @version   1.1.3
+ * @date      2015.1.9
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -513,7 +513,7 @@ $(function(){
       scrollValue > 60 ? $('div[id=nav-scroll]').css('box-shadow:','0 5px 5px rgba(0,0,0,0.25)'):$('div[id=nav-scroll]').css('box-shadow:','none');
       scrollValue > 200 ? $('span[id=back-to-top]').fadeIn('slow'):$('span[id=back-to-top]').fadeOut('slow');
       //fixnav
-      (scrollValue > 400 && screen.width>640) ? $('#nav-scroll').addClass('tofix'):$('#nav-scroll').removeClass('tofix');
+      (scrollValue > 60 && screen.width>640) ? $('#nav-scroll').addClass('tofix'):$('#nav-scroll').removeClass('tofix');
 
     } );  
     $('#back-to-top').click(function(){
@@ -625,20 +625,6 @@ $('#qr').hover(function(){
   },100);
  
 });
-
-//登陆浮出窗口
-$('.login-pop-click,.comment-login-pop-click,.dl-page-login-pop').click(function(){
-  $('.login-pop-bg').css('display','block');
-  $('.login-pop').css('display','block').animate({
-    top : 50 ,
-    opacity : 1 
-  },1000);
-});
-
-$(".login-pop-bg").click(function(e){
-    $('.login-pop').css({'top':'180px','opacity':'0','display':'none'});
-    $('.login-pop-bg').css('display','none');
-})
 
 //首页布局切换
 $('#layoutswt').click(function(){
@@ -1130,23 +1116,16 @@ function tinGetQueryString(name){
      if(r!=null)return  unescape(r[2]); return null;
 }
 
-// Header mouseover
-	$('.header-wrap').bind('mouseover',function(){
-		if(screen.width>640) $(this).css('opacity',1);
-	}).bind('mouseleave',function(){
-		if(screen.width>640) $(this).css('opacity',0.8);
-	})
-
-	// Header search slide
+// Header search slide
 	$('.search-btn-click').bind('click',function(){
         if($(this).children('.header-search-slide').css('display')=='none'){
-            $(this).css({'background':'#00a67c','color':'#fff'});
+            $(this).css({'background':'#fafafa'});
             $(this).children('.header-search-slide').slideDown();
             $(this).children('.header-search-slide').children().children('input').focus();
         }
 	})
 	$('.header-search-slide').children().children('input').bind('blur',function(){
-		$('.search-btn-click').css({'background':'transparent','color':'#888'});
+		$('.search-btn-click').css({'background':'transparent'});
 		$('.header-search-slide').slideUp();
 	})
 	
@@ -1194,6 +1173,13 @@ $('#page-sort-menu-btn a').click(function(){
 		$(this).children('.user-tabs').slideUp();
 	})
 
+// Slide focus-us
+$('#focus-us').bind('mouseover',function(){
+	if(!$(this).children('#focus-slide').is(":animated"))$(this).children('#focus-slide').slideDown();
+}).bind('mouseleave',function(){
+	$(this).children('#focus-slide').slideUp();
+})
+
 //Toggle smiles
 $('.comt-smilie').bind('click',function(){
 	$('#comt-format').hide();
@@ -1218,7 +1204,7 @@ $('#upload-avatar').click(function(){
         $('form#info-form').submit();
     } 
 })
-	
+
 // Document ready
 // --------------------
 // -------------------- //
@@ -1329,7 +1315,7 @@ $(document).ready(function(){
     });
 	
 	// action tin affiliate url and trackback url
-	$('.tin_aff_url,.trackback-url').click(function(){
+	$('.tin_aff_url,.trackback-url,input[name=rss]').click(function(){
 		$(this).select();
 	});
 	$('.quick-copy-btn').click(function(){
@@ -1357,8 +1343,17 @@ $(document).ready(function(){
         $($(this).parent('a').attr('href')).fadeIn();
         e.preventDefault();
     })
-
-    // mobile nav append
+	
+	// stickys & latest tabs
+    $('.stickys span.heading-text-cms').click(function(e){
+        $('.stickys span.heading-text-cms').removeClass('active');
+        $(this).addClass('active');
+        $('.stickys-latest-list').hide();
+        $($(this).attr('id')).fadeIn();
+        e.preventDefault();
+    })
+	
+    // Mobile nav append
     $('#menu-mobile li.menu-item-has-children').prepend('<span class="child-menu-block"></span>');
     // Mobile menu click toggle
     $('.child-menu-block').live('click',function(){
@@ -1376,5 +1371,4 @@ $(document).ready(function(){
 		$(this).attr('target','_blank');
 	})
 	
-
 }); 

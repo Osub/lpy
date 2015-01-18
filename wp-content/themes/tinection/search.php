@@ -7,7 +7,7 @@
  * @date      2014.12.11
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -28,25 +28,25 @@
 <div id="main-wrap">
 	<div id="home-blog-wrap" class="container two-col-container">
 		<div id="main-wrap-left">
+		<div class="bloglist-container clr">
 		<?php if (have_posts()&&!empty($_GET['s'])) { ?>
 		<?php $i=0;while (have_posts()) : the_post(); $i++;?>
 			<article class="home-blog-entry col span_1 clr">
-				<span class="postlist-meta-cat"><?php the_category(' ', false); ?></span>
 				<?php  if(!get_post_format()) { $format = 'standard'; } else { $format = get_post_format(); }?>
 				<?php get_template_part('content',esc_attr( $format )); ?>
 				<div class="home-blog-entry-text clr">
 					<h3>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo search_word_replace(get_the_title()); ?></a>
 					</h3>
+					<!-- Post meta -->
+					<?php tin_post_meta(); ?>
+					<!-- /.Post meta -->
 					<p>
 						<?php if(ot_get_option('content_or_excerpt')=='content'){the_content();}else{$contents = get_the_content(); $excerpt = wp_trim_words($contents,ot_get_option('excerpt-length'),ot_get_option('readmore')); $excerpt = search_word_replace($excerpt); echo $excerpt;}
 						?>
 					</p>
 					</div>
 				<div class="clear"></div>
-				<!-- Post meta -->
-				<?php tin_post_meta(); ?>
-				<!-- /.Post meta -->
 			</article>
 			<?php if($i==2){ ?>
 			<?php if(!tin_is_mobile()){ ?>
@@ -65,6 +65,7 @@
 				<div style="height:500px; padding:20px;"><p><?php _e('暂无相关搜索结果','tinection'); ?></p></div>
 			</article>
 		<?php } ?>
+		</div>
 			<!-- pagination -->
 			<div class="clear"></div>
 			<div class="pagination">

@@ -7,13 +7,13 @@
  * @date      2014.12.09
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
 
 ?>
-<div class="container">
+<div class="container blocks-no-sidebar">
 	<section class="catlist clr">
 		<div class="catlist-container-rand clr">
 		<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; $uncat = ot_get_option('cmsundisplaycats');
@@ -24,19 +24,28 @@
 			<?php  if(!get_post_format()) { $format = 'standard'; } else { $format = get_post_format(); }?>
 			<?php get_template_part('includes/thumbnail',esc_attr( $format )); ?>
 			<div class="home-blog-entry-text contentcms-entry-text clr">
-			<?php $category = get_the_category(); $catname1 = $category[0]->cat_name; $catnum1 = $category[0]->cat_ID; $catr = fmod($catnum1,4)+1;?>
+			<?php $category = get_the_category(); $catname1 = $category[0]->cat_name; $catnum1 = $category[0]->cat_ID; $catr = fmod($catnum1+rand(0,10),7)+1;?>
 			<?php switch ($catr) {
+				case '7':
+					$bgcolor = 'pink';
+					break;
+				case '6':
+					$bgcolor = 'orange';
+					break;
+				case '5':
+					$bgcolor = 'yellow';
+					break;
 				case '4':
-					$bgcolor = 'purple';
+					$bgcolor = 'green';
 					break;
 				case '3':
-					$bgcolor = 'red';
+					$bgcolor = 'blue';
 					break;
 				case '2':
 					$bgcolor = 'blue';
 					break;
 				default:
-					$bgcolor = 'green';
+					$bgcolor = 'purple';
 				break;
 			}?>
 			<div class="ribbon ribbon-<?php echo $bgcolor; ?>"><?php echo $catname1; ?>&nbsp;&nbsp;&nbsp;</div>

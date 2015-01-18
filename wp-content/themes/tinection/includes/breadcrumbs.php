@@ -3,11 +3,11 @@
  * Includes of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.1
- * @date      2014.12.19
+ * @version   1.1.3
+ * @date      2015.1.9
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -43,7 +43,7 @@
 	<div class="breadcrumbs-text"><?php echo $author->display_name;?></div>
 <?php elseif ( is_category() ): ?>
 	<div id="breadcrumbs"><h1><i class="fa fa-folder-open"></i><?php _e(' 分类文章','tinection'); ?></h1>
-	<div class="breadcrumbs-text"><a href="<?php bloginfo('url');?>" title="<?php bloginfo('description');?>"><?php _e('主页','tinection'); ?></a>&nbsp;»&nbsp;<?php echo single_cat_title('', false); ?><?php if ((category_description() != '') && !is_paged()) : ?><?php echo " - ".category_description(); ?><?php endif; ?></div>
+	<div class="breadcrumbs-text"><a href="<?php bloginfo('url');?>" title="<?php bloginfo('description');?>"><?php _e('主页','tinection'); ?></a>&nbsp;»&nbsp;<?php echo single_cat_title('', false); ?><?php if ((category_description() != '') && !is_paged()) : ?><?php echo " - ".strip_tags(category_description()); ?><?php endif; ?></div>
 <?php elseif ( is_tag() ): ?>
 	<div id="breadcrumbs"><h1><i class="fa fa-tags"></i><?php _e(' 标签','tinection'); ?></h1>
 	<div class="breadcrumbs-text"><?php echo single_tag_title('', false); ?></div>
@@ -78,6 +78,3 @@
 		</div>
 	</div>
 </div>
-<?php if(!is_home()) { ?>
-<div class="separator"></div>
-<?php } ?>

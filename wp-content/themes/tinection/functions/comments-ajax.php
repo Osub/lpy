@@ -7,7 +7,7 @@
  * @date      2014.12.02
  * @author    Zhiyan&Unkonwn <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan & Unkonwn
+ * @copyright Copyright (c) 2014-2015, Zhiyan & Unkonwn
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -138,7 +138,7 @@ $tmp_c = get_comment($tmp_c->comment_parent);
 		<div id="comment-<?php comment_ID(); ?>" class="comment-body">
 		<div class="comment-author">
 			<img src="<?php echo bloginfo('template_directory'),'/images/gravatar.png' ?>" alt="" class="avatar" style="margin-right:10px" />
-			<div style="float:right"><span class="datetime"><?php echo timeago(get_gmt_from_date(get_comment_date('Y-m-d G:i:s'))); ?></span></div><?php printf( __( '<cite class="fn">%s</cite>'), get_comment_author_link() ); ?><?php edit_comment_link( __( '编辑' ), ' ' ); ?>
+			<div style="float:right"><span class="datetime"><?php echo timeago(get_comment_date('Y-m-d G:i:s')); ?></span></div><?php printf( __( '<cite class="fn">%s</cite>'), get_comment_author_link() ); ?><?php edit_comment_link( __( '编辑' ), ' ' ); ?>
 		</div>
 		<?php if ( $comment->comment_approved == '0' ) : ?>
 			<span style="color:#C00; font-style:inherit; margin-top:5px; line-height:25px;">您的评论正在等待审核中...</span>

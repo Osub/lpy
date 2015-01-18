@@ -7,7 +7,7 @@
  * @date      2014.12.11
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -49,7 +49,7 @@
 			<?php echo tin_get_avatar( $current_user->ID , '60' , tin_get_avatar_type($current_user->ID) ); ?>
 		</div>
 		<div class="login-yet-mobile-manageinfo">
-		<a href="<?php bloginfo('home'); ?>" class="title"><?php bloginfo('name');?></a>
+		<a href="<?php bloginfo('url'); ?>" class="title"><?php bloginfo('name');?></a>
 		<a href="<?php echo tin_get_user_url('profile'); ?>" class="name">@&nbsp;<?php echo $current_user->display_name;?></a>
 		<?php $unread = intval(get_tin_message($current_user->ID, 'count', "msg_type='unread' OR msg_type='unrepm'")); if($unread>0) { ?><a href="<?php echo tin_get_user_url('message'); ?>" title="<?php _e('新消息','tinection'); ?>" class="new-message-notify"></a><?php } ?>
 		</div>

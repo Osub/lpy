@@ -3,11 +3,11 @@
  * Settings of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.2
- * @date      2014.12.29
+ * @version   1.1.3
+ * @date      2015.1.8
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -341,6 +341,29 @@ function custom_theme_options() {
 			'std'		=> '',
             'section'   => 'blog'
         ),
+		// Blog: CMS首页置顶区最新文章来源时间段
+        array(
+            'id'        => 'latest_period',
+            'label'     => __('CMS首页置顶区最新文章来源时间段','tinection'),
+            'desc'      => __('CMS首页置顶区最新文章来源时间段','tinection'),
+            'type'      => 'select',
+			'choices'   => array( 
+                             array(
+                                'value'       => '1 day ago',
+                                'label'       => __('过去24小时','tinection'),
+                                ),
+                             array(
+                                'value'       => '1 week ago',
+                                'label'       => __('过去一周','tinection'),
+                                ),
+							 array(
+                                'value'       => '1 month ago',
+                                'label'       => __('过去一个月','tinection'),
+                                ),
+                           ),
+			'std'		=> '1 week ago',
+            'section'   => 'blog'
+        ),
         //Blog: 文章列表显示摘要或全文
         array(
             'id'        => 'content_or_excerpt',
@@ -533,13 +556,20 @@ function custom_theme_options() {
             'type'      => 'sidebar-select',
             'section'   => 'sidebars'
         ),
-        array(
+		array(
+            'id'        => 's1-download',
+            'label'     => __('下载页','tinection'),
+            'desc'      => __('[ <strong>is_download</strong> ] 下载页的边栏.','tinection'),
+            'type'      => 'sidebar-select',
+            'section'   => 'sidebars'
+        ),
+        /* array(
             'id'        => 's1-404',
             'label'     => __('404错误页','tinection'),
             'desc'      => __('[ <strong>is_404</strong> ] 404错误页的边栏.','tinection'),
             'type'      => 'sidebar-select',
             'section'   => 'sidebars'
-        ),
+        ), */
         array(
             'id'        => 's1-page',
             'label'     => __('页面','tinection'),
@@ -597,25 +627,6 @@ function custom_theme_options() {
             'desc'      => __('首页幻灯片文章及图像来源，请输入需要呈现的文章ID，以英文逗号隔开并为每篇文章设置特色图片','tinection'),
             'type'      => 'text',
             'section'   => 'style'
-        ),
-        // Style: 幻灯右侧补充文章排序法
-        array(
-            'id'        => 'slider_recommend_order',
-            'label'     => __('首页幻灯片右侧补充文章排序法','tinection'),
-            'desc'      => __('首页幻灯片右侧推荐区置顶文章不够6篇时，补充文章的排序算法，默认最多评论文章排序','tinection'),
-            'type'      => 'radio',
-			'std'		=> 'most_reviewed',
-            'section'   => 'style',
-            'choices'   => array( 
-                             array(
-                                'value'       => 'most_viewed',
-                                'label'       => __('最多浏览排序','tinection'),
-                                ),
-                             array(
-                                'value'       => 'most_reviewed',
-                                'label'       => __('最多评论排序','tinection'),
-                                ),
-                           )
         ),
         //Style: 首页布局
         array(
@@ -710,7 +721,7 @@ function custom_theme_options() {
             'label'     => __('浏览器滚动条颜色','tinection'),
             'desc'      => __('浏览器滚动条颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#00a67c',
+            'std'       => '#33BBBA',
             'section'   => 'color'
         ),
 		// Style: Body主字体颜色
@@ -719,7 +730,7 @@ function custom_theme_options() {
             'label'     => __('Body主字体颜色','tinection'),
             'desc'      => __('Body主字体颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#303030',
+            'std'       => '#666666',
             'section'   => 'color'
         ),
 		// Style: Body主字体超链接颜色
@@ -728,7 +739,7 @@ function custom_theme_options() {
             'label'     => __('Body主字体超链接颜色','tinection'),
             'desc'      => __('Body主字体超链接颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#00a67c',
+            'std'       => '#428bca',
             'section'   => 'color'
         ),
 		// Style: Body主字体超链接鼠标悬停颜色
@@ -737,7 +748,16 @@ function custom_theme_options() {
             'label'     => __('Body主字体超链接鼠标悬停颜色','tinection'),
             'desc'      => __('Body主字体超链接鼠标悬停颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#d9534f',
+            'std'       => '#60717e',
+            'section'   => 'color'
+        ),
+		// Style: 块标题底边色
+        array(
+            'id'        => 'block_border_color',
+            'label'     => __('块标题底边色','tinection'),
+            'desc'      => __('块标题底边色','tinection'),
+            'type'      => 'colorpicker',
+            'std'       => '#f85555',
             'section'   => 'color'
         ),
 		// Style: 文章标题颜色
@@ -746,7 +766,7 @@ function custom_theme_options() {
             'label'     => __('文章标题颜色','tinection'),
             'desc'      => __('文章标题颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#00a67c',
+            'std'       => '#428bca',
             'section'   => 'color'
         ),
 		// Style: 文章标题鼠标悬停颜色
@@ -755,7 +775,7 @@ function custom_theme_options() {
             'label'     => __('文章标题鼠标悬停颜色','tinection'),
             'desc'      => __('文章标题鼠标悬停颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#d9534f',
+            'std'       => '#60717e',
             'section'   => 'color'
         ),
 		// Style: Selection选取背景色
@@ -782,7 +802,7 @@ function custom_theme_options() {
             'label'     => __('导航条背景色','tinection'),
             'desc'      => __('导航条背景色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#2e3639',
+            'std'       => '#fff',
             'section'   => 'color'
         ),
 		// Style: 菜单文字颜色
@@ -791,7 +811,7 @@ function custom_theme_options() {
             'label'     => __('菜单文字颜色','tinection'),
             'desc'      => __('菜单文字颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#fff',
+            'std'       => '#999999',
             'section'   => 'color'
         ),
 		// Style: 菜单悬停背景色
@@ -800,7 +820,7 @@ function custom_theme_options() {
             'label'     => __('菜单悬停背景色','tinection'),
             'desc'      => __('菜单悬停背景色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#00a67c',
+            'std'       => '#fff',
             'section'   => 'color'
         ),
 		// Style: 菜单悬停文字颜色
@@ -809,7 +829,7 @@ function custom_theme_options() {
             'label'     => __('菜单悬停文字颜色','tinection'),
             'desc'      => __('菜单悬停文字颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#fff',
+            'std'       => '#428bca',
             'section'   => 'color'
         ),
 		// Style: Logo字体颜色
@@ -818,7 +838,7 @@ function custom_theme_options() {
             'label'     => __('Logo字体颜色','tinection'),
             'desc'      => __('Logo字体颜色','tinection'),
             'type'      => 'colorpicker',
-            'std'       => '#fff',
+            'std'       => '#888',
             'section'   => 'color'
         ),
 		// Open: QQ快速登录
@@ -1262,11 +1282,20 @@ function custom_theme_options() {
             'std'       => '813920477',
             'section'   => 'admin'
         ),
+        // Admin: QQ邮我按钮
+        array(
+            'id'        => 'tin_qq_mail',
+            'label'     => 'QQ邮我按钮',
+            'desc'      => __('QQ邮我按钮，用于快速邮件联系，请至http://open.mail.qq.com获取代码','tinection'),
+            'type'      => 'text',
+            'std'       => 'http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cBMYGR4RAxhCQEFAMAYZAF4BAV4THx0',
+            'section'   => 'admin'
+        ),
         // Admin: QQ List
         array(
             'id'        => 'tin_qqlist',
             'label'     => __('QQ邮件列表','tinection'),
-            'desc'      => __('QQ邮件列表订阅链接，详见http://list.qq.com','tinection'),
+            'desc'      => __('QQ邮件列表订阅链接中ID值，例如订阅链接为http://list.qq.com/cgi-bin/qf_invite?id=38c32a0083496c8c74265b09a0a7e2af923171f3704f4a7b，仅需填写38c32a0083496c8c74265b09a0a7e2af923171f3704f4a7b即可，详见http://list.qq.com','tinection'),
             'type'      => 'text',
             'std'       => 'http://list.qq.com/cgi-bin/qf_invite?id=38c32a0083496c8c74265b09a0a7e2af923171f3704f4a7b',
             'section'   => 'admin'

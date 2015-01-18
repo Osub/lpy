@@ -7,7 +7,7 @@
  * @date      2014.12.18
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -61,8 +61,8 @@ global $commentcount,$wpdb, $post;
 		<div class="comment-author">
 			<div class="comment-info">
 				<span class="comment_author_link"><?php comment_author_link() ?></span>
-				<?php if(ot_get_option('comment_vip')=='on') { ?><span class="comment_author_vip"><?php get_author_class($comment->comment_author_email,$comment->user_id)?></span><?php } ?>
-				<?php if(ot_get_option('comment_ua')=='on') { ?><span class="comment_author_ua"><?php echo outputbrowser($comment->comment_agent); ?></span><?php } ?>
+				<?php if(ot_get_option('comment_vip')=='on') get_author_class($comment->comment_author_email,$comment->user_id); ?>
+				<?php if(ot_get_option('comment_ua')=='on') echo outputbrowser($comment->comment_agent); ?>
 				<?php if(ot_get_option('comment_ip')=='on') { ?><span class="comment_author_ip tooltip-trigger" title="<?php echo sprintf(__('来自%1$s','tinection'),convertip(get_comment_author_ip())); ?>"><img class="ip_img" src="<?php echo THEME_URI.'/images/ua/ip.png'; ?>"></span><?php } ?>
 				<span class="datetime">
 					<?php echo timeago(get_gmt_from_date(get_comment_date('Y-m-d G:i:s'))); ?>
@@ -185,25 +185,25 @@ function get_author_class($comment_author_email,$user_id){
 	$author_count = count($wpdb->get_results("SELECT comment_ID as author_count FROM $wpdb->comments WHERE comment_author_email = '$comment_author_email' "));  
 	$adminEmail = get_option('admin_email');
 	$authorEmail = get_the_author_email();
-	if(!$comment_author_email) echo '<span class="vip vip1" title="'.__('评论达人 LV.1','tinection').'">'.__('评论达人 LV.1','tinection').'</span>'; else{
+	if(!$comment_author_email) echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.1','tinection').'"><span class="vip vip1">'.__('评论达人 LV.1','tinection').'</span></span>'; else{
 	if($comment_author_email && $user_id && $comment_author_email == $adminEmail){
-		echo '<span class="vip vip-blogger" title="'.__('博主','tinection').'">'.__('博 主','tinection').'</span>';
-		}elseif($comment_author_email == $authorEmail){
-			echo '<span class="vip vip-author" title="'.__('作者','tinection').'">'.__('作 者','tinection').'</span>';
+		echo '<span class="comment_author_vip tooltip-trigger" title="'.__('博主','tinection').'"><span class="vip vip-blogger">'.__('博 主','tinection').'</span></span>';
+		}elseif($user_id && $comment_author_email == $authorEmail){
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('作者','tinection').'"><span class="vip vip-author">'.__('作 者','tinection').'</span></span>';
 		}elseif($author_count>=1 && $author_count<3){  
-			echo '<span class="vip vip1" title="'.__('评论达人 LV.1','tinection').'">'.__('评论达人 LV.1','tinection').'</span>';  
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.1','tinection').'"><span class="vip vip1">'.__('评论达人 LV.1','tinection').'</span></span>';  
 		}elseif($author_count>=3 && $author_count<5){   
-			echo '<span class="vip vip2" title="'.__('评论达人 LV.2','tinection').'">'.__('评论达人 LV.2','tinection').'</span>';  
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.2','tinection').'"><span class="vip vip2">'.__('评论达人 LV.2','tinection').'</span></span>';  
 		}elseif($author_count>=5 && $author_count<10){  
-			echo '<span class="vip vip3" title="'.__('评论达人 LV.3','tinection').'">'.__('评论达人 LV.3','tinection').'</span>';   
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.3','tinection').'"><span class="vip vip3">'.__('评论达人 LV.3','tinection').'</span></span>';   
 		}elseif($author_count>=10 && $author_count<20){   
-			echo '<span class="vip vip4" title="'.__('评论达人 LV.4','tinection').'">'.__('评论达人 LV.4','tinection').'</span>';   
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.4','tinection').'"><span class="vip vip4">'.__('评论达人 LV.4','tinection').'</span></span>';   
 		}elseif($author_count>=20 &&$author_count<50){   
-			echo '<span class="vip vip5" title="'.__('评论达人 LV.5','tinection').'">'.__('评论达人 LV.5','tinection').'</span>';   
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.5','tinection').'"><span class="vip vip5">'.__('评论达人 LV.5','tinection').'</span></span>';   
 		}elseif($author_count>=50 && $author_count<100){   
-			echo '<span class="vip vip6" title="'.__('评论达人 LV.6','tinection').'">'.__('评论达人 LV.6','tinection').'</span>';   
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.6','tinection').'"><span class="vip vip6">'.__('评论达人 LV.6','tinection').'</span></span>';   
 		}elseif($author_count>=100)   
-			echo '<span class="vip vip7" title="'.__('评论达人 LV.7','tinection').'">'.__('评论达人 LV.7','tinection').'</span>';   
+			echo '<span class="comment_author_vip tooltip-trigger" title="'.__('评论达人 LV.7','tinection').'"><span class="vip vip7">'.__('评论达人 LV.7','tinection').'</span></span>';   
 	}
 }
 

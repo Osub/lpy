@@ -3,11 +3,11 @@
  * Main Template of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.2
- * @date      2014.12.30
+ * @version   1.1.3
+ * @date      2015.1.6
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -69,6 +69,11 @@
 		<div class="single-text">
 		<?php the_content(); ?>
 		<?php get_template_part('includes/download'); ?>
+		<!-- Page links -->
+		<?php
+			wp_link_pages('before=<div id="article-page-links">&after=</div>&next_or_number=number');
+		?>
+		<!-- /.Page links -->
 		</div>
 		<?php the_tags('<div class="single-tag"><i class="fa fa-tag"></i>&nbsp;&nbsp;',' ','</div>'); ?>
 		<!-- Single Copyright -->

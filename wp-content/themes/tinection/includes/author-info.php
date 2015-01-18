@@ -7,21 +7,21 @@
  * @date      2014.12.16
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
 
 ?>
 <div class="single-author clr">
-	<div class="img"><?php echo tin_get_avatar( get_the_author_ID() , '100' , tin_get_avatar_type(get_the_author_ID()) ); ?></div>
+	<div class="img"><?php echo tin_get_avatar( get_the_author_meta('ID') , '100' , tin_get_avatar_type(get_the_author_meta('ID')) ); ?></div>
 	<div class="single-author-info">
 		<div class="word">
 			<div class="wordname"><?php _e('关于','tinection');the_author_posts_link(); ?></div>
-			<div class="authordes"><?php the_author_description(); ?></div>
+			<div class="authordes"><?php the_author_meta('description'); ?></div>
 			<div class="authorsocial">
 			<?php
-				$author_info = get_userdata(get_the_author_ID());
+				$author_info = get_userdata(get_the_author_meta('ID'));
 				$sinawb = $author_info->tin_sina_weibo;
 				$qqwb	= $author_info->tin_qq_weibo;
 				$weixin = $author_info->tin_weixin;;
@@ -58,7 +58,7 @@
 			<?php if(!empty($qq)){ ?>
 			<span class="social-icon-wrap"><a class="as-img as-qq" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $qq; ?>&site=qq&menu=yes" title="<?php _e('QQ交谈','tinection'); ?>"><i class="fa fa-qq"></i></a></span>
 			<?php } ?>
-			<span class="social-icon-wrap"><a class="as-img as-email" href="mailto:<?php the_author_email(); ?>" title="<?php _e('给我写信','tinection'); ?>"><i class="fa fa-envelope"></i></a></span>					
+			<span class="social-icon-wrap"><a class="as-img as-email" href="mailto:<?php the_author_meta('email'); ?>" title="<?php _e('给我写信','tinection'); ?>"><i class="fa fa-envelope"></i></a></span>					
 			</div>
 			</div>
 	</div>

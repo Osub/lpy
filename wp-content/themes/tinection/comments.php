@@ -7,7 +7,7 @@
  * @date      2014.12.10
  * @author    Zhiyan&Unknown <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan&Unknown
+ * @copyright Copyright (c) 2014-2015, Zhiyan&Unknown
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -31,7 +31,7 @@
 		<small><?php cancel_comment_reply_link(); ?></small>
 		</div>
 		<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-		<p><div class="comment-notify-login"><span class="comment-login-pop-click" title="<?php _e('登录并评论','tinection'); ?>"><?php _e('[ 登录 ]','tinection'); ?></span><?php _e('才能发表留言！','tinection'); ?></div></p>
+		<p><div class="comment-notify-login"><span class="comment-login-pop-click user-login" title="<?php _e('登录并评论','tinection'); ?>"><?php _e('[ 登录 ]','tinection'); ?></span><?php _e('才能发表留言！','tinection'); ?></div></p>
 	<div class="clear"></div>		
 <?php else : ?>
     <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
@@ -80,7 +80,7 @@
 		</p>
 		<p class="comment-form-input-info" style="width:35%">
 			<label for="email"><?php _e('邮箱','tinection'); ?><?php if ($req) _e (' *','tinection'); ?></label>
-			<input type="text" name="email" id="email" class="commenttext" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" required />	
+			<input type="email" name="email" id="email" class="commenttext" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" required />	
 		</p>
 		<p class="comment-form-input-info" style="width:35%;padding-right:0">
 			<label for="url"><?php _e('网址','tinection'); ?></label>
@@ -90,7 +90,7 @@
       <?php endif; ?>
       <div class="clear"></div>
       <div class="comt-box">
-		<textarea name="comment" id="comment" tabindex="5" rows="5" required></textarea>
+		<textarea name="comment" id="comment" tabindex="5" rows="5" placeholder="<?php _e('说点什么吧...','tinection'); ?>" required></textarea>
 		<div class="comt-ctrl">
 			<span data-type="comment-insert-smilie" class="comt-smilie"><i class="fa fa-smile-o"></i> 表情</span>
 			<span class="comt-format"><i class="fa fa-code"></i> 格式</span>

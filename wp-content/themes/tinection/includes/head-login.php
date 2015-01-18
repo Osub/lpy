@@ -3,19 +3,23 @@
  * Includes of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.0
- * @date      2014.12.11
+ * @version   1.1.3
+ * @date      2015.1.8
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
 
 ?>
 <?php if (!(current_user_can('level_0'))) { ?>
-			<div class="login-pop-click"><i class="fa fa-user"></i><?php _e(' 登录','tinection'); ?></div>
-			<?php }else{global $current_user; get_currentuserinfo();?>
+	<?php if(get_option('users_can_register')==1) $register = 'on'; else $register = 'off'; ?>
+		<div id="login-reg">
+			<span data-sign="0" id="user-login" class="user-login ie_pie <?php if($register == 'off') echo 'only-login'; ?>"><?php _e(' 登录','tinection'); ?></span>
+			<?php if($register == 'on') { ?><span data-sign="1" id="user-reg" class="user-reg ie_pie"><?php _e('注册','tinection'); ?></span><?php }?>
+		</div>
+<?php }else{global $current_user; get_currentuserinfo();?>
 			<div class="login-yet-click">
 				<div class="login-yet-click-inner">
 					<!--<?php echo get_avatar( $current_user->user_email, 35); ?>-->
@@ -30,7 +34,7 @@
 					<span><i class="fa fa-envelope"></i>&nbsp;<a href="<?php echo tin_get_user_url('message'); ?>" title="<?php _e('站内消息','tinection'); ?>"><?php _e('站内消息','tinection'); ?><?php if($unread>0) echo '('.$unread.')'; ?></a></span>
 					<span><i class="fa fa-cny"></i>&nbsp;<a href="<?php echo tin_get_user_url('credit'); ?>" title="<?php _e('我的积分','tinection'); ?>"><?php _e('积分查询','tinection'); ?></a></span>
 					<span><i class="fa fa-cog"></i>&nbsp;<a href="<?php echo tin_get_user_url('profile'); ?>" title="<?php _e('编辑资料','tinection'); ?>"><?php _e('编辑资料','tinection'); ?></a></span>
-					<span><i class="fa fa-sign-out"></i>&nbsp;<a href="<?php if(is_singular()){echo wp_logout_url( get_permalink() ); }else{echo wp_logout_url(get_bloginfo('home'));} ?>" title="<?php _e('注销登录','tinection'); ?>"><?php _e('注销登录','tinection'); ?></a></span>
+					<span><i class="fa fa-sign-out"></i>&nbsp;<a href="<?php if(is_singular()){echo wp_logout_url( get_permalink() ); }else{echo wp_logout_url(get_bloginfo('url'));} ?>" title="<?php _e('注销登录','tinection'); ?>"><?php _e('注销登录','tinection'); ?></a></span>
 				</div>
 			</div>
 <?php } ?>

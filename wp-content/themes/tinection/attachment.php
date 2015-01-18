@@ -7,7 +7,7 @@
  * @date      2014.11.25
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -26,7 +26,7 @@
 <!-- /.Header Banner -->
 <!-- Main Wrap -->
 <div id="main-wrap">
-	<div id="single-blog-wrap" class="container clr">
+	<div id="single-blog-wrap" class="container two-col-container">
 		<div id="main-wrap-left">
 		<!-- Content -->
 		<div class="content">

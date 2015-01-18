@@ -1,34 +1,21 @@
-<!DOCTYPE html>
 <?php
+
 /**
  * Main Template of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.2
- * @date      2014.12.29
+ * @version   1.1.3
+ * @date      2015.1.9
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
 
 ?>
-<!--[if IE 6]>
-<html class="ie6 ancient-ie old-ie no-js" lang="zh-CN">
-<![endif]-->
-<!--[if IE 7]>
-<html class="ie7 ancient-ie old-ie no-js" lang="zh-CN">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie8 old-ie no-js" lang="zh-CN">
-<![endif]-->
-<!--[if IE 9]>
-<html class="ie9 old-ie9 no-js" lang="zh-CN">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<!DOCTYPE html>
 <html lang="zh-CN">
-<!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -59,10 +46,6 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="<?php echo THEME_URI.'/includes/js/html5.js'; ?>"></script>
-  <![endif]-->
 <!-- 引入用户自定义代码 -->
 <?php if(ot_get_option('headercode')) echo ot_get_option('headercode'); ?>
 <?php wp_head(); ?>
@@ -70,7 +53,19 @@
 <!-- 引入主题js -->
 <?php wp_enqueue_script('tinection'); ?>
 <?php wp_localize_script('tinection', 'tin', array('ajax_url' => admin_url('admin-ajax.php'),'tin_url' => get_bloginfo('template_directory'),'Tracker' => tin_tracker_param())); ?>
-<!--base target="_blank" /-->
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="<?php echo THEME_URI.'/includes/js/html5.js'; ?>"></script>
+<script src="<?php echo THEME_URI.'/includes/js/css3-mediaqueries.js'; ?>"></script>
+<script src="<?php echo THEME_URI.'/includes/js/PIE_IE678.js'; ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo THEME_URI.'/includes/css/iefix.css'; ?>"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="<?php echo THEME_URI.'/fonts/font-awesome/font-awesome-ie7.min.css'; ?>"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="<?php echo THEME_URI.'/includes/js/kill-IE6.js'; ?>"></script>
+<![endif]-->
 </head>
 <body id="wrap" <?php body_class(); ?>>
 <!-- Nav -->
@@ -106,24 +101,27 @@
 				</a>
 			</div>
 			<?php } ?>
-			<!-- Login status -->
-			<?php get_template_part('includes/head-login'); ?>
-			<!-- /.Login status -->
-			<!-- Menu Items Begin -->
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'topbar', 'menu_class' => 'nav-menu', 'depth' => '2'  ) ); ?>
-			</nav>
-			<!-- Menu Items End -->
 			<!-- Search button -->
 			<div class="search-btn-click">
 				<i class="fa fa-search"></i>
 				<div class="header-search-slide">
 					<form method="get" id="searchform-slide" class="searchform" action="<?php bloginfo('url');?>" role="search">
-						<input type="search" class="field" name="s" value="" placeholder="Search">
+						<input type="search" class="field" name="s" value="" placeholder="Search" required>
 					</form>
 				</div>
 			</div>	
 			<!-- /.Search button -->
+			<!-- Login status -->
+			<?php get_template_part('includes/head-login'); ?>
+			<!-- /.Login status -->
+			<!-- Focus us -->
+			<?php get_template_part('includes/focus'); ?>
+			<!-- /.Focus us -->			
+			<!-- Menu Items Begin -->
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'topbar', 'menu_class' => 'nav-menu', 'depth' => '2'  ) ); ?>
+			</nav>
+			<!-- Menu Items End -->
 	</div>
 	<div class="clr"></div>
 <div class="site_loading"></div>

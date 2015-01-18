@@ -3,11 +3,11 @@
  * Functions of Tinection WordPress Theme
  *
  * @package   Tinection
- * @version   1.1.0
- * @date      2014.12.11
+ * @version   1.1.3
+ * @date      2015.1.9
  * @author    Zhiyan <chinash2010@gmail.com>
  * @site      Zhiyanblog <www.zhiyanblog.com>
- * @copyright Copyright (c) 2014, Zhiyan
+ * @copyright Copyright (c) 2014-2015, Zhiyan
  * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      http://www.zhiyanblog.com/tinection.html
 **/
@@ -15,7 +15,8 @@
 /* Shortcode
 /* ------------ */
 // Toggle content
-function toggle_content($atts, $content = null){ 
+function toggle_content($atts, $content = null){
+	$content = do_shortcode($content);
 	extract(shortcode_atts(array('hide'=>'no','title'=>'','color'=>''),$atts));
 	if($hide=='no'){
 		return '<div class="toggle-wrap"><div class="toggle-click-btn '.$hide.'" style="color:'.$color.'">'.$title.'</div><div class="toggle-content">'.$content.'</div></div>';
@@ -24,6 +25,7 @@ function toggle_content($atts, $content = null){
 	}
 }
 add_shortcode('toggle', 'toggle_content');
+
 
 // Button
 function tin_button($atts, $content = null){
