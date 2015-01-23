@@ -43,6 +43,62 @@ Tags: light, one-column, two-columns, fluid-layout, fixed-layout, custom-colors,
     font-style: normal;
 }
 
+/*  base : fonts
+/* ------------------------------------ */
+body { font-family: "Titillium", Arial, sans-serif; }
+
+@font-face {
+  font-family: 'Titillium';
+  src: url('../hueman/fonts/titillium-light-webfont.eot');
+  src: url('../hueman/fonts/titillium-light-webfont.svg#titillium-light-webfont') format('svg'),
+     url('../hueman/fonts/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../hueman/fonts/titillium-light-webfont.woff') format('woff'),
+     url('../hueman/fonts/titillium-light-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium';
+  src: url('../hueman/fonts/titillium-lightitalic-webfont.eot');
+  src: url('../hueman/fonts/titillium-lightitalic-webfont.svg#titillium-lightitalic-webfont') format('svg'),
+     url('../hueman/fonts/titillium-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../hueman/fonts/titillium-lightitalic-webfont.woff') format('woff'),
+     url('../hueman/fonts/titillium-lightitalic-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Titillium';
+  src: url('../hueman/fonts/titillium-regular-webfont.eot');
+  src: url('../hueman/fonts/titillium-regular-webfont.svg#titillium-regular-webfont') format('svg'),
+     url('../hueman/fonts/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../hueman/fonts/titillium-regular-webfont.woff') format('woff'),
+     url('../hueman/fonts/titillium-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium';
+  src: url('../hueman/fonts/titillium-regularitalic-webfont.eot');
+  src: url('../hueman/fonts/titillium-regularitalic-webfont.svg#titillium-regular-webfont') format('svg'),
+     url('../hueman/fonts/titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../hueman/fonts/titillium-regularitalic-webfont.woff') format('woff'),
+     url('../hueman/fonts/titillium-regularitalic-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('../hueman/fonts/titillium-semibold-webfont.eot');
+    src: url('../hueman/fonts/titillium-semibold-webfont.svg#titillium-semibold-webfont') format('svg'),
+         url('../hueman/fonts/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../hueman/fonts/titillium-semibold-webfont.woff') format('woff'),
+         url('../hueman/fonts/titillium-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 /* ------------------------------------------------------------------------- *
  *  Reset
  * ------------------------------------------------------------------------- */
@@ -54,7 +110,7 @@ small, strike, strong, sub, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, tr {	margin: 0;padding: 0;border: none;outline: 0;font-weight: inherit;font-style: inherit;vertical-align: baseline;	background: transparent;font-family: "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;list-style:none;}
+table, caption, tbody, tfoot, thead, tr, th, td, tr {	margin: 0;padding: 0;border: none;outline: 0;font-weight: inherit;font-style: inherit;vertical-align: baseline;	background: transparent;font-family: 'Titillium', "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;list-style:none;}
 html {font-size: 62.5%;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale}
 *:focus {outline: none;} 
 textarea {resize:none;}
@@ -63,8 +119,9 @@ textarea {resize:none;}
 /* ------------------------------------------------------------------------- *
  *  Base Styles
 /* ------------------------------------------------------------------------- */
-body {font-size: 16px;-ms-word-break: break-all;word-break: break-all;word-wrap: break-word;overflow-wrap: break-word;background: #fff;/*   color: #303030; */font-family: "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;font-weight: 300;  background-size:100% 100%; background-attachment: fixed;}
-input, select, option, textarea{font-family: "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;color: inherit;}
+body {font-size: 16px;-ms-word-break: break-all;word-break: break-all;word-wrap: break-word;overflow-wrap: break-word;background: #fff;/*   color: #303030; */font-family:'Titillium', "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;font-weight: 300;  background-size:100% 100%; background-attachment: fixed;}
+
+input, select, option, textarea{font-family:'Titillium', "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;color: inherit;}
 /* ::selection {background: #72d0eb;color:#fff;} */
 div {display:block;}
 img { max-width: 100%; height: auto; }
@@ -76,8 +133,8 @@ strong, .strong { font-weight: 600; font-weight: bold; color: #606060;}
 u {text-decoration: underline;}
 blockquote {margin: 10px 0; padding: 10px 10px 10px 40px; border-top: 1px solid #f5f5f5; border-right: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; border-left: 5px solid #f5f5f5; font-size:13px;position:relative;}
 blockquote:before{content: "\f10d"; color: #f5f5f5; font-size: 30px;font-style: normal; font-family: FontAwesome; text-align: center; position: absolute; left: 5px; top: 0;}
-code {padding:2px 4px;color:#d14;background-color:#fbfbfb;border:1px solid #e1e1e8;font-size:14px; font-family: consolas,'Microsoft Yahei',arial !important;}
-textarea{font-family: consolas,'Microsoft Yahei',arial !important;}
+code {padding:2px 4px;color:#d14;background-color:#fbfbfb;border:1px solid #e1e1e8;font-size:14px; font-family: 'Titillium',consolas,'Microsoft Yahei',arial !important;}
+textarea{font-family: 'Titillium',consolas,'Microsoft Yahei',arial !important;}
 .left,.alignleft { float: left; }
 .right,.alignright { float: right; }
 .aligncenter { margin-left: auto; margin-right: auto; }
@@ -451,7 +508,7 @@ body.home .two-col-container{margin-top: 10px;}
 .span_1 .home-blog-entry-text{/* float:right; max-width:560px;  */padding:0;width: 100%;}
 .span_1_of_3 .home-blog-entry-text,.span_1_of_4 .home-blog-entry-text{padding:10px 5px;position: relative;}
 .line{height: 1px;background: #e8e8e8;margin-left: auto;margin-right: auto;margin-top:8px;margin-bottom:8px;}
-.ribbon{height: 41px;width: 100px;padding-right:20px;overflow:hidden;z-index: 99;position: absolute;color: #FFF;font-family: "Microsoft Yahei","微软雅黑",helvetica, Arial;font-weight: 500;font-size: 13px;line-height: 21px;margin-top: -30px;padding: 5px;margin-left: -22px;text-align: center;}
+.ribbon{height: 41px;width: 100px;padding-right:20px;overflow:hidden;z-index: 99;position: absolute;color: #FFF;font-family:'Titillium', "Microsoft Yahei","微软雅黑",helvetica, Arial;font-weight: 500;font-size: 13px;line-height: 21px;margin-top: -30px;padding: 5px;margin-left: -22px;text-align: center;}
 .ribbon-pink{background: url('images/ribbon-pink.png') no-repeat;background-size: 100% 41px;}
 .ribbon-orange{background: url('images/ribbon-orange.png') no-repeat;background-size: 100% 41px;}
 .ribbon-yellow{background: url('images/ribbon-yellow.png') no-repeat;background-size: 100% 41px;}
@@ -470,7 +527,7 @@ body.home .two-col-container{margin-top: 10px;}
 .span_1_of_3 .home-blog-entry-text p,.span_1_of_4 .home-blog-entry-text p {font-size: 12px;height:80px;overflow:hidden;line-height: 20px;}
 .home-blog-entry-meta{width:100%; border-top:1px solid #f0f0f0; padding:8px;overflow:hidden;}
 .postlist-meta,.stickys-container .meta {width:100%; color:#aaa; font-size: 12px;line-height: 12px;line-height:16px}
-.postlist-meta,.postlist-meta a,.stickys-container .meta,.stickys-container .meta a{font-family:consolas,"Microsoft YaHei","微软雅黑","Open Sans",Arial,SimSun,sans-serif;}
+.postlist-meta,.postlist-meta a,.stickys-container .meta,.stickys-container .meta a{font-family:'Titillium',consolas,"Microsoft YaHei","微软雅黑","Open Sans",Arial,SimSun,sans-serif;}
 .contentcms-entry-text .postlist-meta{font-size:12px;}
 .postlist-meta-author{float:left;margin-right: 10px;}
 
@@ -501,7 +558,7 @@ body.home .two-col-container{margin-top: 10px;}
 .single-thumb{margin-bottom:10px;overflow: hidden;}
 .single-thumb img{width: 100%;}
 .single-text{line-height: 180%;}
-.content {width: 100%; background: #fff; font-size: 14px; padding: 10px 20px;font-family: "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;}
+.content {width: 100%; background: #fff; font-size: 14px; padding: 10px 20px;font-family:'Titillium', "Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;}
 .content h2 {margin: 10px 0 10px -25px;border-left:5px solid #00a67c; padding:0 5px 0 20px; background:#fafafa;line-height:35px;}
 .content h1,.content h3,.content h4,.content h5,.content h6{margin: 10px 0;}
 .content p {text-indent:0;}
@@ -642,7 +699,7 @@ body.home .two-col-container{margin-top: 10px;}
 .single-activity .baidu-share .more-btn:hover a{color:#fff;}
 .single-activity .baidu-share .more-btn:hover{background-color:#4593e4 !important;}
 .single-activity .baidu-share{float:right !important; margin-bottom: 10px;}
-.single-activity .baidu-share a{margin:0px 0px 0px 10px;font-family:"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif !important;}
+.single-activity .baidu-share a{margin:0px 0px 0px 10px;font-family:'Titillium',"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif !important;}
 .single-activity .baidu-share a:hover{color:#fff !important; opacity:1  !important;filter: alpha(opacity=100) !important;}
 .bdshare_popup_box{display: none !important;}
 .weixin-btn{position: relative;}
@@ -676,7 +733,7 @@ div.pagination a.navbutton {/* background: #eaeaea; */margin:0 2px;border: 1px s
 .pagesider-menu li.active a, .pagesider-menu li.current_page_item a, .pagesider-menu li.current-menu-item a {color: #fff;background-color: #61b3e6;}
 .page-links{margin: 20px 0;}
 .page-links ul{margin-left: -10px;margin-right:-10px;}
-.page-links li {display: inline-block; width: 25%;text-align: center;font-family:consolas,"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif}
+.page-links li {display: inline-block; width: 25%;text-align: center;font-family:'Titillium',consolas,"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif}
 .page-links li div{background: #f9f9f9;margin:10px;padding:10px;position:relative;border: dashed 1px #ccc;}
 .page-links img{width: 30px; height: 30px; box-shadow: none; margin-right: 10px;vertical-align: bottom;display: inline-block;position:absolute;bottom:-5px;left:50%;margin-left:-10px;margin-bottom:-10px;border-radius: 50%;padding: 1px;border: 1px solid #bbb;background: #fff;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;transition: all 0.5s ease}
 .page-links li div:hover img, .page-links img:hover {transform: rotate(360deg);-webkit-transform: rotate(360deg);}
@@ -695,7 +752,7 @@ body.error404 .main{margin:0 auto;width:440px;height:350px;position:relative;mar
 .error-text-title-wrap{font-weight:bold;font-size:14px;}
 body.error404 .clearfix{display:block;}
 body.error404 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
-.error-number{font-weight:normal;font-size:60px;color:#00aeef;font-style:normal;float:left;display:inline;font-family:Arial;}
+.error-number{font-weight:normal;font-size:60px;color:#00aeef;font-style:normal;float:left;display:inline;font-family:'Titillium',Arial;}
 .error-text-title{float:left;margin-top:22px;width:122px;display:inline;line-height:16px;}
 .error-text-content{color:#333;padding:10px 0;width:280px;line-height:14px;}
 .handle-way-list{color:#666;margin-top:20px;margin-left:5px;list-style:none;}
@@ -704,7 +761,7 @@ body.error404 .clearfix:after{content:".";display:block;height:0;clear:both;visi
 .error-search{position:absolute;bottom:0;width:100%;text-align:center;}
 .error-search input{width:250px;height:35px;padding:0 10px;line-height:35px;border:1px solid #ddd;box-sizing:border-box;}
 .error-search input:focus{outline:none;border-color:#ddd;border-color:rgba(82,168,236,.8);-webkit-box-shadow:0 0 8px rgba(82,168,236,.6);box-shadow:0 0 8px rgba(82,168,236,.6);}.error-search button{height:35px;width:60px;background:#00aeef;color:#fff;border:0;cursor:pointer;}
-body.error404 .footer{margin:0 auto;font-size:14px;font-family:'Microsoft Yahei';arial;text-align:center;color:Gray;margin:50px 0;}
+body.error404 .footer{margin:0 auto;font-size:14px;font-family:'Titillium','Microsoft Yahei';arial;text-align:center;color:Gray;margin:50px 0;}
 body.error404 .footer a{font-size:14px;}
 body.error404 #footer-copyright a:hover{color:initial;}
 
@@ -1216,7 +1273,7 @@ span#comments i,span#comments_quote i{margin-right: 2px;}
 .cpagination a {background: #eaeaea; color: #000;-webkit-transition: background .2s linear;-moz-transition: background .2s linear;-ms-transition: background .2s linear;-o-transition:  background .2s linear;transition: background .2s linear;-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;}
 .commentlist .cpagination .current, .commentlist .cpagination a:hover {background:#5CBDE7; color:#fff;text-decoration:none;}
 .commentlist .cpagination a{color:#000;}
-.commentlist .cpagination span.current, .commentlist .cpagination a  {border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; text-decoration:none; margin:0 1px; min-width:10px;font-family: consolas;} 
+.commentlist .cpagination span.current, .commentlist .cpagination a  {border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; text-decoration:none; margin:0 1px; min-width:10px;font-family:'Titillium', consolas;} 
 
 /* Image Hover Effect
 /* ----------- */

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Main Template of Tinection WordPress Theme
  *
@@ -13,6 +14,7 @@
 **/
 
 ?>
+
 <?php get_header(); ?>
 <?php //get_template_part( 'includes/breadcrumbs');?>
 <?php $thelayout = the_layout(); ?>
